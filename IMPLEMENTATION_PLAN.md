@@ -3,6 +3,7 @@
 This document provides step-by-step instructions for building the FPPC Opinions Search Evaluation Suite. Work is divided into sprints, each designed to be completable in a single Claude Code session.
 
 **Before starting any sprint:**
+
 1. Read `SPEC.md` for the full specification
 2. Read `RELEVANCE_RUBRIC.md` for the relevance grading rubric
 3. Read `SPRINT_LOG.md` for context from previous sprints (skip for Sprint 0)
@@ -17,13 +18,16 @@ Every sprint follows this git workflow. Do this **every time**, not just for cod
 ### At the Start of the Sprint
 
 1. Make sure you're on `main` and up to date:
+   
    ```
    git checkout main && git pull
    ```
 2. Create a feature branch:
+   
    ```
    git checkout -b sprint-<N>/<short-description>
    ```
+   
    Examples: `sprint-0/project-scaffolding`, `sprint-1/coi-taxonomy`, `sprint-4/relevance-coi-batch1`
 
 ### During the Sprint
@@ -36,17 +40,20 @@ Every sprint follows this git workflow. Do this **every time**, not just for cod
 1. **Update the sprint log** — Write a summary of what was completed to `SPRINT_LOG.md` (see Sprint Log section below).
 2. **Commit all remaining changes** including the sprint log update.
 3. **Push the branch and create a PR:**
+   
    ```
    git push -u origin <branch-name>
    gh pr create --title "Sprint N: <description>" --body "<summary of work>"
    ```
-4. **Run the `/code-review` slash command** on the PR.
+4. **Run the `/code-review:code-review` slash command** on the PR.
 5. **Fix any issues** identified by the code review. Commit the fixes to the same branch.
 6. **Merge the PR:**
+   
    ```
    gh pr merge --merge
    ```
 7. **Return to main:**
+   
    ```
    git checkout main && git pull
    ```
@@ -106,6 +113,7 @@ Maintain a tracking document at `SPRINT_LOG.md` in the project root. Update it a
 ### Tasks
 
 1. **Create directory structure:**
+   
    ```
    eval/
    src/
@@ -113,10 +121,12 @@ Maintain a tracking document at `SPRINT_LOG.md` in the project root. Update it a
    ```
 
 2. **Create `src/interface.py`:**
+   
    - Define the `SearchEngine` ABC as specified in SPEC.md
    - Keep it minimal — just the interface contract
 
 3. **Create `src/scorer.py`:**
+   
    - Implement the scoring harness that:
      - Loads the eval dataset from `eval/dataset.json`
      - Imports a search engine module and instantiates it
@@ -127,19 +137,23 @@ Maintain a tracking document at `SPRINT_LOG.md` in the project root. Update it a
    - CLI interface: `python src/scorer.py --search-module <module_path> --dataset eval/dataset.json [--output results.json]`
 
 4. **Create `tests/test_scorer.py`:**
+   
    - Unit tests for the metric computation functions using small hand-crafted examples
    - Verify nDCG, MRR, precision, recall calculations are correct
 
 5. **Create `eval/dataset.json`:**
+   
    - Initialize with the schema from SPEC.md, empty `taxonomy` and `queries` arrays
    - This file will be populated in later sprints
 
 6. **Create `SPRINT_LOG.md`:**
+   
    - Initialize with the header and Sprint 0 entry (follow the format in the Sprint Log section above)
 
 7. **Follow the Git Workflow** to branch, commit, PR, code review, fix, and merge.
 
 ### Definition of Done
+
 - `python src/scorer.py --help` works
 - `pytest tests/test_scorer.py` passes
 - `eval/dataset.json` exists and is valid JSON matching the schema
@@ -179,6 +193,7 @@ Each researcher searches the opinion JSON files in `data/extracted/` using Grep 
 - Focus on the `sections.question`, `sections.conclusion`, `embedding.qa_text`, and `embedding.summary` fields — these are the most efficient way to understand an opinion without reading the full text
 
 Each researcher should report back to the lead agent with:
+
 - A list of distinct issues they identified
 - For each issue: a short description and 2-3 example opinion IDs
 - Any issues that seem ambiguous or overlapping
@@ -211,6 +226,7 @@ These are likely categories based on the data. Researchers should confirm, refin
 - Common law vs. Political Reform Act conflicts
 
 ### Definition of Done
+
 - `eval/taxonomy.json` contains 8-15 issues under `conflicts_of_interest`, each with description and example opinion IDs
 - Issues are distinct (minimal overlap) and collectively cover the major patterns found in the data
 - Sprint log updated, PR created, code reviewed, fixes applied, merged to main
@@ -228,24 +244,28 @@ These are likely categories based on the data. Researchers should confirm, refin
 Spawn 4 subagents in parallel, each responsible for one topic:
 
 1. **Campaign finance subagent** (~2,400 opinions)
+   
    - Grep for `topic_primary: campaign_finance`
    - Read 30-40 opinions sampled across decades
    - Identify 5-10 distinct issues
    - Key statutes to explore: Sections 82015, 82030, 82041, 83114, 84200-series, 85200-series
 
 2. **Gifts/honoraria subagent** (~760 opinions)
+   
    - Grep for `topic_primary: gifts_honoraria`
    - Read 20-30 opinions
    - Identify 3-6 distinct issues
    - Key statutes: Sections 86201-86204, 89501-89503
 
 3. **Lobbying subagent** (~180 opinions)
+   
    - Grep for `topic_primary: lobbying`
    - Read 15-20 opinions
    - Identify 2-4 distinct issues
    - Key statutes: Sections 86100-86300
 
 4. **Other topics subagent** (~1,060 opinions)
+   
    - Grep for `topic_primary: other` and opinions with no primary topic
    - Read 20-30 opinions
    - Identify what categories exist — may include: mass mailing, statement of economic interests (Form 700), ballot measure issues, enforcement/penalties, etc.
@@ -254,6 +274,7 @@ Spawn 4 subagents in parallel, each responsible for one topic:
 ### Each Subagent Should Return
 
 For each issue identified:
+
 - `id`, `name`, `description`, `key_statutes`, `example_opinion_ids`
 
 ### Main Agent Tasks
@@ -264,6 +285,7 @@ For each issue identified:
 4. Commit
 
 ### Definition of Done
+
 - `eval/taxonomy.json` contains all topics with their issues
 - Total issues across all topics: ~25-40
 - Each issue has description and example opinion IDs
@@ -317,15 +339,16 @@ Spawn one subagent per topic area. Each subagent:
 
 ### Target Distribution
 
-| Topic | Target Queries |
-|-------|---------------|
-| Conflicts of interest | 25-30 |
-| Campaign finance | 10-15 |
-| Gifts/honoraria | 5-8 |
-| Lobbying | 3-5 |
-| Other / cross-topic | 5-10 |
+| Topic                 | Target Queries |
+| --------------------- | -------------- |
+| Conflicts of interest | 25-30          |
+| Campaign finance      | 10-15          |
+| Gifts/honoraria       | 5-8            |
+| Lobbying              | 3-5            |
+| Other / cross-topic   | 5-10           |
 
 ### Definition of Done
+
 - `eval/dataset.json` contains 60-80 queries
 - Every taxonomy issue has at least 1 query
 - Mix of query types within each topic
@@ -360,6 +383,7 @@ Each researcher searches for potentially relevant opinions using a different str
 - **Researcher D (optional):** If the team has 4 researchers, assign exploratory search — look at adjacent issues, broader keyword searches, different decades.
 
 Each researcher reports back to the lead with:
+
 - A list of candidate opinion IDs
 - For each candidate: their recommended score (0, 1, or 2) and a brief rationale
 - Any additional candidates they found via citation chains
@@ -367,6 +391,7 @@ Each researcher reports back to the lead with:
 #### Step 2: Compile and Deduplicate (lead)
 
 The lead:
+
 1. Merges all candidate lists, deduplicating by opinion ID
 2. For opinions where researchers disagree on scores, reads the opinion to make a final judgment
 3. Ensures the calibration checklist from the rubric is met:
@@ -386,6 +411,7 @@ Repeat Steps 1-2 for each query in the batch.
 3. Commit
 
 ### Definition of Done
+
 - ~12 CoI queries have complete relevance judgments
 - Each query has 10-20 judged opinions with scores and rationales
 - Sprint log updated, PR created, code reviewed, fixes applied, merged to main
@@ -403,6 +429,7 @@ Repeat Steps 1-2 for each query in the batch.
 Identical to Sprint 4. Pick up where Sprint 4 left off — judge all remaining CoI queries that don't yet have relevance judgments.
 
 ### Definition of Done
+
 - All CoI queries have complete relevance judgments
 - Each query has 10-20 judged opinions with scores and rationales
 - Sprint log updated, PR created, code reviewed, fixes applied, merged to main
@@ -422,6 +449,7 @@ Identical to Sprint 4. Pick up where Sprint 4 left off — judge all remaining C
 - The team workflow (Steps 1-3) is the same as Sprint 4
 
 ### Definition of Done
+
 - All campaign finance and gifts/honoraria queries have complete relevance judgments
 - Each query has 10-20 judged opinions with scores and rationales
 - Sprint log updated, PR created, code reviewed, fixes applied, merged to main
@@ -441,6 +469,7 @@ Identical to Sprint 4. Pick up where Sprint 4 left off — judge all remaining C
 - For cross-topic queries, one researcher should specifically look for opinions that bridge multiple topic areas
 
 ### Definition of Done
+
 - All remaining queries have complete relevance judgments
 - Each query has 10-20 judged opinions with scores and rationales
 - Sprint log updated, PR created, code reviewed, fixes applied, merged to main
@@ -495,6 +524,7 @@ class RandomBaseline(SearchEngine):
 Run: `python src/scorer.py --search-module src.baselines.random_baseline --dataset eval/dataset.json`
 
 Verify:
+
 - The harness runs without errors
 - The scorecard output is formatted correctly
 - The random baseline scores poorly (as expected — this confirms the eval isn't trivially easy)
@@ -503,11 +533,13 @@ Verify:
 
 - Fix any issues found during validation
 - Tag the merge commit as `v1.0` after merging:
+  
   ```
   git checkout main && git pull && git tag v1.0 && git push --tags
   ```
 
 ### Definition of Done
+
 - Validation script passes with no errors
 - Spot-checks confirm judgment quality
 - Scoring harness runs end-to-end and produces a scorecard
@@ -519,17 +551,17 @@ Verify:
 
 ## Sprint Summary
 
-| Sprint | Goal | Agent Strategy | Estimated Queries |
-|--------|------|---------------|-------------------|
-| 0 | Project scaffolding | Single agent | — |
-| 1 | CoI taxonomy | Agent team (4 agents) | — |
-| 2 | Other topics taxonomy | Parallel subagents (4) | — |
-| 3 | Query generation | Parallel subagents | 60-80 generated |
-| 4 | Relevance: CoI batch 1 | Agent team | ~12 judged |
-| 5 | Relevance: CoI batch 2 | Agent team | ~13-18 judged |
-| 6 | Relevance: Campaign + Gifts | Agent team | ~15-23 judged |
-| 7 | Relevance: Lobbying + Other | Agent team | ~10-15 judged |
-| 8 | Validation & smoke test | Single agent + subagents | — |
+| Sprint | Goal                        | Agent Strategy           | Estimated Queries |
+| ------ | --------------------------- | ------------------------ | ----------------- |
+| 0      | Project scaffolding         | Single agent             | —                 |
+| 1      | CoI taxonomy                | Agent team (4 agents)    | —                 |
+| 2      | Other topics taxonomy       | Parallel subagents (4)   | —                 |
+| 3      | Query generation            | Parallel subagents       | 60-80 generated   |
+| 4      | Relevance: CoI batch 1      | Agent team               | ~12 judged        |
+| 5      | Relevance: CoI batch 2      | Agent team               | ~13-18 judged     |
+| 6      | Relevance: Campaign + Gifts | Agent team               | ~15-23 judged     |
+| 7      | Relevance: Lobbying + Other | Agent team               | ~10-15 judged     |
+| 8      | Validation & smoke test     | Single agent + subagents | —                 |
 
 **Total: 9 sprints, yielding 60-80 fully-judged queries.**
 
@@ -540,22 +572,27 @@ Verify:
 When searching the opinion JSON files, these patterns are most useful:
 
 ### Finding opinions by topic
+
 ```
 Grep for "topic_primary": "conflicts_of_interest" across data/extracted/**/*.json
 ```
 
 ### Finding opinions citing a specific statute
+
 ```
 Grep for "87100" in the citations.government_code arrays across data/extracted/**/*.json
 ```
 
 ### Finding opinions citing a specific prior opinion
+
 ```
 Grep for the opinion ID (e.g., "A-24-003") across data/extracted/**/*.json
 ```
 
 ### Reading an opinion's key content efficiently
+
 Focus on these fields (in order of usefulness):
+
 1. `embedding.qa_text` — Best single-field summary of what the opinion is about
 2. `sections.question` + `sections.conclusion` — The core Q&A
 3. `embedding.summary` — Brief summary if available
