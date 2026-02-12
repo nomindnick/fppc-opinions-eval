@@ -4611,6 +4611,11 @@
       "id": "q050",
       "relevance_judgments": [
         {
+          "opinion_id": "95-345",
+          "score": 2,
+          "rationale": "Exact seed opinion \u2014 directly addresses whether a county supervisor may use campaign funds to pay for attending and speaking at an economic outlook seminar, concluding the expenditure bears a reasonable relationship to a governmental purpose under 89512 and 89513(f)(1)."
+        },
+        {
           "opinion_id": "95-303",
           "score": 2,
           "rationale": "Directly addresses whether a candidate may be compensated through their campaign committee as a vendor, concluding it is prohibited under 89518."

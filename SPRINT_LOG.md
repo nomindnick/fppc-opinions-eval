@@ -332,8 +332,8 @@ All three types roughly equal, per SPEC.md guidance.
 | q047 | gift_definition_and_valuation | fact_pattern | 16 | 5 | 9 |
 | q048 | travel_payment_exceptions | natural_language | 18 | 7 | 9 |
 | q049 | campaign_fund_personal_use | keyword | 12 | 3 | 7 |
-| q050 | campaign_fund_personal_use | fact_pattern | 12 | 3 | 7 |
-| **Total** | | | **304** | **111** | **163** |
+| q050 | campaign_fund_personal_use | fact_pattern | 13 | 4 | 7 |
+| **Total** | | | **305** | **110** | **163** |
 
 ### Issues Covered (15 new)
 
@@ -361,11 +361,11 @@ All three types roughly equal, per SPEC.md guidance.
 | 5 | campaign_fund_personal_use | q049, q050 |
 
 ### Artifacts Created/Modified
-- `eval/dataset.json` — populated relevance_judgments for q030-q050 (304 new judgments; 697 total with Sprints 4-5)
+- `eval/dataset.json` — populated relevance_judgments for q030-q050 (305 new judgments; 698 total with Sprints 4-5)
 - `SPRINT_LOG.md` — updated with Sprint 6 entry
 
 ### Notes for Future Sprints
-- Average 14.5 judgments per query, well above 10 minimum; average 5.3 score-2 per query, above 2-3 minimum
+- Average 14.5 judgments per query, well above 10 minimum; average 5.2 score-2 per query, above 2-3 minimum
 - Campaign fund use (q032) has the richest judgment set at 19 opinions, reflecting the broad applicability of the 85800/85801 governmental purpose framework
 - Travel payment exceptions (q048) also rich at 18 opinions — the Silicon Valley mayors' China trip cases created a cluster of closely related opinions
 - Behested payments (q041-q042) coverage was thin as predicted but expanded successfully through "behest" keyword and 84224 statute searches
