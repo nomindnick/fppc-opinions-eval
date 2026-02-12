@@ -411,7 +411,7 @@ All three types roughly equal, per SPEC.md guidance.
 | q063 | campaign_reporting_and_disclosure | keyword | 11 | 4 | 7 |
 | q064 | lobbying_regulation | natural_language | 10 | 4 | 6 |
 | q065 | lobbying_regulation | fact_pattern | 10 | 3 | 7 |
-| **Total** | | | **179** | **77** | **102** |
+| **Total** | | | **179** | **75** | **104** |
 
 ### Issues Covered (10 new, completing all 37 taxonomy issues)
 
@@ -438,7 +438,7 @@ All three types roughly equal, per SPEC.md guidance.
 - `SPRINT_LOG.md` — updated with Sprint 7 entry
 
 ### Notes for Future Sprints
-- Average 11.9 judgments per query, above 10 minimum; average 5.1 score-2 per query, above 2-3 minimum
+- Average 11.9 judgments per query, above 10 minimum; average 5.0 score-2 per query, above 2-3 minimum
 - Lobbyist registration (q051) was the richest lobbying query at 15 opinions — multiple ethics course opinions from the 1990s-2000s provided strong coverage despite the thin 86103 citation count (3 files)
 - Lobbyist conduct (q054/q055) had significant overlap as predicted — both queries about Section 86205(f) contingency fee prohibition but from different angles (placement agent vs. school facility grants)
 - Electronic filing/campaign reporting (q063) expanded successfully beyond the 4 files citing Section 84615 through broader "electronic filing" and "signature verification" keyword searches
@@ -446,6 +446,6 @@ All three types roughly equal, per SPEC.md guidance.
 - Mass mailing (q056/q057) had the strongest corpus coverage — dozens of opinions from the late 1980s when Proposition 73 mass mailing amendments were heavily litigated
 - Lobbying regulation (q064/q065) were the thinnest queries at 10 opinions each; q065 reached only 3 score-2, the minimum threshold
 - All 65 queries now have relevance judgments — 877 total across 5 topics and 37 issues
-- Cumulative stats: 877 judgments, 347 score-2 (39.6%), 498 score-1 (56.8%), average 13.5 judgments/query
+- Cumulative stats: 877 judgments, 345 score-2 (39.3%), 500 score-1 (57.0%), average 13.5 judgments/query
 - All 28 scorer unit tests continue to pass
 - Next up: Sprint 8 (validation & smoke test)
