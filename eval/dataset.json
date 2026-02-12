@@ -4684,7 +4684,83 @@
       "issue": "lobbyist_registration_and_certification",
       "notes": "Grounded in 15-150 (renewal vs new registration after changing employers) and 12-002 (placement agent conditional registration). Tests distinction between new and renewing lobbyist registrations.",
       "id": "q051",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "15-150",
+          "score": 2,
+          "rationale": "Directly addresses whether a lobbyist who terminates employment and starts a new firm is a 'new' lobbyist or renewing, and analyzes the ethics course requirement under Section 86103(d)."
+        },
+        {
+          "opinion_id": "03-188",
+          "score": 2,
+          "rationale": "Directly addresses whether terminating as a lobbyist with one employer and registering with a new employer within the same session constitutes a new registration, and the ethics course requirement under 86103(d)(1)."
+        },
+        {
+          "opinion_id": "12-002",
+          "score": 2,
+          "rationale": "Analyzes conditional lobbyist registration for placement agents, the ethics training requirement under 86103(d)(2), and the distinction between termination and withdrawal of registration."
+        },
+        {
+          "opinion_id": "05-220",
+          "score": 2,
+          "rationale": "Directly addresses whether a former lobbyist must take the ethics orientation course under Section 86103 despite no longer intending to lobby in California."
+        },
+        {
+          "opinion_id": "93-018",
+          "score": 2,
+          "rationale": "Analyzes whether a lobbyist who previously attended the ethics course must attend again for a new legislative session under Section 86103(d), directly addressing the renewal vs. new registration distinction."
+        },
+        {
+          "opinion_id": "93-120",
+          "score": 2,
+          "rationale": "Directly addresses the ethics orientation course requirement under Section 86103(d)(1) for a lobbyist registering for a new legislative session."
+        },
+        {
+          "opinion_id": "02-013",
+          "score": 2,
+          "rationale": "Analyzes whether the Commission can waive the lobbyist ethics course requirement, directly addressing the certification process under Section 86103."
+        },
+        {
+          "opinion_id": "01-153",
+          "score": 2,
+          "rationale": "Addresses whether a waiver from the lobbyist ethics training requirement can be granted under the Act's certification process."
+        },
+        {
+          "opinion_id": "00-073",
+          "score": 1,
+          "rationale": "Addresses whether a particular individual is required to take the lobbyist ethics course under 86103(d), but focuses on whether the person qualifies as a lobbyist rather than on registration renewal."
+        },
+        {
+          "opinion_id": "12-129",
+          "score": 1,
+          "rationale": "Addresses lobbyist registration filing procedures (Forms 601/605) and amendment processes under Sections 86100 and 86103, but focuses on form filing rather than new vs. renewal registration."
+        },
+        {
+          "opinion_id": "84133",
+          "score": 1,
+          "rationale": "Addresses who must register as a lobbyist under Section 86300 exemption for public officials; related to registration requirements but not the renewal vs. new registration distinction."
+        },
+        {
+          "opinion_id": "94-098",
+          "score": 1,
+          "rationale": "Discusses which registration statements a lobbyist should file and which agencies to list, related to registration mechanics but not the renewal vs. new certification question."
+        },
+        {
+          "opinion_id": "12-059",
+          "score": 1,
+          "rationale": "Addresses placement agent lobbyist registration requirements; tangentially related to 86103 registration but focuses on whether placement agents must register at all."
+        },
+        {
+          "opinion_id": "07-128",
+          "score": 1,
+          "rationale": "Analyzes whether a lobbying firm should de-register a client under Section 86300; related to registration process but addresses deregistration rather than renewal."
+        },
+        {
+          "opinion_id": "76391",
+          "score": 1,
+          "rationale": "Addresses lobbyist registration termination procedures and timing requirements; related to registration lifecycle but predates the ethics course requirement."
+        }
+      ]
     },
     {
       "text": "A nonprofit consumer advocacy organization participates in Public Utilities Commission ratemaking proceedings by submitting oral and written testimony at public hearings. The organization also employs a contract lobbyist to represent a related entity before the Legislature. Must the organization report on Form 635 the compensation it pays to attorneys and expert witnesses for PUC proceedings, and can it exclude payments for preparing written testimony?",
@@ -4693,7 +4769,78 @@
       "issue": "lobbying_disclosure_and_reporting",
       "notes": "Grounded in 12-158 (UCAN reporting requirements for PUC proceedings). Tests the distinction under Section 86116(h)(2) between reportable and non-reportable payments for PUC ratemaking proceedings.",
       "id": "q052",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "12-158",
+          "score": 2,
+          "rationale": "Directly addresses whether a lobbyist employer must report on Form 635 payments for PUC ratemaking and adjudication proceedings, analyzing the distinction between reportable and non-reportable payments under Section 86116."
+        },
+        {
+          "opinion_id": "89-629",
+          "score": 2,
+          "rationale": "Directly analyzes whether a lobbyist employer must allocate attorney time in ratemaking hearings before the Insurance Commissioner as reportable lobbying activity under the Act's disclosure provisions."
+        },
+        {
+          "opinion_id": "97-532",
+          "score": 2,
+          "rationale": "Analyzes lobbyist employer reporting obligations for internal expenditures supporting lobbying activities, including Form 635 reporting requirements under Section 86116."
+        },
+        {
+          "opinion_id": "16-121",
+          "score": 2,
+          "rationale": "Addresses whether Metropolitan Water District must report inspection tour expenses on its Lobbyist Employer quarterly report (Form 635), analyzing 'Other Payments to Influence' under Section 86116."
+        },
+        {
+          "opinion_id": "10-086",
+          "score": 2,
+          "rationale": "Directly addresses Form 635 reporting obligations when an in-house lobbyist lobbies for affiliated entities, analyzing how lobbying expenses should be reported under Section 86116."
+        },
+        {
+          "opinion_id": "88294",
+          "score": 1,
+          "rationale": "Addresses whether a law firm that is both a lobbying firm and lobbyist employer must file reports in both capacities, related to Form 635 disclosure but focused on dual-capacity filing."
+        },
+        {
+          "opinion_id": "92-414",
+          "score": 1,
+          "rationale": "Addresses how to report company-sponsored events on Form 635, related to lobbyist employer reporting but focused on event reporting rather than PUC proceedings."
+        },
+        {
+          "opinion_id": "01-068",
+          "score": 1,
+          "rationale": "Addresses Form 635 reporting for gifts (airport parking passes) provided by a lobbyist employer to legislators; related to reporting obligations but different subject matter than PUC testimony."
+        },
+        {
+          "opinion_id": "88379",
+          "score": 1,
+          "rationale": "Addresses whether dues and voluntary payments by coalition members are reportable on Form 635; related to lobbyist employer reporting but about membership dues, not PUC proceedings."
+        },
+        {
+          "opinion_id": "16-001",
+          "score": 1,
+          "rationale": "Addresses whether county membership dues to a lobbyist employer association trigger reporting obligations under the lobbying provisions, tangentially related to Form 635 reporting."
+        },
+        {
+          "opinion_id": "94-241",
+          "score": 1,
+          "rationale": "Addresses how many Form 635 reports a lobbyist employer must file when using multiple lobbying firms; related to Form 635 reporting mechanics."
+        },
+        {
+          "opinion_id": "86278",
+          "score": 1,
+          "rationale": "Addresses reporting requirements when one lobbying firm hires another on behalf of a client; related to lobbying disclosure structure but not specific to ratemaking or testimony exclusions."
+        },
+        {
+          "opinion_id": "89-148",
+          "score": 1,
+          "rationale": "Addresses whether a lobbyist employer must disclose gifts on Form 635 benefiting Racing Board members; related to Form 635 reporting but about gifts, not testimony compensation."
+        },
+        {
+          "opinion_id": "05-051",
+          "score": 1,
+          "rationale": "Addresses whether a lobbying firm filing Form 635s for clients must maintain original signatures; related to Form 635 but about filing procedures rather than reporting content."
+        }
+      ]
     },
     {
       "text": "Can a registered lobbying firm host a $2,500 congratulatory reception for newly elected legislators if the pro rata cost per attendee exceeds $10, or must a third party such as a client city independently pay for the event?",
@@ -4702,7 +4849,78 @@
       "issue": "lobbyist_gift_restrictions",
       "notes": "Grounded in 10-142 (California Consulting congratulatory event for legislators). Tests the $10 monthly lobbyist gift limit under Section 86203 and the prohibition on arranging gifts.",
       "id": "q053",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "10-142",
+          "score": 2,
+          "rationale": "Directly addresses whether a lobbying firm may pay for a congratulatory event for legislators, analyzing the $10 monthly gift limit under Section 86203 and the prohibition on arranging gifts."
+        },
+        {
+          "opinion_id": "10-142A",
+          "score": 2,
+          "rationale": "Follow-up opinion analyzing pro rata cost valuation for testimonial events where lobbyists are involved, directly applying the Section 86203 gift limitation to congratulatory receptions."
+        },
+        {
+          "opinion_id": "08-191",
+          "score": 2,
+          "rationale": "Directly addresses whether a lobbying firm may pay for gifts (framed Torah excerpts) costing more than $10 to state officials, analyzing the $10 lobbyist gift limit under Sections 86203 and 86204."
+        },
+        {
+          "opinion_id": "92-335",
+          "score": 2,
+          "rationale": "Directly analyzes whether lobbyists hosting a reception violate the $10 gift limit, concluding they must not constitute making or arranging a gift exceeding $10 under Section 86203."
+        },
+        {
+          "opinion_id": "85021",
+          "score": 2,
+          "rationale": "Directly addresses whether lobbyists hosting a reception for legislators at $15 per person violates the $10 gift prohibition under Section 86203."
+        },
+        {
+          "opinion_id": "82A159",
+          "score": 1,
+          "rationale": "Addresses the $10 gift prohibition under Section 86203 in the context of a legislator's retirement dinner; related gift limit analysis but about dinner events, not congratulatory receptions."
+        },
+        {
+          "opinion_id": "83A210",
+          "score": 1,
+          "rationale": "Addresses reporting obligations when a lobbyist and legislator dine together; related to the lobbyist gift framework but focused on reporting rather than the $10 limit for events."
+        },
+        {
+          "opinion_id": "92-059",
+          "score": 1,
+          "rationale": "Addresses whether a lobbyist club's special menu for purchasing lunch for officials triggers the $10 gift prohibition; related lobbyist gift issue."
+        },
+        {
+          "opinion_id": "93-156",
+          "score": 1,
+          "rationale": "Analyzes whether benefits at a wedding reception paid by a registered lobbyist spouse are subject to the $10 gift prohibition; related but about personal celebrations, not congratulatory events."
+        },
+        {
+          "opinion_id": "94-136",
+          "score": 1,
+          "rationale": "Addresses whether a lobbyist may suggest which officials to invite to a reception and analyzes gift reporting for lobbyist-employer sponsored events; related gift/event analysis."
+        },
+        {
+          "opinion_id": "17-022",
+          "score": 1,
+          "rationale": "Addresses whether an in-house lobbyist may present a plaque worth less than $250 to a legislator under the gift provisions; related lobbyist gift analysis but about plaques, not receptions."
+        },
+        {
+          "opinion_id": "86069",
+          "score": 1,
+          "rationale": "Analyzes how the $10 gift prohibition under Section 86203 applies to a lobbying firm; provides legal framework relevant to understanding gift limits for lobbying firms."
+        },
+        {
+          "opinion_id": "79-148",
+          "score": 1,
+          "rationale": "Addresses the prohibitions affecting a lobbyist employer regarding gifts under Section 86203; provides foundational framework for lobbyist gift analysis."
+        },
+        {
+          "opinion_id": "17-172",
+          "score": 1,
+          "rationale": "Analyzes whether a lobbyist hosting a potluck and inviting state officials triggers the $10 gift limit; related scenario of lobbyist-hosted events for officials."
+        }
+      ]
     },
     {
       "text": "placement agent contingency fee 86205(f) percentage of assets under management public retirement system",
@@ -4711,7 +4929,63 @@
       "issue": "lobbyist_conduct_prohibitions",
       "notes": "Grounded in 11-081 (SMHCA/SMHI placement agent contingency fee ban) and 08-147 (lobbying firm percentage fee for school facility grants). Tests Section 86205(f) contingency fee prohibition.",
       "id": "q054",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "11-081",
+          "score": 2,
+          "rationale": "Directly addresses whether a placement agent's percentage-of-assets-under-management fee constitutes a prohibited contingency fee under Section 86205(f) for public retirement system contracts."
+        },
+        {
+          "opinion_id": "08-147",
+          "score": 2,
+          "rationale": "Directly analyzes whether Section 86205(f) prohibits a lobbying firm from receiving a percentage fee based on funds awarded to school district clients from state agencies."
+        },
+        {
+          "opinion_id": "04-211",
+          "score": 2,
+          "rationale": "Directly addresses whether a lobbyist contract terminable upon passage or death of legislation violates the contingency fee prohibition under Section 86205(f)."
+        },
+        {
+          "opinion_id": "05-120",
+          "score": 2,
+          "rationale": "Analyzes whether a compensation arrangement between a firm and developer constitutes a prohibited contingency fee under Section 86205, including the scope of 'administrative action.'"
+        },
+        {
+          "opinion_id": "99-235",
+          "score": 2,
+          "rationale": "Directly addresses whether a success/contingency fee for helping a client obtain a government contract is prohibited under Section 86205(f), analyzing the definition of 'administrative action.'"
+        },
+        {
+          "opinion_id": "12-059",
+          "score": 1,
+          "rationale": "Addresses placement agent registration requirements for public retirement systems; related to the placement agent regulatory framework but focused on registration rather than contingency fees."
+        },
+        {
+          "opinion_id": "11-031",
+          "score": 1,
+          "rationale": "Addresses AB 1743 placement agent requirements for public retirement systems; related regulatory context but about retroactivity and registration, not Section 86205(f)."
+        },
+        {
+          "opinion_id": "11-048",
+          "score": 1,
+          "rationale": "Addresses placement agent registration for limited partnerships managing fund-of-fund vehicles for CalPERS; related to placement agents but about registration scope."
+        },
+        {
+          "opinion_id": "11-219",
+          "score": 1,
+          "rationale": "Addresses whether placement agent provisions apply to depository institution agents; related to placement agent regulatory framework."
+        },
+        {
+          "opinion_id": "14-130",
+          "score": 1,
+          "rationale": "Addresses whether an attorney advising an external manager qualifies as a placement agent; related to the placement agent framework but about definitional scope."
+        },
+        {
+          "opinion_id": "09-161",
+          "score": 1,
+          "rationale": "Addresses lobbyist participation in fundraising committees; tangentially related to lobbyist conduct prohibitions under Section 86205."
+        }
+      ]
     },
     {
       "text": "Our lobbying firm assists school districts in applying for state School Facility Program grants. We compile application materials, meet with state agency staff to answer questions, and explain how projects meet funding criteria. May we charge a fee calculated as a percentage of the grant funds ultimately awarded to our client, or does Section 86205 prohibit this as a contingency fee?",
@@ -4720,7 +4994,58 @@
       "issue": "lobbyist_conduct_prohibitions",
       "notes": "Grounded in 08-147 (Murdoch Walrath & Holmes school facility consulting). Tests whether awarding a grant constitutes administrative action \u2014 it does not under Regulation 18202(a)(6), so the contingency fee ban does not apply.",
       "id": "q055",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "08-147",
+          "score": 2,
+          "rationale": "Directly analyzes whether a lobbying firm assisting school districts with School Facility Program grants may charge a percentage fee, concluding that grant awards are not 'administrative action' under Section 86205."
+        },
+        {
+          "opinion_id": "99-235",
+          "score": 2,
+          "rationale": "Analyzes whether a success fee for obtaining a government contract is prohibited, distinguishing between types of governmental action under Section 86205(f) and the definition of 'administrative action.'"
+        },
+        {
+          "opinion_id": "11-081",
+          "score": 2,
+          "rationale": "Analyzes the contingency fee ban under 86205(f) in the placement agent context; provides key analysis of what constitutes a prohibited contingency arrangement."
+        },
+        {
+          "opinion_id": "05-120",
+          "score": 2,
+          "rationale": "Addresses whether a compensation arrangement tied to the outcome of a lobbying engagement violates Section 86205, analyzing the definition of administrative action."
+        },
+        {
+          "opinion_id": "04-211",
+          "score": 1,
+          "rationale": "Addresses whether a retainer terminable upon legislative outcome violates the contingency fee prohibition; related analysis but about legislative action, not grant programs."
+        },
+        {
+          "opinion_id": "12-059",
+          "score": 1,
+          "rationale": "Discusses the scope of lobbying activities for placement agents including the definition of administrative action under Section 82002; provides related regulatory context."
+        },
+        {
+          "opinion_id": "89-643",
+          "score": 1,
+          "rationale": "Addresses whether working with an administrative agency on a determination qualifies as lobbying activity under the definition of administrative action; related definitional analysis."
+        },
+        {
+          "opinion_id": "90-121",
+          "score": 1,
+          "rationale": "Analyzes whether proposed activities constitute lobbying requiring registration; related to the scope of lobbying definitions but not about contingency fees."
+        },
+        {
+          "opinion_id": "16-015",
+          "score": 1,
+          "rationale": "Addresses placement agent definition exceptions; tangentially related to the lobbying framework for agents assisting with government programs."
+        },
+        {
+          "opinion_id": "A-20-115",
+          "score": 1,
+          "rationale": "Addresses placement agent registration for affiliated real estate funds with public retirement systems; related regulatory framework for agents dealing with public entities."
+        }
+      ]
     },
     {
       "text": "section 89001 government newsletter mass mailing public expense elected officer photograph regulation 18901",
@@ -4729,7 +5054,73 @@
       "issue": "mass_mailing_restrictions",
       "notes": "Grounded in 92-247 (education newsletter) and A-24-140 (water district video). Targets whether government communications featuring elected officials violate Section 89001.",
       "id": "q056",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "92-247",
+          "score": 2,
+          "rationale": "Directly addresses whether an education newsletter distributed by a government agency violates Section 89001's mass mailing restrictions, analyzing the photograph/elected officer and public expense elements."
+        },
+        {
+          "opinion_id": "A-24-140",
+          "score": 2,
+          "rationale": "Directly analyzes whether a water district's informational insert with QR code linking to a video featuring elected board members triggers the mass mailing prohibition under Section 89001."
+        },
+        {
+          "opinion_id": "00-184",
+          "score": 2,
+          "rationale": "Directly addresses whether a county controller's quarterly newsletter distributed to government agencies violates Section 89001, analyzing the 'features an elected officer' requirement."
+        },
+        {
+          "opinion_id": "16-107",
+          "score": 2,
+          "rationale": "Directly analyzes whether an air quality district may pay for a newspaper insert including an annual report with the executive officer's name and photograph under Section 89001."
+        },
+        {
+          "opinion_id": "88111",
+          "score": 2,
+          "rationale": "Directly addresses whether a city newsletter (the Carson Report) violates Regulation 18901's mass mailing restrictions."
+        },
+        {
+          "opinion_id": "89-063",
+          "score": 2,
+          "rationale": "Analyzes whether inclusion of photographs and names of the mayor and city council in a city newsletter constitutes a prohibited mass mailing under Section 89001 and Regulation 18901."
+        },
+        {
+          "opinion_id": "88352",
+          "score": 1,
+          "rationale": "Addresses whether a city may list elected officials in its quarterly newsletter under Section 89001; related mass mailing analysis but focused on roster listings."
+        },
+        {
+          "opinion_id": "88450",
+          "score": 1,
+          "rationale": "Addresses whether a city council roster in a newsletter complies with mass mailing provisions; related but narrower issue of roster compliance."
+        },
+        {
+          "opinion_id": "89-215",
+          "score": 1,
+          "rationale": "Addresses whether elected councilmember names may appear in a city newsletter beyond the masthead under Section 89001; related newsletter analysis."
+        },
+        {
+          "opinion_id": "95-135",
+          "score": 1,
+          "rationale": "Addresses whether cities may publish newsletters containing names and titles of elected officials under the mass mailing regulations; related analysis."
+        },
+        {
+          "opinion_id": "10-013",
+          "score": 1,
+          "rationale": "Addresses mass mailing provisions as applied to telephone messages, text messaging, and electronic mail; related to the scope of Section 89001 but about electronic rather than print media."
+        },
+        {
+          "opinion_id": "84034",
+          "score": 1,
+          "rationale": "Addresses whether a legislator may send a newsletter at public expense outside their district; related mass mailing analysis under Section 89001."
+        },
+        {
+          "opinion_id": "A-18-013",
+          "score": 1,
+          "rationale": "Addresses whether a district attorney may pay for a newspaper insert with an annual report containing name, title, and photograph; closely related mass mailing scenario."
+        }
+      ]
     },
     {
       "text": "A county water district wants to mail an informational flyer about upcoming rate increases to all 15,000 ratepayers. The flyer includes a QR code linking to a promotional video featuring the district's elected board members discussing infrastructure improvements. The district's communications director asks whether the flyer or the linked video triggers the mass mailing prohibition under the Political Reform Act.",
@@ -4738,7 +5129,68 @@
       "issue": "mass_mailing_restrictions",
       "notes": "Modeled on A-24-140 (West Valley Water District QR code/video scenario). Tests whether search engines can surface opinions distinguishing tangible mailings from electronic distributions under Section 89001.",
       "id": "q057",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "A-24-140",
+          "score": 2,
+          "rationale": "Directly addresses the exact scenario: a water district flyer with QR code linking to a video featuring elected board members, analyzing whether the tangible flyer and linked video trigger Section 89001."
+        },
+        {
+          "opinion_id": "10-013",
+          "score": 2,
+          "rationale": "Directly analyzes whether Section 89001's mass mailing provisions apply to electronic communications (telephone, text, email), establishing the framework for digital distribution questions."
+        },
+        {
+          "opinion_id": "09-022",
+          "score": 2,
+          "rationale": "Directly addresses whether the Board of Supervisors may issue and send an electronic newsletter, analyzing how Section 89001 applies to electronic communications."
+        },
+        {
+          "opinion_id": "I-19-145",
+          "score": 2,
+          "rationale": "Analyzes whether tagging City Council members on social media posts constitutes a mass mailing under the Act, directly addressing digital communication and Section 89001's scope."
+        },
+        {
+          "opinion_id": "92-247",
+          "score": 1,
+          "rationale": "Addresses a government newsletter's compliance with Section 89001; related mass mailing analysis but about traditional print distribution, not digital/QR code scenarios."
+        },
+        {
+          "opinion_id": "16-107",
+          "score": 1,
+          "rationale": "Addresses newspaper insert with annual report under mass mailing provisions; related print media distribution scenario."
+        },
+        {
+          "opinion_id": "00-184",
+          "score": 1,
+          "rationale": "Addresses a county newsletter distributed to government agencies under Section 89001; related mass mailing but about print distribution to government recipients."
+        },
+        {
+          "opinion_id": "A-18-173",
+          "score": 1,
+          "rationale": "Addresses preparing and distributing over 200 copies of a newsletter listing council candidates; related to mass mailing quantity threshold analysis."
+        },
+        {
+          "opinion_id": "10-163",
+          "score": 1,
+          "rationale": "Addresses mass mailing provisions for political ads in a newsletter; related to Section 89001 analysis but about print ads."
+        },
+        {
+          "opinion_id": "12-132",
+          "score": 1,
+          "rationale": "Addresses whether newsletter distribution while being a candidate violates mass mailing provisions; related but about candidacy timing, not digital media."
+        },
+        {
+          "opinion_id": "88296",
+          "score": 1,
+          "rationale": "Addresses whether a city's internal mail system and alternative delivery systems fall under Section 89001; related to the scope of distribution methods."
+        },
+        {
+          "opinion_id": "89-545",
+          "score": 1,
+          "rationale": "Analyzes whether a Sheriff's Department newsletter with a message from the elected sheriff is a prohibited mass mailing; related scenario analysis."
+        }
+      ]
     },
     {
       "text": "85801 85802 campaign funds personal use substantial personal benefit governmental purpose",
@@ -4747,7 +5199,68 @@
       "issue": "permissible_campaign_fund_use",
       "notes": "Grounded in 90-308 (Board of Education member attending conference). Targets the personal use framework for campaign fund expenditures.",
       "id": "q058",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-308",
+          "score": 2,
+          "rationale": "Directly analyzes whether a school board member may use campaign funds for travel, accommodations, and conference fees under the governmental purpose test of Sections 85801/85802."
+        },
+        {
+          "opinion_id": "90-596",
+          "score": 2,
+          "rationale": "Directly addresses whether a senator may use campaign funds for conference costs, analyzing the 'directly related to a political, legislative, or governmental purpose' standard under Section 85802."
+        },
+        {
+          "opinion_id": "90-459",
+          "score": 2,
+          "rationale": "Directly analyzes whether an elected official may use campaign funds for convention attendance expenses under the Section 85802 governmental purpose framework."
+        },
+        {
+          "opinion_id": "90-111",
+          "score": 2,
+          "rationale": "Analyzes whether a PAC may sponsor civic competitions using campaign funds, applying the Section 85802(f) personal use test and substantial personal benefit analysis."
+        },
+        {
+          "opinion_id": "90-393",
+          "score": 2,
+          "rationale": "Addresses permissible use of campaign funds under the Act's personal use restrictions, analyzing the governmental purpose standard."
+        },
+        {
+          "opinion_id": "90-586",
+          "score": 1,
+          "rationale": "Addresses whether campaign funds may be used for a Christmas luncheon; related campaign fund use analysis under the governmental purpose framework."
+        },
+        {
+          "opinion_id": "90-210",
+          "score": 1,
+          "rationale": "Addresses whether campaign funds may be used for travel to an educational program; related governmental purpose analysis for official development expenses."
+        },
+        {
+          "opinion_id": "90-416",
+          "score": 1,
+          "rationale": "Addresses whether campaign funds may be used for training expenses; related to the Section 85801/85802 governmental purpose framework."
+        },
+        {
+          "opinion_id": "90-595",
+          "score": 1,
+          "rationale": "Addresses whether councilmembers may use remaining campaign funds for communications and expenditures; related campaign fund use analysis."
+        },
+        {
+          "opinion_id": "90-288",
+          "score": 1,
+          "rationale": "Addresses whether a losing candidate may use campaign funds for Sacramento travel; related to the governmental purpose analysis."
+        },
+        {
+          "opinion_id": "89-607",
+          "score": 1,
+          "rationale": "Addresses using campaign funds to reimburse staff travel between district and capitol; related campaign fund use for official travel."
+        },
+        {
+          "opinion_id": "90-051",
+          "score": 1,
+          "rationale": "Addresses whether an officeholder account may pay for a district office computer; related to governmental purpose analysis for official expenses."
+        }
+      ]
     },
     {
       "text": "Can a school board member use campaign funds to pay for travel and conference registration fees for an education conference related to her official duties?",
@@ -4756,7 +5269,68 @@
       "issue": "permissible_campaign_fund_use",
       "notes": "Grounded in 90-308 (LA school board member attending middle schools conference). Targets whether conference attendance expenditures are 'directly related to a governmental purpose.'",
       "id": "q059",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-308",
+          "score": 2,
+          "rationale": "Directly addresses a school board member using campaign funds for a middle schools conference, analyzing whether conference travel and fees are 'directly related to a governmental purpose.'"
+        },
+        {
+          "opinion_id": "90-596",
+          "score": 2,
+          "rationale": "Addresses a senator's use of campaign funds for a conference, applying the 'directly related to a governmental purpose' standard; directly analogous scenario."
+        },
+        {
+          "opinion_id": "90-459",
+          "score": 2,
+          "rationale": "Directly analyzes whether an elected official may use campaign funds for convention expenses including travel and registration fees, applying the governmental purpose test."
+        },
+        {
+          "opinion_id": "90-210",
+          "score": 2,
+          "rationale": "Directly addresses using campaign funds for travel and tuition for an educational program for state officials; same legal issue of conference/training expenses."
+        },
+        {
+          "opinion_id": "90-416",
+          "score": 2,
+          "rationale": "Addresses whether campaign funds may cover travel, accommodations, and training expenses for a seminar; directly analogous to conference attendance question."
+        },
+        {
+          "opinion_id": "90-111",
+          "score": 1,
+          "rationale": "Analyzes campaign fund use for civic education purposes under Section 85802; related governmental purpose framework but about sponsoring competitions, not attending conferences."
+        },
+        {
+          "opinion_id": "90-393",
+          "score": 1,
+          "rationale": "Addresses general framework for permissible campaign fund use under personal use restrictions; related analytical framework."
+        },
+        {
+          "opinion_id": "90-595",
+          "score": 1,
+          "rationale": "Addresses campaign fund use for various expenses by councilmembers; related governmental purpose analysis."
+        },
+        {
+          "opinion_id": "89-607",
+          "score": 1,
+          "rationale": "Addresses reimbursing staff travel from campaign funds; related but about staff expenses, not the officeholder's conference attendance."
+        },
+        {
+          "opinion_id": "90-586",
+          "score": 1,
+          "rationale": "Addresses campaign fund use for an annual Christmas luncheon; related Section 85801/85802 analysis but different type of expenditure."
+        },
+        {
+          "opinion_id": "92-296",
+          "score": 1,
+          "rationale": "Addresses whether surplus campaign funds may be donated to the Senate Republican Caucus; related to permissible fund use but about surplus funds and caucus donations."
+        },
+        {
+          "opinion_id": "94-185",
+          "score": 1,
+          "rationale": "Addresses campaign fundraising methods (raffles); tangentially related to campaign fund regulations but about raising rather than spending funds."
+        }
+      ]
     },
     {
       "text": "Which entity is the code reviewing body for a joint powers authority's conflict of interest code when the JPA operates across multiple counties?",
@@ -4765,7 +5339,63 @@
       "issue": "sei_and_conflict_of_interest_codes",
       "notes": "Grounded in 14-092 (Napa-Lake WIB multi-county JPA). Targets code reviewing body determination under Section 82011.",
       "id": "q060",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "14-092",
+          "score": 2,
+          "rationale": "Directly addresses the code reviewing body determination for a multi-county JPA (Napa-Lake WIB), analyzing whether the FPPC or county board of supervisors is the appropriate reviewing body under Section 82011."
+        },
+        {
+          "opinion_id": "14-165",
+          "score": 2,
+          "rationale": "Directly addresses whether a vector management district is a multi-county agency whose code reviewing body is the FPPC, analyzing Section 82011 and 82035."
+        },
+        {
+          "opinion_id": "A-21-172",
+          "score": 2,
+          "rationale": "Directly addresses the code reviewing body for a public economic development corporation, analyzing Section 82011 and 82035 reviewing body determination."
+        },
+        {
+          "opinion_id": "76ADV-252",
+          "score": 2,
+          "rationale": "Directly addresses the appropriate code reviewing body for a water district operating across multiple counties under Section 82011."
+        },
+        {
+          "opinion_id": "76ADV-248",
+          "score": 2,
+          "rationale": "Directly addresses whether a joint powers entity must adopt a conflict of interest code and identifies the code reviewing body under Section 82011."
+        },
+        {
+          "opinion_id": "77ADV-77-274",
+          "score": 2,
+          "rationale": "Directly addresses whether a JPA formed between a city and school district must adopt a conflict of interest code and determines the code reviewing body."
+        },
+        {
+          "opinion_id": "76ADV-270",
+          "score": 1,
+          "rationale": "Addresses the city council as code reviewing body for city boards and commissions; related reviewing body analysis but about city-level entities, not multi-county JPAs."
+        },
+        {
+          "opinion_id": "87180",
+          "score": 1,
+          "rationale": "Addresses procedures for a JPA to develop a conflict of interest code; related to JPA code requirements but focused on code content rather than reviewing body determination."
+        },
+        {
+          "opinion_id": "76ADV-288",
+          "score": 1,
+          "rationale": "Addresses the status of joint powers agencies regarding conflict of interest code submission; related JPA issue."
+        },
+        {
+          "opinion_id": "14-050",
+          "score": 1,
+          "rationale": "Addresses whether consultants must file statements of economic interest under an agency's conflict of interest code; related to code provisions but about designated employees, not reviewing body."
+        },
+        {
+          "opinion_id": "89-709",
+          "score": 1,
+          "rationale": "Addresses whether an agency must amend its conflict of interest code to include new positions; related to code administration but not reviewing body determination."
+        }
+      ]
     },
     {
       "text": "section 82041 definition local government agency Siegel four-factor test nonprofit public entity political reform act",
@@ -4774,7 +5404,68 @@
       "issue": "jurisdiction_and_agency_coverage",
       "notes": "Grounded in 90-026 (hospital districts association). Targets whether an entity qualifies as a 'local government agency' under Section 82041 using the In re Siegel four-factor test.",
       "id": "q061",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-026",
+          "score": 2,
+          "rationale": "Directly applies the Siegel four-factor test to the Association of California Hospital Districts to determine if it is a local government agency under Section 82041."
+        },
+        {
+          "opinion_id": "89-150",
+          "score": 2,
+          "rationale": "Directly discusses the In re Siegel four-factor test for determining whether a nonprofit is a government agency under the Act, analyzing whether the test should be abandoned or modified."
+        },
+        {
+          "opinion_id": "93-340",
+          "score": 2,
+          "rationale": "Applies the Siegel criteria to Berkeley's public access corporation, analyzing the third criterion of whether the entity provides services public agencies are legally required to provide."
+        },
+        {
+          "opinion_id": "97-630",
+          "score": 2,
+          "rationale": "Directly applies the Siegel criteria to the Butte Community College Foundation to determine if it is a local government agency required to adopt a conflict of interest code."
+        },
+        {
+          "opinion_id": "00-058",
+          "score": 2,
+          "rationale": "Directly applies the Siegel test to the City of Diamond Bar's foundation to determine local government agency status under the Act."
+        },
+        {
+          "opinion_id": "02-171",
+          "score": 2,
+          "rationale": "Applies the Siegel factors to a water coalition board to determine local government agency status under Section 82041."
+        },
+        {
+          "opinion_id": "03-015",
+          "score": 1,
+          "rationale": "Applies Siegel-related analysis to determine if a nonprofit media access center is subject to the Act; related but the analysis focuses on Section 87300 code requirements."
+        },
+        {
+          "opinion_id": "04-190",
+          "score": 1,
+          "rationale": "Addresses whether the California Commission for Jobs and Economic Growth is a state agency; related agency status analysis but about state vs. local agencies."
+        },
+        {
+          "opinion_id": "77A-276",
+          "score": 1,
+          "rationale": "Early case addressing whether a hospital authority is a local government agency; foundational analysis but predates the formal Siegel four-factor test."
+        },
+        {
+          "opinion_id": "82A016",
+          "score": 1,
+          "rationale": "Addresses whether Paratransit, Inc. is a private or public agency based on appointment and funding factors; related Siegel-adjacent analysis."
+        },
+        {
+          "opinion_id": "99-269",
+          "score": 1,
+          "rationale": "Applies the Siegel criteria to WestEd, a nonprofit education entity; related local government agency determination but concludes it is not a public agency."
+        },
+        {
+          "opinion_id": "03-182",
+          "score": 1,
+          "rationale": "Applies agency status analysis to the Brentwood Agricultural Land Trust; related Siegel analysis."
+        }
+      ]
     },
     {
       "text": "Is a nonprofit trade association formed by California hospital districts considered a 'local government agency' under the Political Reform Act for purposes of the prohibition on using public moneys for political contributions?",
@@ -4783,7 +5474,68 @@
       "issue": "jurisdiction_and_agency_coverage",
       "notes": "Grounded in 90-026 (Association of California Hospital Districts). Tests the Siegel four-factor test and Section 85300 prohibition on public moneys for political purposes.",
       "id": "q062",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-026",
+          "score": 2,
+          "rationale": "Directly addresses whether the Association of California Hospital Districts may make political contributions, analyzing whether it is a local government agency subject to Section 85300's prohibition on public moneys for political purposes."
+        },
+        {
+          "opinion_id": "89-150",
+          "score": 2,
+          "rationale": "Directly analyzes the Siegel four-factor test used to determine if nonprofit organizations formed by public entities are government agencies under the Act."
+        },
+        {
+          "opinion_id": "97-630",
+          "score": 2,
+          "rationale": "Applies the Siegel test to a college foundation to determine local government agency status; directly analogous analysis of a nonprofit associated with public entities."
+        },
+        {
+          "opinion_id": "93-340",
+          "score": 2,
+          "rationale": "Applies Siegel criteria to a public access corporation; directly analogous nonprofit/public entity analysis."
+        },
+        {
+          "opinion_id": "90-392",
+          "score": 2,
+          "rationale": "Addresses whether a nonprofit association (SOCLC) is subject to the Act's mass mailing prohibition as a government agency; applies Siegel-adjacent agency status analysis."
+        },
+        {
+          "opinion_id": "00-058",
+          "score": 1,
+          "rationale": "Applies Siegel test to a city foundation; related analysis but about a foundation rather than a trade association formed by hospital districts."
+        },
+        {
+          "opinion_id": "02-171",
+          "score": 1,
+          "rationale": "Applies Siegel factors to a water coalition board; related agency status analysis for a multi-entity governmental organization."
+        },
+        {
+          "opinion_id": "03-015",
+          "score": 1,
+          "rationale": "Analyzes whether a nonprofit media center designated by a county is subject to the Act; related nonprofit/government agency boundary analysis."
+        },
+        {
+          "opinion_id": "03-182",
+          "score": 1,
+          "rationale": "Analyzes whether a land trust created by a city is subject to the Act; related nonprofit formed by public entity."
+        },
+        {
+          "opinion_id": "04-190",
+          "score": 1,
+          "rationale": "Addresses whether a commission is a state agency; related agency determination but about state-level entities."
+        },
+        {
+          "opinion_id": "99-269",
+          "score": 1,
+          "rationale": "Applies Siegel analysis to WestEd, concluding it is not a government agency; useful counterexample for nonprofit agency analysis."
+        },
+        {
+          "opinion_id": "16-055",
+          "score": 1,
+          "rationale": "Addresses formation of a Recreation and Park District under Section 82003; related to local government agency definition but about a statutory district, not a nonprofit trade association."
+        }
+      ]
     },
     {
       "text": "84615 electronic filing campaign statements signature verification 81004 treasurer",
@@ -4792,7 +5544,63 @@
       "issue": "campaign_reporting_and_disclosure",
       "notes": "Grounded in A-18-066 (electronic signature requirements for campaign statements). Targets the procedural filing requirements under Sections 84615 and 81004.",
       "id": "q063",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "A-18-066",
+          "score": 2,
+          "rationale": "Directly addresses whether campaign consultants may electronically sign campaign statements on behalf of candidates, analyzing electronic filing and signature requirements under Sections 84615 and 81004."
+        },
+        {
+          "opinion_id": "12-137",
+          "score": 2,
+          "rationale": "Directly addresses whether a county may eliminate paper copies and original signature requirements for electronically filed campaign statements under Section 84615."
+        },
+        {
+          "opinion_id": "A-19-181",
+          "score": 2,
+          "rationale": "Directly addresses whether a local filing officer may accept electronic filings of Form 501 (Statement of Intention), analyzing electronic filing procedures under Section 81004."
+        },
+        {
+          "opinion_id": "03-193",
+          "score": 2,
+          "rationale": "Addresses whether the Secretary of State may reject incomplete electronic campaign filings, analyzing the authority of filing officers regarding electronic submissions."
+        },
+        {
+          "opinion_id": "12-010",
+          "score": 1,
+          "rationale": "Addresses contingency procedures if the CAL-ACCESS electronic filing system becomes inoperable; related to electronic filing infrastructure but about system failure, not signature verification."
+        },
+        {
+          "opinion_id": "81A152",
+          "score": 1,
+          "rationale": "Addresses requirements for filing copies of campaign statements without original signatures; related to signature verification but predates electronic filing."
+        },
+        {
+          "opinion_id": "76109",
+          "score": 1,
+          "rationale": "Addresses whether campaign statement copies must bear photocopied signatures; early analysis of signature requirements for filed copies."
+        },
+        {
+          "opinion_id": "99-320",
+          "score": 1,
+          "rationale": "Addresses whether San Francisco Ethics Commission may continue using FPPC forms for electronic filing; related to electronic filing systems but about form compatibility."
+        },
+        {
+          "opinion_id": "01-137",
+          "score": 1,
+          "rationale": "Addresses whether candidates required to file with the SF Ethics Commission may use forms generated by the electronic filing program; related to electronic filing acceptance."
+        },
+        {
+          "opinion_id": "A-19-105",
+          "score": 1,
+          "rationale": "Addresses whether e-filing services are acceptable for document retention of campaign reports; related to electronic filing but about record retention, not filing/signature requirements."
+        },
+        {
+          "opinion_id": "09-147",
+          "score": 1,
+          "rationale": "Addresses campaign filing requirements under Section 84215 for officials who are also candidates; tangentially related to electronic campaign statement filing."
+        }
+      ]
     },
     {
       "text": "Our organization employs registered lobbyists who are also attorneys. Must we count time they spend representing us as intervenors in insurance ratemaking hearings before the Insurance Commissioner as reportable lobbying activity under the Act?",
@@ -4801,7 +5609,58 @@
       "issue": "lobbying_regulation",
       "notes": "Grounded in 89-629 (Consumers Union lobbyist-attorneys at insurance ratemaking hearings). Tests scope of 'administrative action' under Section 82002 for ratemaking proceedings.",
       "id": "q064",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "89-629",
+          "score": 2,
+          "rationale": "Directly addresses whether a lobbyist employer must allocate attorney time in Insurance Commissioner ratemaking hearings as reportable lobbying activity, analyzing the scope of 'administrative action.'"
+        },
+        {
+          "opinion_id": "89-486",
+          "score": 2,
+          "rationale": "Directly analyzes whether filings with the Department of Insurance for rate adjustments are ratemaking proceedings whose costs must be disclosed as lobbying activity."
+        },
+        {
+          "opinion_id": "88387",
+          "score": 2,
+          "rationale": "Directly addresses whether participation in PUC settlement conferences and workshops in ratemaking proceedings constitutes 'administrative testimony' requiring lobbying disclosure."
+        },
+        {
+          "opinion_id": "12-158",
+          "score": 2,
+          "rationale": "Analyzes lobbyist employer reporting for PUC ratemaking proceedings, including the distinction between reportable lobbying payments and non-reportable testimony; directly related administrative action analysis."
+        },
+        {
+          "opinion_id": "89-643",
+          "score": 1,
+          "rationale": "Addresses whether working with the Department of Fish and Game on a wetland determination constitutes lobbying, analyzing the definition of 'administrative action' under Section 82002."
+        },
+        {
+          "opinion_id": "05-193",
+          "score": 1,
+          "rationale": "Addresses post-employment restrictions and the scope of activities before administrative agencies; tangentially related to the definition of administrative action."
+        },
+        {
+          "opinion_id": "93-102",
+          "score": 1,
+          "rationale": "Addresses presenting testimony at a public hearing and whether it creates lobbying obligations; related to the scope of lobbying activities at administrative proceedings."
+        },
+        {
+          "opinion_id": "03-289",
+          "score": 1,
+          "rationale": "Addresses whether paying dues to a lobbyist employer organization triggers $5,000 filer reporting; related to lobbying reporting but about organizational dues rather than attorney ratemaking activity."
+        },
+        {
+          "opinion_id": "05-051",
+          "score": 1,
+          "rationale": "Addresses lobbying firm's obligations for filing Form 635s; related to lobbying disclosure but about filing mechanics rather than the scope of reportable activity."
+        },
+        {
+          "opinion_id": "97-532",
+          "score": 1,
+          "rationale": "Addresses State Bar's reporting responsibilities for internal lobbying expenditures; related to lobbyist employer reporting obligations."
+        }
+      ]
     },
     {
       "text": "A 501(c)(3) nonprofit dedicated to preserving the history of women in the California legislature is being formed. Several former state legislators who are now registered lobbyists have been invited to serve on its board of directors. The founder wants to know whether the Political Reform Act restricts lobbyists from serving in this capacity and what reporting obligations might arise if sitting legislators encourage donations to the organization.",
@@ -4810,7 +5669,58 @@
       "issue": "lobbying_regulation",
       "notes": "Grounded in 15-142 (Women in California Politics nonprofit). Tests the scope of lobbying regulation and behested payment reporting.",
       "id": "q065",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "15-142",
+          "score": 2,
+          "rationale": "Directly addresses whether the Act prohibits a lobbyist (former legislator) from serving on the board of directors of a nonprofit, analyzing the scope of lobbying restrictions on board service."
+        },
+        {
+          "opinion_id": "89-093",
+          "score": 2,
+          "rationale": "Directly addresses whether a lobbyist or lobbying firm may make a loan to a nonprofit organization having a director who is a public official, analyzing Section 86205(a)."
+        },
+        {
+          "opinion_id": "14-013",
+          "score": 2,
+          "rationale": "Addresses multiple questions about 501(c)(3) organizations that are also lobbyist employers, including gift provisions affecting lobbyists associated with nonprofits."
+        },
+        {
+          "opinion_id": "97-151",
+          "score": 1,
+          "rationale": "Analyzes whether a particular individual is a lobbyist under the Act given their relationship with a 501(c)(3); related to the intersection of lobbying status and nonprofit involvement."
+        },
+        {
+          "opinion_id": "I-20-017",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting for fundraising by a government official who chairs a board; related to reporting obligations when officials encourage donations."
+        },
+        {
+          "opinion_id": "I-19-056",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting for payments made in response to solicitations featuring an elected officer; related to the reporting obligation question."
+        },
+        {
+          "opinion_id": "07-176",
+          "score": 1,
+          "rationale": "Addresses whether donations collected by a councilmember for a charitable organization are reportable behested payments; related to the behested payment framework when officials encourage donations."
+        },
+        {
+          "opinion_id": "08-118",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting when elected officers attend tax assistance events and lobbyist gift provisions; related to both the lobbyist gift and behested payment aspects."
+        },
+        {
+          "opinion_id": "09-073",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting for PUC Commissioner solicitations; related to the behested payment reporting framework."
+        },
+        {
+          "opinion_id": "03-289",
+          "score": 1,
+          "rationale": "Addresses whether a hospital's dues to a lobbyist employer organization trigger reporting; tangentially related to nonprofit/lobbying regulatory overlap."
+        }
+      ]
     }
   ]
 }
