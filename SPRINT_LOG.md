@@ -144,43 +144,48 @@
 **Status:** Complete
 
 ### Completed
-- Generated 81 test queries covering all 5 topics and all 37 taxonomy issues
-- Populated `eval/dataset.json` with full taxonomy (copied from `eval/taxonomy.json`) and all queries
-- Read 40+ example opinions across all topics to ground queries in actual opinion content
+- Generated 65 test queries covering all 5 topics and all 37 taxonomy issues
+- Spawned 5 parallel subagents (one per topic) to read example opinions and generate grounded queries
+- Compiled results from all subagents, reviewed for coverage/balance/duplicates, assigned sequential IDs
+- Populated `eval/dataset.json` with full taxonomy (from `eval/taxonomy.json`) and all queries
 - Each query includes: `id`, `text`, `type`, `topic`, `issue`, `notes`, empty `relevance_judgments`
-- Validated: all IDs unique, all texts unique, all taxonomy issues covered, schema valid
+- Validated: all IDs unique (q001-q065), all texts unique, all 37 taxonomy issues covered, valid JSON
 
 ### Query Distribution
 
 | Topic | Queries | Target |
 |-------|---------|--------|
 | Conflicts of interest | 29 | 25-30 |
-| Campaign finance | 21 | 10-15 |
-| Gifts/honoraria | 10 | 5-8 |
-| Lobbying | 7 | 3-5 |
-| Other | 14 | 5-10 |
-| **Total** | **81** | **60-80** |
+| Campaign finance | 14 | 10-15 |
+| Gifts/honoraria | 7 | 5-8 |
+| Lobbying | 5 | 3-5 |
+| Other | 10 | 5-10 |
+| **Total** | **65** | **60-80** |
 
-| Query Type | Count |
-|-----------|-------|
-| keyword | 36 |
-| natural_language | 32 |
-| fact_pattern | 13 |
+| Query Type | Count | Percentage |
+|-----------|-------|------------|
+| keyword | 26 | 40.0% |
+| natural_language | 22 | 33.8% |
+| fact_pattern | 17 | 26.2% |
+
+All three types roughly equal, per SPEC.md guidance.
 
 ### Per-Issue Coverage
 - Every taxonomy issue has at least 1 query (minimum: 1, maximum: 3)
 - Priority CoI issues (business_entity_interest, real_property_proximity, source_of_income, personal_financial_effect, section_1090_self_dealing) each have 3 queries
-- All other issues have 2 queries each, except lobbyist_gift_restrictions which has 1
+- Standard CoI issues have 2 queries each; light CoI issues have 1-2 queries
+- Campaign finance: 1-2 queries per issue; gifts/honoraria: 1-2 per issue; lobbying: 1-2 per issue; other: 1-2 per issue
 
 ### Artifacts Created/Modified
-- `eval/dataset.json` — populated with taxonomy and 81 queries (empty relevance judgments)
+- `eval/dataset.json` — populated with taxonomy and 65 queries (empty relevance judgments)
 - `SPRINT_LOG.md` — updated with Sprint 3 entry
 
 ### Notes for Future Sprints
-- Campaign finance query count (21) exceeds the target range (10-15) but provides good coverage across the 10 campaign finance issues — each issue gets 2 queries with contribution_definition getting 3
-- Lobbying query count (7) slightly exceeds target (3-5) to ensure all 4 lobbying issues are covered with at least 1-2 queries each
-- Other topic count (14) exceeds target (5-10) because the 6 "other" issues span diverse areas that needed adequate representation
-- Fact pattern queries (13) are fewer than keyword (36) and natural language (32) — this is intentional as not all issues are complex enough for multi-sentence scenarios; richer topics (CoI, campaign finance) have more fact patterns
-- All queries are grounded in specific example opinions from the taxonomy — the `notes` field for each query records which opinions informed the query and difficulty level
+- All query counts are within or very close to target ranges
+- Type balance is well-distributed: keyword (40%), natural_language (34%), fact_pattern (26%)
+- Queries are ordered by topic (CoI → campaign → gifts → lobbying → other), then by issue (taxonomy order), then by type (keyword → NL → fact_pattern)
+- All queries are grounded in specific example opinions — the `notes` field for each query records which opinions informed the query and difficulty level
+- Dedicated topic subagents read 2-3 opinions per issue for grounding; the CoI subagent was most thorough (reading 40+ opinions for 12 issues)
 - The `relevance_judgments` arrays are all empty — these will be populated in Sprints 4-7
 - The `load_dataset` function in `src/scorer.py` will skip queries with empty relevance judgments, so the scorer won't produce meaningful output until judgments are added
+- 28 existing scorer tests all pass
