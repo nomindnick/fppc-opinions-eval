@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 An evaluation suite for search engines built to retrieve FPPC (Fair Political Practices Commission) advisory opinions. The corpus is ~14,100 opinions (1975–2025) covering California's Political Reform Act. The suite provides ground-truth queries with graded relevance judgments and a scoring harness to objectively measure search quality.
 
-**Current status:** Sprint 3 complete (65 queries generated). Next up: Sprint 4 (relevance judgments for CoI batch 1). See `SPRINT_LOG.md` for detailed progress and `IMPLEMENTATION_PLAN.md` for what's next.
+**Current status:** Sprint 5 complete (all 29 CoI queries judged, 393 total judgments). Next up: Sprint 6 (relevance judgments for campaign finance). See `SPRINT_LOG.md` for detailed progress and `IMPLEMENTATION_PLAN.md` for what's next.
 
 ## Commands
 

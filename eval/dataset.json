@@ -1809,7 +1809,68 @@
       "topic": "conflicts_of_interest",
       "issue": "personal_financial_effect",
       "notes": "Natural language question based on 00-017 (councilmember's adult son works for lumber company supplying developers). Key issue: adult children are not immediate family under the Act. Medium-hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "00-017",
+          "score": 2,
+          "rationale": "Directly addresses whether councilmember has conflict when decision affects adult son and son's employer. Core personal financial effect analysis for adult children."
+        },
+        {
+          "opinion_id": "02-254",
+          "score": 2,
+          "rationale": "Analyzes personal financial effect under 18703.5 when governmental decision affects official's adult daughter. Directly applies same legal framework as query."
+        },
+        {
+          "opinion_id": "02-306",
+          "score": 2,
+          "rationale": "Follow-up to 02-254 analyzing personal financial effect when adult daughter moves back into official's home. Same core legal question about adult child financial interests."
+        },
+        {
+          "opinion_id": "03-105",
+          "score": 2,
+          "rationale": "Planning commissioner's conflict regarding development proposal by son's employer. Directly tests whether adult child's employer creates personal financial effect."
+        },
+        {
+          "opinion_id": "03-098",
+          "score": 1,
+          "rationale": "Discusses giving coffee shop to adult child to avoid conflict. Related personal financial effect concepts but primary analysis is real property proximity and business entity interest."
+        },
+        {
+          "opinion_id": "85206",
+          "score": 1,
+          "rationale": "Analyzes all five 87103 interest categories including personal financial effect for nonprofit hospital trustee. Provides framework but different factual context than adult child scenario."
+        },
+        {
+          "opinion_id": "A-20-022",
+          "score": 1,
+          "rationale": "Comprehensive conflict analysis covering personal finances interest under 87103 and Regulation 18702.5(c). Related framework but focuses on business and real property interests."
+        },
+        {
+          "opinion_id": "10-042",
+          "score": 1,
+          "rationale": "Lists personal financial effects rule as one of five economic interests for board members. Related framework applied to nonprofit board dual membership."
+        },
+        {
+          "opinion_id": "90-389",
+          "score": 1,
+          "rationale": "Analyzes personal financial effect provision under 87103(e) in context of PUC member. Related statutory framework but different factual scenario."
+        },
+        {
+          "opinion_id": "88056",
+          "score": 1,
+          "rationale": "Cited by 85206; analyzes HMO hospital conflict of interest including personal financial effect assessment. Provides context on financial effect analysis."
+        },
+        {
+          "opinion_id": "89-054",
+          "score": 1,
+          "rationale": "Analyzes disqualification for CMAC member providing legal services to hospital. Related to 85206 citation chain on financial interest framework."
+        },
+        {
+          "opinion_id": "00-060",
+          "score": 1,
+          "rationale": "Discusses all five 87103 interest types including personal financial effect in context of county intersection improvement. Related general framework."
+        }
+      ]
     },
     {
       "id": "q014",
@@ -1818,7 +1879,68 @@
       "topic": "conflicts_of_interest",
       "issue": "personal_financial_effect",
       "notes": "Fact pattern based on A-20-022 (Fort Bragg councilmember with business interests near Mill Site). Tests public generally exception intersection with personal financial effect and real property proximity. Hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "A-20-022",
+          "score": 2,
+          "rationale": "Directly addresses the Fort Bragg Mill Site scenario described in the query. Analyzes councilmember's business interest near 420-acre redevelopment with public generally analysis."
+        },
+        {
+          "opinion_id": "90-067",
+          "score": 2,
+          "rationale": "Half Moon Bay councilmember with property in redevelopment area. Same core issue: official with real property interest in area subject to redevelopment plan, public generally argument rejected."
+        },
+        {
+          "opinion_id": "10-006",
+          "score": 2,
+          "rationale": "Directly analyzes public generally exception for councilmember with economic interests in redevelopment area. Same legal question about whether large-area redevelopment triggers public generally exception."
+        },
+        {
+          "opinion_id": "10-051",
+          "score": 2,
+          "rationale": "Rent control board commissioner with rental properties analyzes whether effect on official is indistinguishable from effect on public generally. Same legal framework for broad governmental decisions."
+        },
+        {
+          "opinion_id": "90-067b",
+          "score": 2,
+          "rationale": "Follow-up to 90-067 further analyzing whether Iverson may participate in redevelopment decisions. Directly addresses public generally exception in redevelopment context."
+        },
+        {
+          "opinion_id": "10-051A",
+          "score": 1,
+          "rationale": "Reconsideration of 10-051 with new facts about materiality presumption for real property interest. Extends public generally analysis in related context."
+        },
+        {
+          "opinion_id": "10-093",
+          "score": 1,
+          "rationale": "Another rent control board member's participation in annual rent increase decisions. Related public generally exception analysis with different facts."
+        },
+        {
+          "opinion_id": "86051",
+          "score": 1,
+          "rationale": "Squaw Valley ski resort employees as board directors. Analyzes disqualification with source of income and real property in recreational area context."
+        },
+        {
+          "opinion_id": "00-020",
+          "score": 1,
+          "rationale": "Councilmembers' participation in performing arts center decisions. Analyzes multiple economic interests and materiality with some public generally discussion."
+        },
+        {
+          "opinion_id": "10-027",
+          "score": 1,
+          "rationale": "Analyzes materiality standards and indirect interests in context of a decision affecting a broad area. Related analytical framework."
+        },
+        {
+          "opinion_id": "13-077",
+          "score": 1,
+          "rationale": "Water board member's interest in agricultural region. Discusses whether broad regional decisions trigger public generally exception."
+        },
+        {
+          "opinion_id": "95-127",
+          "score": 1,
+          "rationale": "Councilmember's participation in transient occupancy tax decisions. Related public generally exception analysis for broadly applicable tax decisions."
+        }
+      ]
     },
     {
       "id": "q015",
@@ -1827,7 +1949,68 @@
       "topic": "conflicts_of_interest",
       "issue": "section_1090_self_dealing",
       "notes": "Keyword query using canonical Section 1090 terminology. Grounded in multiple 1090 opinions. Easy difficulty due to standard legal vocabulary.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "14-012-1090",
+          "score": 2,
+          "rationale": "Directly analyzes Section 1090 self-dealing prohibition for councilmember entering Mills Act contract with city. Discusses void ab initio consequence."
+        },
+        {
+          "opinion_id": "89-541",
+          "score": 2,
+          "rationale": "Comprehensive analysis of Section 1090 prohibition on financial interest in contracts. Discusses void ab initio doctrine and statutory exceptions."
+        },
+        {
+          "opinion_id": "14-036-1090",
+          "score": 2,
+          "rationale": "Analyzes Section 1090 financial interest in contract with PG&E. Discusses remote interest exception under 1091 and void ab initio consequence of violation."
+        },
+        {
+          "opinion_id": "83A098",
+          "score": 2,
+          "rationale": "Directly addresses Section 1090 prohibition on council member selling services to city. Discusses scope of self-dealing prohibition and contract voiding."
+        },
+        {
+          "opinion_id": "A-20-046",
+          "score": 2,
+          "rationale": "Analyzes Section 1090 prohibition for board member appointment. Discusses financial interest doctrine and contract restrictions under 1090."
+        },
+        {
+          "opinion_id": "80A089",
+          "score": 1,
+          "rationale": "Discusses Section 1090 in context of council president's company. Mentions 1090 prohibition alongside PRA analysis."
+        },
+        {
+          "opinion_id": "76180",
+          "score": 1,
+          "rationale": "County supervisor as newspaper editor; mentions Section 1090 but FPPC declines jurisdiction on 1090 questions, referencing Attorney General."
+        },
+        {
+          "opinion_id": "82A189",
+          "score": 1,
+          "rationale": "References Section 1090 in context of potential conflicts of interest for two officials. Brief 1090 discussion."
+        },
+        {
+          "opinion_id": "83A253",
+          "score": 1,
+          "rationale": "Discusses Section 1090 liability alongside PRA disclosure requirements. Related contract self-dealing context."
+        },
+        {
+          "opinion_id": "77ADV-77-084",
+          "score": 1,
+          "rationale": "Councilman contracting with city for fire hydrant installation. Addresses Section 1090 conflict in contract context."
+        },
+        {
+          "opinion_id": "A-18-213",
+          "score": 1,
+          "rationale": "Analyzes whether council may approve contract when one member recuses under Section 1090. Discusses board-wide prohibition."
+        },
+        {
+          "opinion_id": "81A098",
+          "score": 1,
+          "rationale": "References Section 1090 in context of planning commissioner's brother's partnership. Mentions 1090 alongside PRA analysis."
+        }
+      ]
     },
     {
       "id": "q016",
@@ -1836,7 +2019,63 @@
       "topic": "conflicts_of_interest",
       "issue": "section_1090_self_dealing",
       "notes": "Natural language question based on 85206 (CMAC member as unpaid trustee of nonprofit hospital with Medi-Cal contract). Tests intersection of PRA business entity analysis with Section 1090. Medium-hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "85206",
+          "score": 2,
+          "rationale": "Directly addresses CMAC member as unpaid trustee of nonprofit hospital voting on Medi-Cal contract. Exact scenario described in query, analyzes both PRA and Section 1090."
+        },
+        {
+          "opinion_id": "88056",
+          "score": 2,
+          "rationale": "Attorney providing legal services to nonprofit HMO hospital. Analyzes conflict when voting on hospital-related contracts, closely related to 85206 scenario."
+        },
+        {
+          "opinion_id": "89-054",
+          "score": 2,
+          "rationale": "CMAC member providing legal services to hospital must disqualify from Medi-Cal contract decisions. Same institutional context as query (hospital/Medi-Cal)."
+        },
+        {
+          "opinion_id": "10-042",
+          "score": 2,
+          "rationale": "Board member serving on both nonprofit association and public district voting on fund allocation. Directly addresses dual-role conflict with nonprofit entity."
+        },
+        {
+          "opinion_id": "00-029",
+          "score": 1,
+          "rationale": "Discusses Section 1090 in context of government employee contracting with entity. Related 1090 analysis but different institutional setting."
+        },
+        {
+          "opinion_id": "90-124",
+          "score": 1,
+          "rationale": "Planning commissioner conflict of interest analysis under PRA. Related general framework for dual-role officials."
+        },
+        {
+          "opinion_id": "80A089",
+          "score": 1,
+          "rationale": "Council president who is also company president. Related dual-role conflict analysis under both PRA and Section 1090."
+        },
+        {
+          "opinion_id": "A-20-046",
+          "score": 1,
+          "rationale": "Board member appointment with potential Section 1090 issues. Related analysis of official with outside organizational ties."
+        },
+        {
+          "opinion_id": "92-125",
+          "score": 1,
+          "rationale": "Private industry council members voting on funding for their own organizations. Related dual-role conflict with nonprofit/public entity."
+        },
+        {
+          "opinion_id": "83A098",
+          "score": 1,
+          "rationale": "Council member selling services to city. Related Section 1090 self-dealing analysis applicable to contract-based conflicts."
+        },
+        {
+          "opinion_id": "A-18-155",
+          "score": 1,
+          "rationale": "Mayor's involvement in city contract with nonprofit Boys & Girls Club. Related scenario of official with ties to nonprofit contracting entity."
+        }
+      ]
     },
     {
       "id": "q017",
@@ -1845,7 +2084,63 @@
       "topic": "conflicts_of_interest",
       "issue": "section_1090_self_dealing",
       "notes": "Fact pattern testing Section 1090's board-wide prohibition. Grounded in the principle from opinions like 00-029 and 76180 that 1090 voids the contract entirely. Includes subcontractor complication. Hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "00-029",
+          "score": 2,
+          "rationale": "Analyzes Section 1090 in context of government employee with financial interest in contracting entity. Discusses board-wide prohibition on contract if any member has interest."
+        },
+        {
+          "opinion_id": "A-18-213",
+          "score": 2,
+          "rationale": "Directly analyzes whether council may approve contract when one member recuses under Section 1090. Addresses board-wide prohibition question."
+        },
+        {
+          "opinion_id": "89-541",
+          "score": 2,
+          "rationale": "Comprehensive Section 1090 analysis for public officer with financial interest in contractor. Discusses prohibition scope and subcontractor relationships."
+        },
+        {
+          "opinion_id": "14-007-1090",
+          "score": 2,
+          "rationale": "Water district director with interests in contracting entity. Directly analyzes Section 1090 prohibition and whether board can proceed if one member recuses."
+        },
+        {
+          "opinion_id": "15-007-1090",
+          "score": 1,
+          "rationale": "Consultant providing services to utility district clients. Discusses Section 1090 and remote interest exceptions in consulting/engineering context."
+        },
+        {
+          "opinion_id": "16-073-1090",
+          "score": 1,
+          "rationale": "Board member employed by engineering firm (Stantec) voting on contract award. Very similar factual pattern to query."
+        },
+        {
+          "opinion_id": "83A253",
+          "score": 1,
+          "rationale": "Discusses Section 1090 liability for official with financial interest in government contract. Related board-wide prohibition analysis."
+        },
+        {
+          "opinion_id": "80A076",
+          "score": 1,
+          "rationale": "Councilman with financial interests in company involved in city decision. Discusses Section 1090 alongside PRA analysis."
+        },
+        {
+          "opinion_id": "14-036-1090",
+          "score": 1,
+          "rationale": "Section 1090 analysis for council entering contract with entity in which member has interest. Related board-wide prohibition scenario."
+        },
+        {
+          "opinion_id": "78ADV-78-349",
+          "score": 1,
+          "rationale": "County contracting with supervisor's father for appraisals. Discusses Section 1090 in context of indirect financial interest in contracts."
+        },
+        {
+          "opinion_id": "76180",
+          "score": 1,
+          "rationale": "County supervisor conflict under Section 1090. Referenced as foundational 1090 opinion on scope of prohibition."
+        }
+      ]
     },
     {
       "id": "q018",
@@ -1854,7 +2149,68 @@
       "topic": "conflicts_of_interest",
       "issue": "post_employment",
       "notes": "Keyword query for post-employment restrictions. Grounded in 10-019 (retired OSHPD deputy director) and 00-035 (retired DPA employee). Easy difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "82A057",
+          "score": 2,
+          "rationale": "Former Board of Equalization auditor seeking post-employment advice. Directly analyzes Sections 87400-87408 revolving door provisions."
+        },
+        {
+          "opinion_id": "00-035",
+          "score": 2,
+          "rationale": "Directly asks whether one-year revolving door or permanent ban applies to former DPA employee. Core post-employment restriction analysis."
+        },
+        {
+          "opinion_id": "90-185",
+          "score": 2,
+          "rationale": "Former Prison Industry Board official's post-employment restrictions. Analyzes 87401 and 87402 revolving door prohibitions for former state officials."
+        },
+        {
+          "opinion_id": "A-20-027",
+          "score": 2,
+          "rationale": "Former CPUC employee's one-year ban analysis. Comprehensive application of Section 87400(b) and 87406 post-employment restrictions."
+        },
+        {
+          "opinion_id": "10-030",
+          "score": 2,
+          "rationale": "Former disaster official asking how long to wait before consulting. Detailed analysis of revolving door provisions including one-year and permanent bans."
+        },
+        {
+          "opinion_id": "89-034",
+          "score": 2,
+          "rationale": "Former YACA undersecretary's post-employment restrictions. Analyzes 87400(b), (c), and (d) provisions for former state official."
+        },
+        {
+          "opinion_id": "82A099",
+          "score": 1,
+          "rationale": "Former Coastal Commission employee and revolving door prohibitions 87400-87405. Discusses post-employment restrictions in coastal permit context."
+        },
+        {
+          "opinion_id": "84203",
+          "score": 1,
+          "rationale": "Analyzes Section 87400 post-employment restrictions for former Conservancy Board employee. Discusses permanent ban scope."
+        },
+        {
+          "opinion_id": "97-446",
+          "score": 1,
+          "rationale": "Discusses post-employment provisions for potential WestEd employment. Analyzes how revolving door affects joint powers agency transition."
+        },
+        {
+          "opinion_id": "00-072",
+          "score": 1,
+          "rationale": "Post-employment restrictions for former Employment Training Panel employee. Discusses one-year ban application."
+        },
+        {
+          "opinion_id": "98-295",
+          "score": 1,
+          "rationale": "Post-employment restrictions for former Parks and Recreation employee. Analyzes permanent ban and one-year ban provisions."
+        },
+        {
+          "opinion_id": "84002",
+          "score": 1,
+          "rationale": "Former Energy Commission employee's post-employment restrictions under 87400. Discusses scope of permanent and one-year bans."
+        }
+      ]
     },
     {
       "id": "q019",
@@ -1863,7 +2219,63 @@
       "topic": "conflicts_of_interest",
       "issue": "post_employment",
       "notes": "Natural language question based on 10-019 (retired OSHPD deputy director consulting on UCLA hospital construction lawsuit). Key issue: permanent ban exception when assisting the same side. Hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "10-019",
+          "score": 2,
+          "rationale": "Directly addresses retired OSHPD deputy director consulting on UCLA hospital construction lawsuit while assisting the state. Exact scenario from query with permanent ban exception analysis."
+        },
+        {
+          "opinion_id": "89-463",
+          "score": 2,
+          "rationale": "Former corrections agency official representing company on prison work. Analyzes permanent ban under 87400 for former official appearing on matters they supervised."
+        },
+        {
+          "opinion_id": "89-034",
+          "score": 2,
+          "rationale": "Former YACA undersecretary's ability to work for contractor on Folsom Prison project. Analyzes permanent ban exception when assisting same side as former agency."
+        },
+        {
+          "opinion_id": "00-139",
+          "score": 2,
+          "rationale": "Former Parks employee advising landowner on property sale to state. Analyzes permanent ban under 87400(c)(d) for former official assisting on matters they handled."
+        },
+        {
+          "opinion_id": "83A203",
+          "score": 1,
+          "rationale": "Former Parks official contracting with department. Discusses scope of permanent ban under Section 87400(c)."
+        },
+        {
+          "opinion_id": "82A110",
+          "score": 1,
+          "rationale": "Former Coastal Commission executive director's post-employment activities. Discusses incompatibility of former official's proposed activities with 87400."
+        },
+        {
+          "opinion_id": "90-185",
+          "score": 1,
+          "rationale": "Former state official's post-employment restrictions for representing private interests. Related permanent ban analysis."
+        },
+        {
+          "opinion_id": "00-035",
+          "score": 1,
+          "rationale": "Former DPA employee's post-employment restrictions. Discusses permanent ban application for former state officials."
+        },
+        {
+          "opinion_id": "A-20-027",
+          "score": 1,
+          "rationale": "Former CPUC employee's post-employment restrictions. Discusses one-year ban and agency appearance limitations."
+        },
+        {
+          "opinion_id": "10-030",
+          "score": 1,
+          "rationale": "Former disaster official's consulting restrictions. Discusses timing of post-employment restrictions for former state employees."
+        },
+        {
+          "opinion_id": "98-295",
+          "score": 1,
+          "rationale": "Former Parks employee's ability to represent foundation before former agency. Related permanent ban analysis for former officials."
+        }
+      ]
     },
     {
       "id": "q020",
@@ -1872,7 +2284,68 @@
       "topic": "conflicts_of_interest",
       "issue": "public_generally_exception",
       "notes": "Keyword query for the public generally exception. Grounded in 90-067 (Half Moon Bay councilmember in redevelopment area) and A-20-022 (Fort Bragg Mill Site). Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-067",
+          "score": 2,
+          "rationale": "Half Moon Bay councilmember's property in redevelopment area. Directly analyzes public generally exception under Regulation 18703 and significant segment analysis."
+        },
+        {
+          "opinion_id": "10-006",
+          "score": 2,
+          "rationale": "Councilmember's interests in redevelopment area. Comprehensive public generally exception analysis including significant segment determination."
+        },
+        {
+          "opinion_id": "A-20-022",
+          "score": 2,
+          "rationale": "Fort Bragg councilmember with business in Mill Site area. Analyzes public generally exception where many businesses affected by redevelopment."
+        },
+        {
+          "opinion_id": "79-153",
+          "score": 2,
+          "rationale": "Forest products industry as significant segment under Regulation 18703. Early foundational opinion on public generally exception and significant segment analysis."
+        },
+        {
+          "opinion_id": "94-164",
+          "score": 2,
+          "rationale": "Councilmembers participating in smoking ordinance decisions. Analyzes whether effect on officials is indistinguishable from effect on public generally."
+        },
+        {
+          "opinion_id": "10-051",
+          "score": 1,
+          "rationale": "Rent control board member with rental properties. Discusses public generally exception for broadly applicable decisions."
+        },
+        {
+          "opinion_id": "86051",
+          "score": 1,
+          "rationale": "Squaw Valley directors' employment interests. Discusses financial effect analysis with some public generally context."
+        },
+        {
+          "opinion_id": "87164",
+          "score": 1,
+          "rationale": "Sutter County supervisor and five-acre ranchette referendum. Discusses whether broad zoning decisions affect official same as public."
+        },
+        {
+          "opinion_id": "87267",
+          "score": 1,
+          "rationale": "Planning commissioners in wine industry participating in vineyard decisions. Related significant segment analysis."
+        },
+        {
+          "opinion_id": "95-127",
+          "score": 1,
+          "rationale": "Councilmember participating in transient occupancy tax decisions. Discusses whether broadly applicable tax triggers public generally exception."
+        },
+        {
+          "opinion_id": "90-067b",
+          "score": 1,
+          "rationale": "Follow-up to 90-067 on redevelopment plan participation. Further analysis of public generally exception application."
+        },
+        {
+          "opinion_id": "10-027",
+          "score": 1,
+          "rationale": "Discusses materiality standards and indirect interests. Related analytical framework for determining effect distinguishability."
+        }
+      ]
     },
     {
       "id": "q021",
@@ -1881,7 +2354,63 @@
       "topic": "conflicts_of_interest",
       "issue": "public_generally_exception",
       "notes": "Fact pattern based on 90-067 (Half Moon Bay councilmember with historic home in redevelopment area, disqualified despite public generally argument). Tests significant segment analysis. Medium-hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-067",
+          "score": 2,
+          "rationale": "Directly addresses the Half Moon Bay councilmember scenario described in query. Concludes official cannot participate despite public generally argument."
+        },
+        {
+          "opinion_id": "90-067a",
+          "score": 2,
+          "rationale": "Procedural follow-up addressing status of FPPC advice on Iverson/Half Moon Bay redevelopment. Part of the core opinion chain for this scenario."
+        },
+        {
+          "opinion_id": "90-067b",
+          "score": 2,
+          "rationale": "Substantive follow-up directly analyzing whether Iverson may participate in Half Moon Bay redevelopment decisions. Same scenario as query."
+        },
+        {
+          "opinion_id": "10-006",
+          "score": 2,
+          "rationale": "Councilmember with interests in redevelopment area. Directly addresses public generally exception in redevelopment context with significant segment analysis."
+        },
+        {
+          "opinion_id": "10-051",
+          "score": 2,
+          "rationale": "Official with property interest arguing effect is same as on other property owners generally. Same legal question about distinguishability of financial effect."
+        },
+        {
+          "opinion_id": "A-20-022",
+          "score": 1,
+          "rationale": "Fort Bragg councilmember with business near redevelopment. Related scenario testing public generally exception in large-area development context."
+        },
+        {
+          "opinion_id": "79-153",
+          "score": 1,
+          "rationale": "Foundational opinion on significant segment analysis under Regulation 18703. Related framework for determining public generally applicability."
+        },
+        {
+          "opinion_id": "94-164",
+          "score": 1,
+          "rationale": "Councilmembers affected by smoking ordinance. Related public generally analysis but different type of governmental decision."
+        },
+        {
+          "opinion_id": "86051",
+          "score": 1,
+          "rationale": "Board directors with employment interest in ski area decisions. Discusses financial effect analysis with public generally context."
+        },
+        {
+          "opinion_id": "10-093",
+          "score": 1,
+          "rationale": "Rent control board member's participation in annual rent increase. Related public generally exception analysis for broadly applicable decisions."
+        },
+        {
+          "opinion_id": "00-020",
+          "score": 1,
+          "rationale": "Councilmembers' participation in performing arts center decisions. Discusses multiple interests and materiality in context of broad public project."
+        }
+      ]
     },
     {
       "id": "q022",
@@ -1890,7 +2419,68 @@
       "topic": "conflicts_of_interest",
       "issue": "legally_required_participation",
       "notes": "Keyword query for the rule of necessity exception. Grounded in 98-224 and related opinions. Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "98-224",
+          "score": 2,
+          "rationale": "Directly analyzes legally required participation exception for airport commissioner with real property conflict. Foundational opinion on Regulation 18707 application."
+        },
+        {
+          "opinion_id": "00-027",
+          "score": 2,
+          "rationale": "Water quality board member's participation in wastewater project despite real property conflict. Discusses legally required participation when no alternative decision-maker exists."
+        },
+        {
+          "opinion_id": "86143",
+          "score": 2,
+          "rationale": "Directly addresses rule of necessity for city council hotel application when multiple members have conflicts. Analyzes quorum requirements under necessity doctrine."
+        },
+        {
+          "opinion_id": "90525",
+          "score": 2,
+          "rationale": "Discusses whether randomly selected council member may act under rule of necessity. Directly addresses legally required participation and quorum conflict scenarios."
+        },
+        {
+          "opinion_id": "80A074",
+          "score": 2,
+          "rationale": "Addresses legally required participation doctrine for San Francisco mayor's veto power. Analyzes whether doctrine applies when no substitute decision-maker exists."
+        },
+        {
+          "opinion_id": "A-19-122",
+          "score": 1,
+          "rationale": "Discusses Act and Section 1090 prohibitions including legally required participation framework. Related conflict analysis but not focused on necessity doctrine."
+        },
+        {
+          "opinion_id": "10-006",
+          "score": 1,
+          "rationale": "Councilmember's participation in redevelopment decisions. Discusses exceptions to disqualification including public generally but references necessity framework."
+        },
+        {
+          "opinion_id": "98-220",
+          "score": 1,
+          "rationale": "Analyzes conflict of interest for TV station owner on public access committee. References disqualification framework that underlies legally required participation."
+        },
+        {
+          "opinion_id": "84062",
+          "score": 1,
+          "rationale": "Discusses rule of necessity in context where conflicted council member's vote might be needed. References legally required participation principles."
+        },
+        {
+          "opinion_id": "84226",
+          "score": 1,
+          "rationale": "Analyzes legally required participation for conflicted board member. Discusses Regulation 18707 quorum-related exception."
+        },
+        {
+          "opinion_id": "07-041",
+          "score": 1,
+          "rationale": "Cited by 98-224; discusses conflict of interest disqualification framework. Related to legally required participation chain."
+        },
+        {
+          "opinion_id": "00-224",
+          "score": 1,
+          "rationale": "Follow-up in 98-224 citation chain. Discusses conflict disqualification and potential necessity exception."
+        }
+      ]
     },
     {
       "id": "q023",
@@ -1899,7 +2489,63 @@
       "topic": "conflicts_of_interest",
       "issue": "legally_required_participation",
       "notes": "Natural language question testing the rule of necessity / legally required participation exception when disqualification prevents action. Grounded in Regulation 18707 opinions. Easy-medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "98-224",
+          "score": 2,
+          "rationale": "Airport commissioner asking whether conflicted member may participate. Directly applies Regulation 18707 legally required participation when quorum would be lost."
+        },
+        {
+          "opinion_id": "86143",
+          "score": 2,
+          "rationale": "City council with multiple conflicted members on hotel application. Directly addresses whether rule of necessity permits participation to maintain quorum."
+        },
+        {
+          "opinion_id": "90525",
+          "score": 2,
+          "rationale": "Addresses whether randomly selected member may participate under rule of necessity when regular members have conflicts. Core quorum-conflict scenario."
+        },
+        {
+          "opinion_id": "80A074",
+          "score": 2,
+          "rationale": "Mayor's legally required participation in veto when no substitute exists. Directly addresses participation exception when no other official can act."
+        },
+        {
+          "opinion_id": "00-027",
+          "score": 1,
+          "rationale": "Water board member's participation despite conflict. Discusses whether member must participate when no alternative decision-maker available."
+        },
+        {
+          "opinion_id": "84226",
+          "score": 1,
+          "rationale": "Board member conflict and legally required participation. Discusses Regulation 18707 quorum exception."
+        },
+        {
+          "opinion_id": "84062",
+          "score": 1,
+          "rationale": "Rule of necessity discussion for council member participation. Related to quorum scenarios."
+        },
+        {
+          "opinion_id": "97-294",
+          "score": 1,
+          "rationale": "Multiple directors with conflicts affecting affiliation decisions. Discusses what happens when three or more directors have conflicts preventing quorum."
+        },
+        {
+          "opinion_id": "07-121",
+          "score": 1,
+          "rationale": "In 98-224 citation chain. Discusses conflict disqualification framework relevant to necessity exception."
+        },
+        {
+          "opinion_id": "11-146",
+          "score": 1,
+          "rationale": "In 98-224 citation chain. Discusses disqualification and potential necessity exception scenarios."
+        },
+        {
+          "opinion_id": "13-093",
+          "score": 1,
+          "rationale": "In 98-224 citation chain. Discusses conflict and disqualification in context where quorum may be affected."
+        }
+      ]
     },
     {
       "id": "q024",
@@ -1908,7 +2554,68 @@
       "topic": "conflicts_of_interest",
       "issue": "remote_minimal_interest",
       "notes": "Keyword query for remote and noninterest exceptions to Section 1090. Grounded in 76206 and 92-125. Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "14-036-1090",
+          "score": 2,
+          "rationale": "Directly analyzes Section 1091 remote interest exception for councilmember's interest in PG&E contract. Discusses abstention requirements under 1091."
+        },
+        {
+          "opinion_id": "89-541",
+          "score": 2,
+          "rationale": "Comprehensive Section 1090/1091 analysis discussing remote interest and noninterest exceptions for public officer with financial interest in contract."
+        },
+        {
+          "opinion_id": "14-153-1090",
+          "score": 2,
+          "rationale": "Analyzes Section 1091 and 1091.5 exceptions for Visit California commissioners with hotel company interests. Discusses specific remote/noninterest categories."
+        },
+        {
+          "opinion_id": "A-20-046",
+          "score": 2,
+          "rationale": "Analyzes Section 1091 remote interest exception for FCTA board member. Discusses whether official's interest qualifies for statutory exception."
+        },
+        {
+          "opinion_id": "15-027-1090",
+          "score": 2,
+          "rationale": "Analyzes Section 1091 and 1091.5 exceptions for city council lease/contract with nonprofit. Discusses remote interest and abstention requirements."
+        },
+        {
+          "opinion_id": "76206",
+          "score": 1,
+          "rationale": "Early opinion referencing Section 1091.5 noninterest exception. Foundational but limited analysis of remote interest doctrine."
+        },
+        {
+          "opinion_id": "82A111",
+          "score": 1,
+          "rationale": "Discusses Section 1091 and 1092 in context of government employee contract. References remote interest provisions."
+        },
+        {
+          "opinion_id": "92-125",
+          "score": 1,
+          "rationale": "Private industry council members and JTPA funding. Discusses Section 1090/1091 in context of organizational funding conflicts."
+        },
+        {
+          "opinion_id": "14-007-1090",
+          "score": 1,
+          "rationale": "Water district director's interest in project partner. Discusses Section 1091 exceptions alongside Section 1090 analysis."
+        },
+        {
+          "opinion_id": "16-156-1090",
+          "score": 1,
+          "rationale": "Noninterest exception under Section 1091.5(a)(8) for volunteer commissioner. Analyzes specific noninterest category."
+        },
+        {
+          "opinion_id": "85049",
+          "score": 1,
+          "rationale": "Discusses Section 1090/1091 in context of county productivity committee. References remote interest provisions."
+        },
+        {
+          "opinion_id": "15-059-1090",
+          "score": 1,
+          "rationale": "Councilmember and wife's employer contract. Discusses Section 1091 remote interest exception in spousal context."
+        }
+      ]
     },
     {
       "id": "q025",
@@ -1917,7 +2624,63 @@
       "topic": "conflicts_of_interest",
       "issue": "remote_minimal_interest",
       "notes": "Fact pattern testing remote interest exception for minor ownership stakes. Grounded in 1091 exception categories. Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "14-036-1090",
+          "score": 2,
+          "rationale": "Analyzes whether councilmember's financial interest in corporation qualifies for remote interest exception under 1091. Directly addresses ownership stake threshold."
+        },
+        {
+          "opinion_id": "14-153-1090",
+          "score": 2,
+          "rationale": "Analyzes Section 1091 remote interest exception for commissioners with financial interests in hotel companies. Discusses qualifying interest categories."
+        },
+        {
+          "opinion_id": "A-20-046",
+          "score": 2,
+          "rationale": "Board member's financial interest in contracting entity and Section 1091 remote interest analysis. Discusses whether interest qualifies as remote under statutory categories."
+        },
+        {
+          "opinion_id": "16-239-1090",
+          "score": 2,
+          "rationale": "Board members with HOA membership interests. Analyzes whether small ownership/membership interest qualifies for Section 1091 remote interest exception."
+        },
+        {
+          "opinion_id": "88222",
+          "score": 1,
+          "rationale": "Discusses whether interest is less than remote. Analyzes de minimis financial interest concept in Section 1090 context."
+        },
+        {
+          "opinion_id": "15-027-1090",
+          "score": 1,
+          "rationale": "Section 1091 and 1091.5 analysis for city lease with nonprofit. Related remote interest exception discussion."
+        },
+        {
+          "opinion_id": "82A111",
+          "score": 1,
+          "rationale": "References Section 1091 remote interest provisions. Early analysis of remote interest exceptions to 1090."
+        },
+        {
+          "opinion_id": "89-541",
+          "score": 1,
+          "rationale": "Section 1090/1091 analysis with remote interest exception discussion. Discusses what constitutes qualifying interest."
+        },
+        {
+          "opinion_id": "14-007-1090",
+          "score": 1,
+          "rationale": "Water district director's interest analysis under 1090/1091. Related remote interest exception discussion."
+        },
+        {
+          "opinion_id": "76206",
+          "score": 1,
+          "rationale": "References Section 1091.5 noninterest exception for councilmen with spousal employment interests. Early remote interest analysis."
+        },
+        {
+          "opinion_id": "92-125",
+          "score": 1,
+          "rationale": "Industry council members' interests in JTPA funding. Discusses Section 1090/1091 exceptions for organizational membership."
+        }
+      ]
     },
     {
       "id": "q026",
@@ -1926,7 +2689,63 @@
       "topic": "conflicts_of_interest",
       "issue": "spousal_community_property",
       "notes": "Keyword query for spousal community property interest attribution. Grounded in 76206 (councilmen with spouses employed at hotel) and 90-366. Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-366",
+          "score": 2,
+          "rationale": "Directly addresses reporting requirements for spouse's income under community property. Analyzes how spousal employment creates reportable source of income."
+        },
+        {
+          "opinion_id": "00-129",
+          "score": 2,
+          "rationale": "School district board member with spouse employed by district. Directly analyzes conflict of interest from spousal employment and community property attribution."
+        },
+        {
+          "opinion_id": "10-055",
+          "score": 2,
+          "rationale": "Board member with indirect interest in spouse's PG&E stock. Analyzes spousal community property interest attribution under Section 87103."
+        },
+        {
+          "opinion_id": "80A078",
+          "score": 2,
+          "rationale": "City council member's husband employed by same city. Directly addresses spousal employment conflict under 87100 community property framework."
+        },
+        {
+          "opinion_id": "78ADV-78-089",
+          "score": 2,
+          "rationale": "School board candidate whose wife is tenured teacher. Directly analyzes community property share of spouse's salary as disqualifying interest."
+        },
+        {
+          "opinion_id": "76057",
+          "score": 1,
+          "rationale": "Councilwoman's disclosure obligations for spouse's law clients. Discusses spousal disclosure requirements but focused on reporting rather than disqualification."
+        },
+        {
+          "opinion_id": "76206",
+          "score": 1,
+          "rationale": "Councilmen with spouses employed at hotel. Discusses community property analysis for spousal employment interests."
+        },
+        {
+          "opinion_id": "78ADV-78-126",
+          "score": 1,
+          "rationale": "Spouse of council member in business partnership. Discusses whether spousal business relationships create conflicts."
+        },
+        {
+          "opinion_id": "77ADV-77-113",
+          "score": 1,
+          "rationale": "Filing requirements for separate and community property interests. Discusses reporting husband's business interests."
+        },
+        {
+          "opinion_id": "76107",
+          "score": 1,
+          "rationale": "School board member whose spouse is school employee in salary negotiations. Related spousal conflict scenario."
+        },
+        {
+          "opinion_id": "76504",
+          "score": 1,
+          "rationale": "Discusses aggregation of gifts by spouse under campaign contribution rules. Related spousal interest attribution concept."
+        }
+      ]
     },
     {
       "id": "q027",
@@ -1935,7 +2754,63 @@
       "topic": "conflicts_of_interest",
       "issue": "spousal_community_property",
       "notes": "Natural language question based on 90-366 (school board reporting requirements for spouse's income via community property). Tests understanding of community property attribution. Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-366",
+          "score": 2,
+          "rationale": "Directly addresses school board member's reporting requirements for spouse's income. Analyzes whether husband's employer is reportable source under community property."
+        },
+        {
+          "opinion_id": "00-129",
+          "score": 2,
+          "rationale": "School district board member with spouse as district teacher. Same scenario: whether spouse's employment creates disqualifying interest for board member."
+        },
+        {
+          "opinion_id": "76107",
+          "score": 2,
+          "rationale": "School board member whose spouse is school employee in salary negotiations. Directly addresses whether spousal employment in district creates conflict."
+        },
+        {
+          "opinion_id": "78ADV-78-089",
+          "score": 2,
+          "rationale": "School board candidate with wife as tenured teacher. Community property share of spouse's salary analyzed as potential disqualifying interest."
+        },
+        {
+          "opinion_id": "80A078",
+          "score": 1,
+          "rationale": "Council member with husband employed by city. Related spousal employment conflict but in municipal rather than school context."
+        },
+        {
+          "opinion_id": "10-055",
+          "score": 1,
+          "rationale": "Board member's indirect interest in spouse's stock ownership. Related community property attribution analysis but different type of interest."
+        },
+        {
+          "opinion_id": "76057",
+          "score": 1,
+          "rationale": "Councilwoman's disclosure for spouse's law clients. Related reporting requirements for spousal interests."
+        },
+        {
+          "opinion_id": "77ADV-77-113",
+          "score": 1,
+          "rationale": "Filing requirements including husband's business interests as community property. Related reporting framework."
+        },
+        {
+          "opinion_id": "78ADV-78-126",
+          "score": 1,
+          "rationale": "Spouse member of city council with husband's business interests. Related community property conflict analysis."
+        },
+        {
+          "opinion_id": "76206",
+          "score": 1,
+          "rationale": "Councilmen with spouses employed by regulated entity. Related spousal employment interest analysis."
+        },
+        {
+          "opinion_id": "15-059-1090",
+          "score": 1,
+          "rationale": "Councilmember's wife's employer in city budget decisions. Related spousal employment conflict under both Act and Section 1090."
+        }
+      ]
     },
     {
       "id": "q028",
@@ -1944,7 +2819,63 @@
       "topic": "conflicts_of_interest",
       "issue": "common_law_conflicts",
       "notes": "Keyword query for common law conflict of interest doctrine. Grounded in 83A059 (stockbroker councilman with developer client) and People v. Darby citation. Hard difficulty due to less-common terminology.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "83A059",
+          "score": 2,
+          "rationale": "Councilman/stockbroker with developer client. Discusses common law conflict of interest beyond PRA, including fiduciary duty concepts."
+        },
+        {
+          "opinion_id": "84020",
+          "score": 2,
+          "rationale": "Directly discusses common law conflict of interest doctrine and its application separate from Political Reform Act. Addresses fiduciary duty of public officials."
+        },
+        {
+          "opinion_id": "08-140",
+          "score": 2,
+          "rationale": "Analyzes common law conflict of interest principles. Discusses fiduciary duty and appearance of conflict independent of PRA statutory framework."
+        },
+        {
+          "opinion_id": "A-19-071",
+          "score": 2,
+          "rationale": "Councilmember expending campaign funds for attorney's fees based on alleged common law conflict of interest. Directly discusses common law conflict doctrine."
+        },
+        {
+          "opinion_id": "09-016",
+          "score": 2,
+          "rationale": "Analyzes common law conflict of interest. Discusses doctrine's application independent of Political Reform Act."
+        },
+        {
+          "opinion_id": "92-614",
+          "score": 1,
+          "rationale": "Discusses incompatible offices doctrine. Related common law conflict concept addressing dual-office holding."
+        },
+        {
+          "opinion_id": "85245",
+          "score": 1,
+          "rationale": "Discusses incompatible offices doctrine. Related common law conflict concept."
+        },
+        {
+          "opinion_id": "87253",
+          "score": 1,
+          "rationale": "Water agency director and city council member. Discusses common law conflict concerns from dual public roles."
+        },
+        {
+          "opinion_id": "90686",
+          "score": 1,
+          "rationale": "Bond counsel/redevelopment conflict. Discusses common law fiduciary duty and conflict of interest beyond PRA."
+        },
+        {
+          "opinion_id": "11-201",
+          "score": 1,
+          "rationale": "Discusses common law conflict of interest principles. Related analysis of non-statutory conflict doctrine."
+        },
+        {
+          "opinion_id": "08-026",
+          "score": 1,
+          "rationale": "Architectural firm employee and school district contractor. Discusses conflict of interest with fiduciary duty elements."
+        }
+      ]
     },
     {
       "id": "q029",
@@ -1953,7 +2884,63 @@
       "topic": "conflicts_of_interest",
       "issue": "common_law_conflicts",
       "notes": "Fact pattern based on 83A059 (Chula Vista councilman/stockbroker with engineer-developer client). Tests whether search engine finds opinions addressing common law conflict beyond PRA statutory framework. Hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "83A059",
+          "score": 2,
+          "rationale": "Directly addresses Chula Vista councilman/stockbroker whose client is engineer-developer. Exact scenario from query analyzing common law conflict beyond PRA."
+        },
+        {
+          "opinion_id": "84020",
+          "score": 2,
+          "rationale": "Discusses common law conflict of interest for official with personal business relationships with parties appearing before governing body. Same core legal question."
+        },
+        {
+          "opinion_id": "08-140",
+          "score": 2,
+          "rationale": "Analyzes common law conflict principles for official with personal business relationship creating appearance of bias. Same legal question as query."
+        },
+        {
+          "opinion_id": "A-19-071",
+          "score": 1,
+          "rationale": "Common law conflict litigation involving councilmember. Related common law conflict doctrine but focused on campaign expenditure question."
+        },
+        {
+          "opinion_id": "09-016",
+          "score": 1,
+          "rationale": "Common law conflict of interest analysis. Related doctrine but different factual context."
+        },
+        {
+          "opinion_id": "90686",
+          "score": 1,
+          "rationale": "Bond counsel with personal business relationship to redevelopment parties. Related common law fiduciary duty conflict scenario."
+        },
+        {
+          "opinion_id": "11-201",
+          "score": 1,
+          "rationale": "Common law conflict analysis. Related doctrine discussing personal relationships creating appearance of conflict."
+        },
+        {
+          "opinion_id": "08-026",
+          "score": 1,
+          "rationale": "Employee of firm contracting with school district. Related conflict from personal business connections to government contracting parties."
+        },
+        {
+          "opinion_id": "79-108-b",
+          "score": 1,
+          "rationale": "Discusses financial interest analysis for official with business entity connections. Related PRA framework often analyzed alongside common law."
+        },
+        {
+          "opinion_id": "87253",
+          "score": 1,
+          "rationale": "Dual-role official with potential common law conflict concerns. Related scenario of official with multiple roles."
+        },
+        {
+          "opinion_id": "A-20-096",
+          "score": 1,
+          "rationale": "Discusses common law conflict of interest principles. Related analysis of non-statutory conflict doctrine."
+        }
+      ]
     },
     {
       "text": "82015 contribution definition payment political purpose behest candidate",
@@ -2185,7 +3172,7 @@
       "type": "fact_pattern",
       "topic": "lobbying",
       "issue": "lobbyist_conduct_prohibitions",
-      "notes": "Grounded in 08-147 (Murdoch Walrath & Holmes school facility consulting). Tests whether awarding a grant constitutes administrative action — it does not under Regulation 18202(a)(6), so the contingency fee ban does not apply.",
+      "notes": "Grounded in 08-147 (Murdoch Walrath & Holmes school facility consulting). Tests whether awarding a grant constitutes administrative action \u2014 it does not under Regulation 18202(a)(6), so the contingency fee ban does not apply.",
       "id": "q055",
       "relevance_judgments": []
     },

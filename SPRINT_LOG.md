@@ -230,3 +230,65 @@ All three types roughly equal, per SPEC.md guidance.
 - Source of income (q007-q009) has strong coverage; many opinions address employer vs. contract income identification
 - Search strategies used: statute citation grep (87103(a)-(e)), keyword content search across qa_text, and citation chain following from taxonomy examples
 - All 28 scorer unit tests continue to pass
+
+## Sprint 5: Relevance Judgments — CoI Batch 2 (q013-q029)
+**Date:** 2026-02-12
+**Branch:** sprint-5/relevance-coi-batch2
+**Status:** Complete
+
+### Completed
+- Populated relevance judgments for 17 queries (q013-q029) covering 7 remaining conflicts of interest issues
+- Spawned 4 parallel researcher agents organized by issue batch, each using keyword search, statute/topic filtering, and citation chain following
+- All 194 judgment opinion IDs verified to exist in corpus; all judgments include rationales
+- Dataset loads correctly via `src/scorer.py`; all 28 unit tests pass
+
+### Judgment Summary
+
+| Query | Issue | Type | Judged | Score 2 | Score 1 |
+|-------|-------|------|--------|---------|---------|
+| q013 | personal_financial_effect | natural_language | 12 | 4 | 8 |
+| q014 | personal_financial_effect | fact_pattern | 12 | 5 | 7 |
+| q015 | section_1090_self_dealing | keyword | 12 | 5 | 7 |
+| q016 | section_1090_self_dealing | natural_language | 11 | 4 | 7 |
+| q017 | section_1090_self_dealing | fact_pattern | 11 | 4 | 7 |
+| q018 | post_employment | keyword | 12 | 6 | 6 |
+| q019 | post_employment | natural_language | 11 | 4 | 7 |
+| q020 | public_generally_exception | keyword | 12 | 5 | 7 |
+| q021 | public_generally_exception | fact_pattern | 11 | 5 | 6 |
+| q022 | legally_required_participation | keyword | 12 | 5 | 7 |
+| q023 | legally_required_participation | natural_language | 11 | 4 | 7 |
+| q024 | remote_minimal_interest | keyword | 12 | 5 | 7 |
+| q025 | remote_minimal_interest | natural_language | 11 | 4 | 7 |
+| q026 | spousal_community_property | keyword | 11 | 5 | 6 |
+| q027 | spousal_community_property | natural_language | 11 | 4 | 7 |
+| q028 | common_law_conflicts | keyword | 11 | 5 | 6 |
+| q029 | common_law_conflicts | fact_pattern | 11 | 3 | 8 |
+| **Total** | | | **194** | **77** | **117** |
+
+### Issues Covered (7 new, completing all 12 CoI issues)
+| # | Issue | Queries |
+|---|-------|---------|
+| 5 | personal_financial_effect | q013, q014 (+ q012 from Sprint 4) |
+| 6 | section_1090_self_dealing | q015, q016, q017 |
+| 7 | post_employment | q018, q019 |
+| 8 | public_generally_exception | q020, q021 |
+| 9 | legally_required_participation | q022, q023 |
+| 10 | remote_minimal_interest | q024, q025 |
+| 11 | spousal_community_property | q026, q027 |
+| 12 | common_law_conflicts | q028, q029 |
+
+### Artifacts Created/Modified
+- `eval/dataset.json` — populated relevance_judgments for q013-q029 (194 new judgments; 393 total with Sprint 4)
+- `SPRINT_LOG.md` — updated with Sprint 5 entry
+
+### Notes for Future Sprints
+- Average 11.4 judgments per query, above 10 minimum; average 4.5 score-2 per query, above 2-3 minimum
+- All 29 CoI queries (q001-q029) now have judgments — conflicts of interest topic is fully judged
+- Common law conflicts (q028-q029) is the thinnest area; fewer opinions explicitly use "common law conflict" terminology
+- Post-employment (q018-q019) has rich coverage; Section 87400 opinions are well-indexed
+- Section 1090 opinions (q015-q017) required cross-referencing both PRA and Government Code Section 1090 analysis
+- Public generally exception (q020-q021) and legally required participation (q022-q023) had strong citation chains from foundational opinions (90-067, 98-224)
+- Remote/noninterest exceptions (q024-q025) benefited from the -1090 suffixed opinion series (post-2014)
+- Spousal/community property (q026-q027) drew heavily from 1970s-era opinions when the topic was frequently addressed
+- Remaining work: Campaign finance (q030-q043), gifts/honoraria (q044-q050), lobbying (q051-q055), other (q056-q065)
+- All 28 scorer unit tests continue to pass
