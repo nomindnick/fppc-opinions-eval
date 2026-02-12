@@ -71,3 +71,69 @@
 - Many opinions address multiple issues simultaneously (e.g., both 87103(a) and 1090)
 - Example opinion IDs are intentionally spread across decades (1970s-2020s) for diversity
 - Classification method is `heuristic:citation_based` — some edge cases may be misclassified
+
+## Sprint 2: Remaining Topics Taxonomy
+**Date:** 2026-02-11
+**Branch:** sprint-2/remaining-taxonomy
+**Status:** Complete
+
+### Completed
+- Extended `eval/taxonomy.json` with 4 new topic categories: campaign_finance, gifts_honoraria, lobbying, other
+- Identified 25 new issues across the 4 topics (37 total with existing 12 CoI issues)
+- All 174 example opinion IDs verified to exist in `data/extracted/` and match their topic_primary
+- No duplicate example opinions within any topic
+- Used 4 parallel researcher subagents to sample 80+ opinions across the corpus
+
+### Taxonomy Issues by Topic
+
+**Campaign Finance (10 issues)**
+| # | ID | Name | Key Statutes | Examples |
+|---|-----|------|-------------|----------|
+| 1 | `contribution_definition` | Contribution Definition and Political Purpose | 82015, 82007 | 5 |
+| 2 | `campaign_fund_use` | Use of Campaign Funds | 85800-85802 | 5 |
+| 3 | `mass_mailing` | Mass Mailing at Public Expense | 89001, 89002 | 4 |
+| 4 | `pay_to_play_disqualification` | Section 84308 Pay-to-Play | 84308 | 3 |
+| 5 | `campaign_reporting_disclosure` | Campaign Reporting and Disclosure | 84200-84216 | 5 |
+| 6 | `contribution_limits_transfers` | Contribution Limits and Transfers | 85301-85304 | 4 |
+| 7 | `independent_expenditures` | Independent Expenditures and Coordination | 82031, 85500 | 5 |
+| 8 | `member_communications` | Member Communications Exception | 85312 | 4 |
+| 9 | `behested_payments` | Behested Payment Reporting | 84224 | 5 |
+| 10 | `committee_formation_management` | Committee Formation and Management | 82013, 85201 | 4 |
+
+**Gifts and Honoraria (5 issues)**
+| # | ID | Name | Key Statutes | Examples |
+|---|-----|------|-------------|----------|
+| 1 | `honoraria_ban_and_exceptions` | Honoraria Ban and Exceptions | 89501, 89502 | 5 |
+| 2 | `gift_limits_and_applicability` | Gift Limits and Applicability | 89503 | 4 |
+| 3 | `gift_definition_and_valuation` | Gift Definition and Valuation | 82028 | 4 |
+| 4 | `travel_payment_exceptions` | Travel Payment Exceptions | 89506 | 4 |
+| 5 | `campaign_fund_personal_use` | Campaign Fund Personal Use | 89510-89519 | 5 |
+
+**Lobbying (4 issues)**
+| # | ID | Name | Key Statutes | Examples |
+|---|-----|------|-------------|----------|
+| 1 | `lobbyist_registration_and_certification` | Lobbyist Registration and Certification | 86100-86107, 86300 | 5 |
+| 2 | `lobbying_disclosure_and_reporting` | Lobbying Disclosure and Reporting | 86115-86117 | 5 |
+| 3 | `lobbyist_gift_restrictions` | Lobbyist Gift Restrictions | 86201-86204 | 4 |
+| 4 | `lobbyist_conduct_prohibitions` | Lobbyist Conduct Prohibitions | 86205 | 5 |
+
+**Other (6 issues)**
+| # | ID | Name | Key Statutes | Examples |
+|---|-----|------|-------------|----------|
+| 1 | `mass_mailing_restrictions` | Mass Mailing at Public Expense | 89001 | 5 |
+| 2 | `permissible_campaign_fund_use` | Permissible Use of Campaign Funds | 85800-85802 | 5 |
+| 3 | `sei_and_conflict_of_interest_codes` | SEI and Conflict of Interest Codes | 87200, 87300 | 5 |
+| 4 | `jurisdiction_and_agency_coverage` | Jurisdiction and Agency Coverage | 82003, 82041 | 5 |
+| 5 | `campaign_reporting_and_disclosure` | Campaign Reporting and Disclosure | 84200, 90001 | 5 |
+| 6 | `lobbying_regulation` | Lobbying Registration and Restrictions | 86100, 86116 | 5 |
+
+### Artifacts Created/Modified
+- `eval/taxonomy.json` — expanded from 1 topic/12 issues to 5 topics/37 issues, 174 example opinions
+- `SPRINT_LOG.md` — updated with Sprint 2 entry
+
+### Notes for Future Sprints
+- Campaign finance is the largest new topic (2,395 opinions, 10 issues) — issues like contribution_definition and campaign_fund_use overlap conceptually but are distinguished by statute focus
+- The "other" topic contains opinions that touch campaign finance, lobbying, and SEI topics but were classified as "other" by the heuristic classifier — these are often procedural/jurisdictional questions rather than substantive ones
+- Some campaign_finance issues (mass_mailing, behested_payments) have relatively few opinions (3-4 examples) — may need supplementation during query generation
+- Lobbying is the smallest topic (180 opinions, 4 issues) — good coverage but thin corpus
+- Gifts/honoraria has significant overlap between gift_definition_and_valuation and gift_limits_and_applicability — consider merging if query generation yields redundant results
