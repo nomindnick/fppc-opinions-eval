@@ -168,7 +168,7 @@
 | natural_language | 22 | 33.8% |
 | fact_pattern | 17 | 26.2% |
 
-All three types within the 20-40% acceptable range per SPEC.md.
+All three types roughly equal, per SPEC.md guidance.
 
 ### Per-Issue Coverage
 - Every taxonomy issue has at least 1 query (minimum: 1, maximum: 3)
