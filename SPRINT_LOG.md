@@ -137,3 +137,50 @@
 - Some campaign_finance issues (mass_mailing, behested_payments) have relatively few opinions (3-4 examples) — may need supplementation during query generation
 - Lobbying is the smallest topic (180 opinions, 4 issues) — good coverage but thin corpus
 - Gifts/honoraria has significant overlap between gift_definition_and_valuation and gift_limits_and_applicability — consider merging if query generation yields redundant results
+
+## Sprint 3: Query Generation
+**Date:** 2026-02-11
+**Branch:** sprint-3/query-generation
+**Status:** Complete
+
+### Completed
+- Generated 81 test queries covering all 5 topics and all 37 taxonomy issues
+- Populated `eval/dataset.json` with full taxonomy (copied from `eval/taxonomy.json`) and all queries
+- Read 40+ example opinions across all topics to ground queries in actual opinion content
+- Each query includes: `id`, `text`, `type`, `topic`, `issue`, `notes`, empty `relevance_judgments`
+- Validated: all IDs unique, all texts unique, all taxonomy issues covered, schema valid
+
+### Query Distribution
+
+| Topic | Queries | Target |
+|-------|---------|--------|
+| Conflicts of interest | 29 | 25-30 |
+| Campaign finance | 21 | 10-15 |
+| Gifts/honoraria | 10 | 5-8 |
+| Lobbying | 7 | 3-5 |
+| Other | 14 | 5-10 |
+| **Total** | **81** | **60-80** |
+
+| Query Type | Count |
+|-----------|-------|
+| keyword | 36 |
+| natural_language | 32 |
+| fact_pattern | 13 |
+
+### Per-Issue Coverage
+- Every taxonomy issue has at least 1 query (minimum: 1, maximum: 3)
+- Priority CoI issues (business_entity_interest, real_property_proximity, source_of_income, personal_financial_effect, section_1090_self_dealing) each have 3 queries
+- All other issues have 2 queries each, except lobbyist_gift_restrictions which has 1
+
+### Artifacts Created/Modified
+- `eval/dataset.json` — populated with taxonomy and 81 queries (empty relevance judgments)
+- `SPRINT_LOG.md` — updated with Sprint 3 entry
+
+### Notes for Future Sprints
+- Campaign finance query count (21) exceeds the target range (10-15) but provides good coverage across the 10 campaign finance issues — each issue gets 2 queries with contribution_definition getting 3
+- Lobbying query count (7) slightly exceeds target (3-5) to ensure all 4 lobbying issues are covered with at least 1-2 queries each
+- Other topic count (14) exceeds target (5-10) because the 6 "other" issues span diverse areas that needed adequate representation
+- Fact pattern queries (13) are fewer than keyword (36) and natural language (32) — this is intentional as not all issues are complex enough for multi-sentence scenarios; richer topics (CoI, campaign finance) have more fact patterns
+- All queries are grounded in specific example opinions from the taxonomy — the `notes` field for each query records which opinions informed the query and difficulty level
+- The `relevance_judgments` arrays are all empty — these will be populated in Sprints 4-7
+- The `load_dataset` function in `src/scorer.py` will skip queries with empty relevance judgments, so the scorer won't produce meaningful output until judgments are added
