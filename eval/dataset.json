@@ -2949,7 +2949,78 @@
       "issue": "contribution_definition",
       "notes": "Keyword search targeting the core statutory definition of contribution under Section 82015, grounded in A-21-152's analysis of when a payment at the behest of a candidate is presumed to be for political purposes.",
       "id": "q030",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "I-19-056",
+          "score": 2,
+          "rationale": "Directly analyzes whether payments made at behest of elected officer at fundraising events constitute contributions under 82015, distinguishing behested payments from contributions."
+        },
+        {
+          "opinion_id": "I-21-061",
+          "score": 2,
+          "rationale": "Analyzes whether payments for YouTube videos at an elected official's request are contributions or gifts under 82015, directly addressing payment-at-behest and political purpose."
+        },
+        {
+          "opinion_id": "A-21-152",
+          "score": 2,
+          "rationale": "Analyzes whether communications featuring a council member's name/photo on electronic reader board constitute a contribution under 82015, concluding they are behested payments not contributions."
+        },
+        {
+          "opinion_id": "I-19-145",
+          "score": 2,
+          "rationale": "Directly addresses whether city staff tagging council members on Facebook constitutes a contribution under 82015(a), analyzing political purpose of social media communications."
+        },
+        {
+          "opinion_id": "I-20-079",
+          "score": 2,
+          "rationale": "Analyzes whether payments from a company to a candidate under an agreement triggered by opposition expenditures meet the definition of contribution under 82015."
+        },
+        {
+          "opinion_id": "I-24-075",
+          "score": 2,
+          "rationale": "Directly addresses whether costs of printing campaign materials borne by volunteers qualify as in-kind contributions under 82015, analyzing the contribution definition."
+        },
+        {
+          "opinion_id": "A-22-020",
+          "score": 1,
+          "rationale": "Discusses reporting obligations for merchandise with candidate's logo and when vendor payments constitute contributions, related to contribution definition under 82015."
+        },
+        {
+          "opinion_id": "15-122",
+          "score": 1,
+          "rationale": "Analyzes whether paying a columnist-candidate to write about his own candidacy constitutes a contribution under 82015, related but focused on media exception."
+        },
+        {
+          "opinion_id": "88293",
+          "score": 1,
+          "rationale": "Addresses whether free radio advertising time for a campaign is a reportable in-kind contribution under 82015, related to payment-as-contribution concept."
+        },
+        {
+          "opinion_id": "A-19-169",
+          "score": 1,
+          "rationale": "Analyzes whether pro bono or discounted legal services are gifts or contributions under 82015, relevant to payment/political purpose analysis."
+        },
+        {
+          "opinion_id": "14-028",
+          "score": 1,
+          "rationale": "Discusses whether using Vice Mayor's name on nonprofit letterhead involves contribution/behested payment analysis under 82015, tangentially related."
+        },
+        {
+          "opinion_id": "92-319",
+          "score": 1,
+          "rationale": "Addresses valuation of nonmonetary contributions for campaign literature under 82015, relevant to contribution definition but focused on valuation method."
+        },
+        {
+          "opinion_id": "89-529",
+          "score": 1,
+          "rationale": "Analyzes when campaign literature payments constitute contributions vs independent expenditures under 82015, relevant to contribution definition and coordination."
+        },
+        {
+          "opinion_id": "A-20-003",
+          "score": 0,
+          "rationale": "About contributing surplus campaign funds to a nonprofit, not about defining what constitutes a contribution under 82015."
+        }
+      ]
     },
     {
       "text": "A senior community offers a city council member space on its electronic reader board to display the council member's name, photo, and contact information alongside informational content about upcoming public meetings. The council member supplies the content herself and no city staff time is used. Does accepting this communication constitute a contribution to the council member under Section 82015?",
@@ -2958,7 +3029,73 @@
       "issue": "contribution_definition",
       "notes": "Grounded in A-21-152 (Constantine/Fountain Valley). Tests whether engine finds opinions addressing the Regulation 18215(c)(4) exception for communications at a candidate's behest that lack express advocacy.",
       "id": "q031",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "A-21-152",
+          "score": 2,
+          "rationale": "Exact match \u2014 analyzes whether communications on electronic reader board at senior community featuring council member's name, photo, and contact info constitute a contribution under 82015."
+        },
+        {
+          "opinion_id": "I-19-145",
+          "score": 2,
+          "rationale": "Closely analogous \u2014 analyzes whether city staff tagging council members on social media posts (displaying name, link, photo) constitutes a contribution, same legal question of communications featuring an official."
+        },
+        {
+          "opinion_id": "I-21-061",
+          "score": 2,
+          "rationale": "Analyzes whether payments for videos featuring elected official on YouTube constitute a contribution, same core question of third-party communications featuring an official."
+        },
+        {
+          "opinion_id": "88293",
+          "score": 2,
+          "rationale": "Directly addresses whether free advertising/communications provided by a media entity to a candidate's campaign is an in-kind contribution under 82015."
+        },
+        {
+          "opinion_id": "15-122",
+          "score": 1,
+          "rationale": "Analyzes whether paying a columnist-candidate to write about candidacy is a contribution \u2014 related concept of media/communications as contributions."
+        },
+        {
+          "opinion_id": "14-028",
+          "score": 1,
+          "rationale": "Discusses whether a nonprofit using Vice Mayor's name and title on letterhead involves contribution/behested payment issues under 82015."
+        },
+        {
+          "opinion_id": "14-117",
+          "score": 1,
+          "rationale": "Addresses whether advertisements featuring councilmember in city guide constitute mass mailing or contribution issues, related communications-as-contribution analysis."
+        },
+        {
+          "opinion_id": "96-039",
+          "score": 1,
+          "rationale": "Cited by A-21-152. Discusses contribution analysis in context of payments involving an elected official, provides background legal framework."
+        },
+        {
+          "opinion_id": "I-19-056",
+          "score": 1,
+          "rationale": "Analyzes behested payment vs contribution distinction for fundraising featuring an elected officer, related legal framework but different fact pattern."
+        },
+        {
+          "opinion_id": "17-206",
+          "score": 1,
+          "rationale": "Discusses whether written statements featuring mayor's name/photo in grant applications trigger behested payment reporting, related to display of official's identity."
+        },
+        {
+          "opinion_id": "14-099",
+          "score": 1,
+          "rationale": "Analyzes whether identifying elected officer as honoree at charitable gala constitutes behested payment, related question of using official's name in communications."
+        },
+        {
+          "opinion_id": "14-214",
+          "score": 0,
+          "rationale": "About below-market rent as behested payment for district office \u2014 different legal question than whether communications constitute a contribution."
+        },
+        {
+          "opinion_id": "A-19-169",
+          "score": 0,
+          "rationale": "About legal services as gifts/contributions \u2014 different fact pattern, does not address communications featuring an official."
+        }
+      ]
     },
     {
       "text": "85800 85801 campaign fund expenditure personal use governmental purpose",
@@ -2967,7 +3104,103 @@
       "issue": "campaign_fund_use",
       "notes": "Keyword query combining the key personal use statutes. Grounded in 90-596 (senator sponsoring lobbying conference) and related opinions.",
       "id": "q032",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-411",
+          "score": 2,
+          "rationale": "Directly analyzes the framework for permissible campaign fund expenditures under Sections 85800-85802, including the personal use prohibition and governmental purpose requirement."
+        },
+        {
+          "opinion_id": "90-206",
+          "score": 2,
+          "rationale": "Addresses whether various campaign expenditures meet the governmental/political purpose requirement under 85801 and 85802, analyzing the personal use prohibition in the context of candidate mailers."
+        },
+        {
+          "opinion_id": "90-474",
+          "score": 2,
+          "rationale": "Directly applies the 85800/85801 governmental purpose test to determine whether campaign funds can pay for official travel, holding such use is permissible because it relates to elective office."
+        },
+        {
+          "opinion_id": "90-210",
+          "score": 2,
+          "rationale": "Analyzes whether campaign funds may pay for an educational program under the governmental purpose standard of 85801, establishing that training related to official duties qualifies."
+        },
+        {
+          "opinion_id": "90-596",
+          "score": 2,
+          "rationale": "Core opinion applying 85800/85801/85802 to determine whether a senator's campaign funds can pay conference costs. Directly analyzes the governmental purpose requirement."
+        },
+        {
+          "opinion_id": "92-663",
+          "score": 2,
+          "rationale": "Directly addresses the personal use prohibition under 85800, analyzing whether purchasing a cellular telephone with campaign funds constitutes prohibited personal use."
+        },
+        {
+          "opinion_id": "90-393",
+          "score": 1,
+          "rationale": "Discusses campaign fund use under 85800/85801 in the context of loan repayment and surplus funds, tangentially related to the personal use and governmental purpose framework."
+        },
+        {
+          "opinion_id": "90-226",
+          "score": 1,
+          "rationale": "Applies 85801 to determine whether campaign funds can purchase office equipment and send constituent letters, analyzing the governmental purpose test in a specific context."
+        },
+        {
+          "opinion_id": "90-383",
+          "score": 1,
+          "rationale": "Applies 85801 to campaign fund reimbursement for automobile use in official duties, a narrow application of the governmental purpose standard."
+        },
+        {
+          "opinion_id": "90-586",
+          "score": 1,
+          "rationale": "Analyzes campaign fund use for a Christmas luncheon under 85801/85802, applying the governmental purpose test to employee appreciation events."
+        },
+        {
+          "opinion_id": "90-051",
+          "score": 1,
+          "rationale": "Discusses whether officeholder account funds can pay for office equipment under 85801, touching on the campaign fund use framework."
+        },
+        {
+          "opinion_id": "90-417",
+          "score": 1,
+          "rationale": "Analyzes whether campaign funds may pay attorney fees under 85801, a specific application of the governmental purpose standard."
+        },
+        {
+          "opinion_id": "89-642",
+          "score": 1,
+          "rationale": "Addresses political convention dues and telephone reimbursement under 85801/85802, applying the campaign fund use framework to specific expense categories."
+        },
+        {
+          "opinion_id": "90-459",
+          "score": 1,
+          "rationale": "Applies 85800/85801 to convention attendance expenses, analyzing the governmental purpose requirement for educational/professional events."
+        },
+        {
+          "opinion_id": "90-308",
+          "score": 1,
+          "rationale": "Applies 85801 to conference attendance, determining whether education-related travel meets the governmental purpose standard."
+        },
+        {
+          "opinion_id": "90-416",
+          "score": 1,
+          "rationale": "Addresses campaign fund use for staff retreat travel and training under 85801, a specific application of the governmental purpose test."
+        },
+        {
+          "opinion_id": "90-595",
+          "score": 1,
+          "rationale": "Analyzes multiple proposed campaign fund expenditures under 85801, including constituent communications and video training."
+        },
+        {
+          "opinion_id": "90-412",
+          "score": 0,
+          "rationale": "Focuses on whether a sponsored committee can make expenditures for legislative monitoring services \u2014 more about committee expenditure authority than the personal use/governmental purpose framework."
+        },
+        {
+          "opinion_id": "90-204",
+          "score": 1,
+          "rationale": "References Sections 85801 and 85804 in analyzing whether expenditures are directly related to a political, legislative or governmental purpose."
+        }
+      ]
     },
     {
       "text": "Can a state senator use campaign funds to pay for a conference on the lobbying process for local public officials in his district, including meals, hotel rooms, and transportation for panelists?",
@@ -2976,7 +3209,73 @@
       "issue": "campaign_fund_use",
       "notes": "Grounded in 90-596 (Senator Davis lobbying conference). Tests personal use rules under 85800-85802 and the 'directly related to governmental purpose' standard.",
       "id": "q033",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-596",
+          "score": 2,
+          "rationale": "This is the exact opinion that addresses this question \u2014 Senator Davis using campaign funds for a conference on the lobbying process for local officials, including overhead expenses, meals, hotel rooms, and transportation."
+        },
+        {
+          "opinion_id": "98-229",
+          "score": 2,
+          "rationale": "Directly addresses campaign funds for an educational program (Stanford master's degree), applying the same governmental purpose test from 90-596."
+        },
+        {
+          "opinion_id": "A-21-145",
+          "score": 2,
+          "rationale": "Directly addresses using campaign funds for an educational program (Harvard Kennedy School), citing 90-596 and 98-229. Same legal framework for conference/education expenditures."
+        },
+        {
+          "opinion_id": "90-210",
+          "score": 2,
+          "rationale": "Analyzes campaign funds for educational program attendance \u2014 closely analogous to the conference question. Establishes that training related to official duties has governmental purpose."
+        },
+        {
+          "opinion_id": "90-308",
+          "score": 2,
+          "rationale": "Directly addresses using campaign funds for conference travel, accommodations, and fees. Very close fact pattern \u2014 a conference on middle schools for an education board member."
+        },
+        {
+          "opinion_id": "90-459",
+          "score": 2,
+          "rationale": "Directly addresses campaign funds for convention attendance including travel and accommodation. Applies the governmental purpose test to conference expenses."
+        },
+        {
+          "opinion_id": "93-223",
+          "score": 2,
+          "rationale": "Addresses using PAC campaign funds to host a dinner for conference attendees (NAPO annual conference), citing 90-596."
+        },
+        {
+          "opinion_id": "90-474",
+          "score": 1,
+          "rationale": "Analyzes campaign funds for official travel (trip to China). Related governmental purpose analysis but different context \u2014 international travel rather than district conference."
+        },
+        {
+          "opinion_id": "91-032",
+          "score": 1,
+          "rationale": "Applies the governmental purpose test from 90-596 to manuscript preparation. Uses the same legal framework but for a different type of expenditure."
+        },
+        {
+          "opinion_id": "90-586",
+          "score": 1,
+          "rationale": "Analyzes campaign funds for meals (Christmas luncheon). Related to the meals component of the query but in a different context."
+        },
+        {
+          "opinion_id": "93-235",
+          "score": 1,
+          "rationale": "Addresses campaign fund use for attending a political dinner and other events, applying the campaign expenditure framework."
+        },
+        {
+          "opinion_id": "90-416",
+          "score": 1,
+          "rationale": "Addresses campaign funds for travel and training expenses at a staff retreat, somewhat analogous to conference expenses."
+        },
+        {
+          "opinion_id": "90-412",
+          "score": 0,
+          "rationale": "About a sponsored committee's expenditures for legislative monitoring \u2014 not about conference attendance or the governmental purpose test."
+        }
+      ]
     },
     {
       "text": "Does a city's practice of tagging council members on its official Facebook page constitute a prohibited mass mailing under Section 89001, given that Facebook posts are electronic rather than tangible items?",
@@ -2985,7 +3284,93 @@
       "issue": "mass_mailing",
       "notes": "Grounded in I-19-145 (Fountain Valley Facebook tagging). The FPPC concluded that electronic Facebook communications are not tangible items and thus not subject to 89001.",
       "id": "q034",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "I-19-145",
+          "score": 2,
+          "rationale": "This is the exact opinion addressing this question \u2014 whether tagging council members on the city's Facebook page constitutes a prohibited mass mailing under Section 89001."
+        },
+        {
+          "opinion_id": "A-24-140",
+          "score": 2,
+          "rationale": "Directly addresses whether electronically disseminated content (QR code linking to video with board members) violates mass mailing prohibition. Cites I-19-145."
+        },
+        {
+          "opinion_id": "94-364",
+          "score": 2,
+          "rationale": "Foundational opinion establishing that e-mail and electronic bulletin boards are not 'mailings' under mass mailing regulations because they are not tangible items."
+        },
+        {
+          "opinion_id": "04-130",
+          "score": 2,
+          "rationale": "Directly holds that the mass mailing prohibition does not apply to websites, permitting a mayor's welcome message on a city website."
+        },
+        {
+          "opinion_id": "09-022",
+          "score": 2,
+          "rationale": "Directly analyzes whether electronic newsletters are prohibited mass mailings, holding that internet distribution is not distribution of a tangible item."
+        },
+        {
+          "opinion_id": "96-212",
+          "score": 2,
+          "rationale": "Directly addresses whether a councilmember's web page is a mass mailing, holding it is not."
+        },
+        {
+          "opinion_id": "10-013",
+          "score": 1,
+          "rationale": "Confirms mass mailing provisions don't apply to electronic communications (phone, text, email) but notes public fund payments may trigger reporting."
+        },
+        {
+          "opinion_id": "12-132",
+          "score": 1,
+          "rationale": "Holds that email distribution of a newsletter does not violate mass mailing provisions."
+        },
+        {
+          "opinion_id": "97-025",
+          "score": 1,
+          "rationale": "Holds that a web page is not a mass mailing, permitting display of board trustee photos and names."
+        },
+        {
+          "opinion_id": "97-106",
+          "score": 1,
+          "rationale": "Holds web pages are not mass mailings for purposes of 89001 prohibition."
+        },
+        {
+          "opinion_id": "06-076",
+          "score": 1,
+          "rationale": "Holds that recorded telephone messages are not prohibited under Section 89001 \u2014 extends the electronic/tangible distinction."
+        },
+        {
+          "opinion_id": "05-028",
+          "score": 1,
+          "rationale": "Distinguishes between tangible newsletters (subject to mass mailing rules) and website content (exempt)."
+        },
+        {
+          "opinion_id": "02-123",
+          "score": 1,
+          "rationale": "Addresses crediting council members on the internet vs. in newsletters, noting different treatment of electronic vs. tangible media."
+        },
+        {
+          "opinion_id": "07-085",
+          "score": 1,
+          "rationale": "Analyzes candidate information on a website vs. in mailings under mass mailing rules."
+        },
+        {
+          "opinion_id": "88275",
+          "score": 0,
+          "rationale": "Addresses whether SCAG is subject to Section 89001 for letters to officials \u2014 about traditional mailings, not the electronic distinction."
+        },
+        {
+          "opinion_id": "03-177",
+          "score": 1,
+          "rationale": "Addresses displaying candidate photos on a city website, analyzing whether mass mailing rules apply to web content."
+        },
+        {
+          "opinion_id": "99-013",
+          "score": 1,
+          "rationale": "Permits supervisor photos and bios on county website, holding websites are not mass mailings."
+        }
+      ]
     },
     {
       "text": "84308 subcontractor contribution appointive board disqualification entitlement for use",
@@ -2994,7 +3379,68 @@
       "issue": "pay_to_play_disqualification",
       "notes": "Grounded in 92-031 (LA County Transportation Commission subcontractors). Tests the pay-to-play disqualification rules under 84308.",
       "id": "q035",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "92-031",
+          "score": 2,
+          "rationale": "Directly addresses whether Section 84308 applies to contributions from subcontractors named in a contract proposal before a transportation commission."
+        },
+        {
+          "opinion_id": "13-145",
+          "score": 2,
+          "rationale": "Comprehensive opinion on subcontractor contributions under 84308, confirming subcontractors named in bids are 'parties' subject to 84308 restrictions."
+        },
+        {
+          "opinion_id": "A-24-004",
+          "score": 2,
+          "rationale": "Core opinion analyzing what constitutes an 'entitlement for use' under Section 84308."
+        },
+        {
+          "opinion_id": "89-222",
+          "score": 2,
+          "rationale": "Analyzes whether 84308 applies to RFP/procurement proceedings, including disclosure and disqualification requirements."
+        },
+        {
+          "opinion_id": "93-384",
+          "score": 2,
+          "rationale": "Addresses whether 84308 applies to RFP proceedings and when board members must disqualify for receiving contributions from parties/participants."
+        },
+        {
+          "opinion_id": "04-149",
+          "score": 1,
+          "rationale": "Addresses aggregation of contributions from business entities and employees for 84308 disqualification threshold."
+        },
+        {
+          "opinion_id": "88148",
+          "score": 1,
+          "rationale": "Addresses aggregation of corporate and employee contributions for 84308 purposes."
+        },
+        {
+          "opinion_id": "96-083",
+          "score": 1,
+          "rationale": "Analyzes when a proceeding becomes 'pending' under 84308 for transportation authority contracts."
+        },
+        {
+          "opinion_id": "88205",
+          "score": 1,
+          "rationale": "Addresses 84308 consequences when an appointive board member receives a contribution from a contract bidder."
+        },
+        {
+          "opinion_id": "83A221",
+          "score": 1,
+          "rationale": "Analyzes how 84308 applies when a bidder contributes to a board member, distinguishing competitive bidding from discretionary contracts."
+        },
+        {
+          "opinion_id": "03-094",
+          "score": 1,
+          "rationale": "Analyzes 84308's application to a planning commissioner accepting contributions from parties who appeared before the commission."
+        },
+        {
+          "opinion_id": "09-068",
+          "score": 0,
+          "rationale": "Focuses on conflict of interest under different provisions (87100 et seq.), not directly about 84308 subcontractor contributions."
+        }
+      ]
     },
     {
       "text": "An engineering firm is named as a subcontractor in a contract proposal before a county transportation commission. The firm's principal made a $500 contribution to a commission member at the direction of the prime contractor. Must the commission member disqualify herself from voting on the contract under Section 84308?",
@@ -3003,7 +3449,68 @@
       "issue": "pay_to_play_disqualification",
       "notes": "Grounded in 92-031 analysis of when subcontractor contributions are attributed to the contractor as agent contributions under Section 84308.",
       "id": "q036",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "92-031",
+          "score": 2,
+          "rationale": "Near-identical fact pattern: subcontractor contributions before LA County Transportation Commission under 84308."
+        },
+        {
+          "opinion_id": "13-145",
+          "score": 2,
+          "rationale": "Comprehensively addresses subcontractor status as 'parties' under 84308 when named in proposals."
+        },
+        {
+          "opinion_id": "89-222",
+          "score": 2,
+          "rationale": "Analyzes 84308 disqualification requirements for contributions from proposers in RFP proceedings."
+        },
+        {
+          "opinion_id": "93-384",
+          "score": 2,
+          "rationale": "Addresses 84308 disqualification for board members who received contributions from parties to RFP proceedings."
+        },
+        {
+          "opinion_id": "88205",
+          "score": 2,
+          "rationale": "Directly addresses the consequences when an appointive board member receives a contribution from a contract bidder under 84308."
+        },
+        {
+          "opinion_id": "96-083",
+          "score": 2,
+          "rationale": "Addresses 84308 disqualification for transportation authority contract proceedings."
+        },
+        {
+          "opinion_id": "83A047",
+          "score": 1,
+          "rationale": "Analyzes whether 84308 applies to the LA County Transportation Commission specifically."
+        },
+        {
+          "opinion_id": "87214",
+          "score": 1,
+          "rationale": "Holds that Board of Supervisors members are subject to 84308 when serving on a transportation authority."
+        },
+        {
+          "opinion_id": "92-249",
+          "score": 1,
+          "rationale": "Addresses when 84308 restrictions commence for OCTA board members regarding proposals."
+        },
+        {
+          "opinion_id": "07-083",
+          "score": 1,
+          "rationale": "Addresses 84308 disqualification for an appointed transportation corridor agency board member who received contributions."
+        },
+        {
+          "opinion_id": "A-23-145",
+          "score": 1,
+          "rationale": "Addresses 84308 contribution restrictions for city contracts."
+        },
+        {
+          "opinion_id": "94-215",
+          "score": 0,
+          "rationale": "About voting on a general budget containing authority for contracts \u2014 too attenuated."
+        }
+      ]
     },
     {
       "text": "Can a county establish a single central filing agency for campaign statements covering both city and county jurisdictions under the Political Reform Act?",
@@ -3012,7 +3519,88 @@
       "issue": "campaign_reporting_disclosure",
       "notes": "Grounded in 09-253 (Marin County). Tests knowledge of Section 84215 filing location rules and Section 81009.5 local ordinance authority.",
       "id": "q037",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "09-253A",
+          "score": 2,
+          "rationale": "Directly answers whether local jurisdictions may establish a single central filing agency for both city and county campaign statements under Section 84215(e)."
+        },
+        {
+          "opinion_id": "09-253",
+          "score": 2,
+          "rationale": "Parent opinion to 09-253A addressing local filing requirements and whether local regulations imposing filing requirements are consistent with the Act."
+        },
+        {
+          "opinion_id": "96-315",
+          "score": 2,
+          "rationale": "Addresses whether San Francisco can designate a different filing officer than the one specified in Section 84215."
+        },
+        {
+          "opinion_id": "82A006",
+          "score": 2,
+          "rationale": "Addresses whether the Act preempts local ordinances imposing additional or different filing requirements for general purpose committees."
+        },
+        {
+          "opinion_id": "08-004",
+          "score": 1,
+          "rationale": "Analyzes whether a city can enact an ordinance requiring non-local committees to file with the local entity."
+        },
+        {
+          "opinion_id": "10-047",
+          "score": 1,
+          "rationale": "Addresses filing location disputes for school district committees between city and county filing officers under Section 84215."
+        },
+        {
+          "opinion_id": "13-159",
+          "score": 1,
+          "rationale": "Analyzes whether San Francisco can require BART candidates to file with the Ethics Commission instead of the Director of Elections."
+        },
+        {
+          "opinion_id": "14-058",
+          "score": 1,
+          "rationale": "Addresses where a committee for a multi-county special district files under 84215(b)."
+        },
+        {
+          "opinion_id": "10-105",
+          "score": 1,
+          "rationale": "Analyzes where San Francisco slate mailer organizations must file under Section 84215."
+        },
+        {
+          "opinion_id": "12-097",
+          "score": 1,
+          "rationale": "Addresses whether local reporting requirements apply to general purpose PACs."
+        },
+        {
+          "opinion_id": "01-184",
+          "score": 1,
+          "rationale": "Determines the filing location for a committee in San Francisco County under 84215."
+        },
+        {
+          "opinion_id": "11-084",
+          "score": 1,
+          "rationale": "Addresses whether San Francisco can require electronic-only filings of campaign statements under 84215."
+        },
+        {
+          "opinion_id": "86345",
+          "score": 1,
+          "rationale": "Straightforward application of Section 84215 filing location rules for campaign disclosure statements."
+        },
+        {
+          "opinion_id": "05-207",
+          "score": 1,
+          "rationale": "Addresses preemption of local campaign disclosure requirements under 81009.5."
+        },
+        {
+          "opinion_id": "97-176",
+          "score": 0,
+          "rationale": "About the city ethics commission's duties as filing officer for reviewing campaign statements."
+        },
+        {
+          "opinion_id": "97-080",
+          "score": 0,
+          "rationale": "Primarily about when a committee is 'primarily formed' to support local candidates under 81009.5."
+        }
+      ]
     },
     {
       "text": "85304 transfer ban candidate controlled committee slate mailer contribution limits",
@@ -3021,7 +3609,83 @@
       "issue": "contribution_limits_transfers",
       "notes": "Grounded in 90-546 (Fuhrman slate mailer). Tests the Section 85304 inter-candidate transfer prohibition and how jointly funded slate mailers must be structured.",
       "id": "q038",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-546",
+          "score": 2,
+          "rationale": "Directly addresses how slate mailer financing interacts with 85304 transfer ban and contribution limits."
+        },
+        {
+          "opinion_id": "89-117",
+          "score": 2,
+          "rationale": "Analyzes contribution limits for organizations contributing to a slate mailer committee endorsing candidates under 85302."
+        },
+        {
+          "opinion_id": "90-407",
+          "score": 2,
+          "rationale": "Directly analyzes whether candidate paying for slate mail with endorsement constitutes a contribution subject to 85304 transfer ban."
+        },
+        {
+          "opinion_id": "89-340",
+          "score": 2,
+          "rationale": "Directly addresses 85304 transfer ban \u2014 whether officeholders can spend campaign funds for other officials."
+        },
+        {
+          "opinion_id": "89-597",
+          "score": 2,
+          "rationale": "Directly analyzes 85304 transfer ban \u2014 whether one candidate's committee may reimburse another's for shared booth rental."
+        },
+        {
+          "opinion_id": "97-101",
+          "score": 2,
+          "rationale": "Analyzes whether county central committees are separate from state central committee for 85304 cumulative limitation purposes."
+        },
+        {
+          "opinion_id": "97-472",
+          "score": 1,
+          "rationale": "Discusses whether in-kind contributions count against 85304 party contribution limits and how to allocate multi-candidate mailer costs."
+        },
+        {
+          "opinion_id": "97-435",
+          "score": 1,
+          "rationale": "Addresses maximum contribution from political party to local candidate under 85304."
+        },
+        {
+          "opinion_id": "89-403",
+          "score": 1,
+          "rationale": "Discusses solicitation of funds from candidates and committees for voter registration and interaction with 85304."
+        },
+        {
+          "opinion_id": "89-351",
+          "score": 1,
+          "rationale": "Analyzes loan forgiveness as a contribution subject to 85304 transfer ban."
+        },
+        {
+          "opinion_id": "89-566",
+          "score": 1,
+          "rationale": "Discusses whether PAC can solicit contributions from candidates under 85304 transfer ban."
+        },
+        {
+          "opinion_id": "90-206",
+          "score": 1,
+          "rationale": "Analyzes whether candidate-paid slate mailers promoting multiple candidates constitute contributions under 82015 and 85304."
+        },
+        {
+          "opinion_id": "89-056",
+          "score": 1,
+          "rationale": "Addresses whether 85304 transfer ban applies to Congressional campaign committee paying debt to Assembly campaign committee."
+        },
+        {
+          "opinion_id": "89-512",
+          "score": 0,
+          "rationale": "Primarily about whether officeholder can hold fundraisers for other candidates, only tangentially references 85304."
+        },
+        {
+          "opinion_id": "90-256",
+          "score": 0,
+          "rationale": "About contributing campaign funds to ballot measure committees \u2014 different context than slate mailer contribution limits."
+        }
+      ]
     },
     {
       "text": "May a candidate-controlled committee make independent expenditures to support other candidates after the court in Reed v. FPPC struck down Section 85501?",
@@ -3030,7 +3694,73 @@
       "issue": "independent_expenditures",
       "notes": "Grounded in 14-148 (post-Citizens United independent expenditure question). Tests the intersection of constitutional law and the Act's restrictions on candidate-controlled IEs.",
       "id": "q039",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "14-148",
+          "score": 2,
+          "rationale": "THE key opinion \u2014 directly analyzes whether candidate-controlled committees may make independent expenditures after Reed v. FPPC struck down Section 85501."
+        },
+        {
+          "opinion_id": "I-21-163",
+          "score": 2,
+          "rationale": "Directly follows up on 14-148, analyzing whether San Jose Mayor may open a committee for independent expenditures post-Reed v. FPPC."
+        },
+        {
+          "opinion_id": "03-220",
+          "score": 2,
+          "rationale": "Analyzes whether candidate-controlled committee may pay for independent expenditures opposing recall of Governor."
+        },
+        {
+          "opinion_id": "10-159",
+          "score": 2,
+          "rationale": "Directly analyzes Section 85501 restrictions \u2014 whether local PAC's activities with elected officials make committee 'controlled'."
+        },
+        {
+          "opinion_id": "97-363",
+          "score": 1,
+          "rationale": "Analyzes whether a PAC may make both contributions and independent expenditures under 85500, pre-Reed."
+        },
+        {
+          "opinion_id": "97-124",
+          "score": 1,
+          "rationale": "Companion opinion to 97-363 regarding PAC making both contributions and independent expenditures."
+        },
+        {
+          "opinion_id": "05-097",
+          "score": 1,
+          "rationale": "Discusses contribution/expenditure limitations on independent expenditure committees."
+        },
+        {
+          "opinion_id": "10-048",
+          "score": 1,
+          "rationale": "Addresses whether corporations can make independent expenditures."
+        },
+        {
+          "opinion_id": "09-235",
+          "score": 1,
+          "rationale": "Discusses whether candidate for city council can control a political party that supports other candidates."
+        },
+        {
+          "opinion_id": "02-259",
+          "score": 1,
+          "rationale": "Discusses independent expenditure committee formation and filing requirements."
+        },
+        {
+          "opinion_id": "12-090",
+          "score": 1,
+          "rationale": "Analyzes what communications constitute 'express advocacy' triggering IE reporting requirements."
+        },
+        {
+          "opinion_id": "06-056",
+          "score": 0,
+          "rationale": "About reporting obligations for small independent expenditure from personal funds, tangential."
+        },
+        {
+          "opinion_id": "06-061",
+          "score": 0,
+          "rationale": "About automated telephone call identification requirements, not about independent expenditure restrictions."
+        }
+      ]
     },
     {
       "text": "A political party's county central committee has already contributed the maximum allowed to a supervisor candidate under the county's local contribution limits. The party now wants to pay for phone banking and text messaging to its registered voters in the supervisor's district urging them to support the candidate. Are these payments exempt from contribution limits as member communications under Section 85312?",
@@ -3039,7 +3769,83 @@
       "issue": "member_communications",
       "notes": "Grounded in A-20-044 (DPSC/Fishman). Tests the member communications exception and its interaction with local contribution limits.",
       "id": "q040",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "A-20-044",
+          "score": 2,
+          "rationale": "Exact match \u2014 analyzes whether DPSC paying for voter contact to registered Democrats qualifies as member communication under 85312."
+        },
+        {
+          "opinion_id": "10-034",
+          "score": 2,
+          "rationale": "Directly addresses whether mailers by political party central committee to registered voters are member communications under 85312."
+        },
+        {
+          "opinion_id": "06-155",
+          "score": 2,
+          "rationale": "Analyzes whether payments by Catholic Conference for communications to church members qualify as member communications under 85312."
+        },
+        {
+          "opinion_id": "89-644",
+          "score": 2,
+          "rationale": "Directly analyzes whether party expenditures for communications to members at behest of candidate are subject to contribution limits."
+        },
+        {
+          "opinion_id": "A-25-081",
+          "score": 2,
+          "rationale": "Analyzes ChamberPAC member communications and whether fundraising costs are subject to contribution limits under 85312."
+        },
+        {
+          "opinion_id": "02-262",
+          "score": 2,
+          "rationale": "Directly addresses whether member communications under 85312 trigger pre-election filing requirements despite contribution limit exemption."
+        },
+        {
+          "opinion_id": "97-107",
+          "score": 1,
+          "rationale": "Discusses in-kind contributions from providing mailing lists to endorsed candidates."
+        },
+        {
+          "opinion_id": "97-563",
+          "score": 1,
+          "rationale": "Discusses local union inviting members to candidate fundraiser and contribution implications."
+        },
+        {
+          "opinion_id": "05-161",
+          "score": 1,
+          "rationale": "Discusses reporting requirements for political party committee member communications during pre-election period."
+        },
+        {
+          "opinion_id": "05-239",
+          "score": 1,
+          "rationale": "Addresses reporting requirements when membership organization's sponsored committee pays for member communications."
+        },
+        {
+          "opinion_id": "01-195",
+          "score": 1,
+          "rationale": "Discusses whether labor union qualifying as committee must report payments for member communications on Form 460."
+        },
+        {
+          "opinion_id": "15-210",
+          "score": 1,
+          "rationale": "Analyzes GFC membership organization's committee status and contribution requirements under 85312."
+        },
+        {
+          "opinion_id": "05-101",
+          "score": 1,
+          "rationale": "Discusses member communications in context of association's golf tournament fundraiser under 85312."
+        },
+        {
+          "opinion_id": "11-220",
+          "score": 0,
+          "rationale": "About whether a Democratic club qualifies as a committee, mentions 85312 but does not analyze member communication exemption."
+        },
+        {
+          "opinion_id": "I-22-030",
+          "score": 0,
+          "rationale": "About whether Democratic club qualifies as committee, does not substantively address 85312 exemption."
+        }
+      ]
     },
     {
       "text": "84224 behested payment elected officer fundraising governmental purpose reporting $5000 threshold",
@@ -3048,7 +3854,83 @@
       "issue": "behested_payments",
       "notes": "Grounded in I-20-017 (State Treasurer KIDS program fundraising). Tests the behested payment reporting rules including the $5,000 aggregate threshold.",
       "id": "q041",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "I-20-017",
+          "score": 2,
+          "rationale": "Directly addresses Section 84224 behested payment reporting by an elected officer fundraising for a government program."
+        },
+        {
+          "opinion_id": "I-18-065",
+          "score": 2,
+          "rationale": "Addresses whether donations solicited by an elected officer for a charitable organization are reportable behested payments under 84224."
+        },
+        {
+          "opinion_id": "I-21-084",
+          "score": 2,
+          "rationale": "Directly addresses behested payment reporting under Section 84224, specifically who should be identified as the payor on Form 803."
+        },
+        {
+          "opinion_id": "I-20-102",
+          "score": 2,
+          "rationale": "Follow-up to I-20-017 addressing whether solicitations by staff constitute reportable behested payments under 84224."
+        },
+        {
+          "opinion_id": "I-19-056",
+          "score": 1,
+          "rationale": "Addresses whether payments in response to a solicitation 'featuring' an elected officer are behested payments."
+        },
+        {
+          "opinion_id": "A-21-152",
+          "score": 1,
+          "rationale": "Discusses behested payment reporting under 84224 in the context of a council member's name appearing on solicitations."
+        },
+        {
+          "opinion_id": "I-23-163",
+          "score": 1,
+          "rationale": "Mentions 84224 behested payment reporting in context of elected officer fundraising."
+        },
+        {
+          "opinion_id": "A-23-035",
+          "score": 1,
+          "rationale": "Addresses whether donations solicited by public officials are contributions or behested payments under 84224."
+        },
+        {
+          "opinion_id": "13-123",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting for legal services provided at no charge to an elected official."
+        },
+        {
+          "opinion_id": "15-011",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting by a mayor who solicited payments for a city event."
+        },
+        {
+          "opinion_id": "16-203",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting for a $10,000 payment solicited by a council member."
+        },
+        {
+          "opinion_id": "07-176",
+          "score": 1,
+          "rationale": "Addresses whether donations collected by a councilmember for a charitable organization at his behest are gifts, contributions, or behested payments."
+        },
+        {
+          "opinion_id": "09-073",
+          "score": 1,
+          "rationale": "Addresses transitional behested payment reporting issues under the 2009 amendments."
+        },
+        {
+          "opinion_id": "12-094",
+          "score": 0,
+          "rationale": "About whether an officer is 'featured' on a solicitation for behested payment purposes. Narrowly focused."
+        },
+        {
+          "opinion_id": "A-19-169",
+          "score": 0,
+          "rationale": "Primarily about whether discounted legal services are gifts or contributions; behested payment discussion is secondary."
+        }
+      ]
     },
     {
       "text": "The State Treasurer chairs a government board that is statutorily directed to raise private funds for a children's savings program. Must the Treasurer report these solicited donations as behested payments under Section 84224, and does the charitable organization safe harbor in Regulation 18215.3(b) apply if the Treasurer is not featured in the solicitation?",
@@ -3057,7 +3939,83 @@
       "issue": "behested_payments",
       "notes": "Grounded in I-20-017 (Treasurer Ma/KIDS program). Tests the interplay between behested payment reporting and the charitable organization exemption.",
       "id": "q042",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "I-20-017",
+          "score": 2,
+          "rationale": "Directly on point \u2014 addresses whether Treasurer Ma must report funds raised by SIB for the KIDS program as behested payments."
+        },
+        {
+          "opinion_id": "I-20-102",
+          "score": 2,
+          "rationale": "Follow-up opinion on the same facts, addressing the Regulation 18215.3(b) safe harbor."
+        },
+        {
+          "opinion_id": "I-19-056",
+          "score": 2,
+          "rationale": "Directly addresses whether payments in response to a solicitation 'featuring' an elected officer are behested payments and the 18215.3(b) safe harbor."
+        },
+        {
+          "opinion_id": "I-18-065",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting by an elected officer who fundraises for a charitable organization."
+        },
+        {
+          "opinion_id": "11-063",
+          "score": 1,
+          "rationale": "Addresses whether donations to a government council need to be reported as behested payments when the Governor does not personally solicit."
+        },
+        {
+          "opinion_id": "15-019",
+          "score": 1,
+          "rationale": "Addresses the 'featured' definition for behested payment purposes, specifically the letterhead exception."
+        },
+        {
+          "opinion_id": "15-209",
+          "score": 1,
+          "rationale": "Addresses whether a mayor must file behested payment reports for donations to a nonprofit where she does not solicit."
+        },
+        {
+          "opinion_id": "12-094",
+          "score": 1,
+          "rationale": "Addresses when an elected officer is 'featured' on a solicitation for behested payment reporting purposes."
+        },
+        {
+          "opinion_id": "17-206",
+          "score": 1,
+          "rationale": "Addresses the exception to behested payment reporting when an elected official supports grant funding."
+        },
+        {
+          "opinion_id": "11-159",
+          "score": 1,
+          "rationale": "Addresses when behested payment reporting is triggered by a public official's solicitation for a government program."
+        },
+        {
+          "opinion_id": "I-21-084",
+          "score": 1,
+          "rationale": "Addresses behested payment reporting mechanics under 84224 including Form 803 requirements."
+        },
+        {
+          "opinion_id": "14-099",
+          "score": 1,
+          "rationale": "Addresses whether payments for a charitable gala honoring an elected officer are behested payments."
+        },
+        {
+          "opinion_id": "13-017",
+          "score": 1,
+          "rationale": "Addresses whether a payment is a behested payment when made proximate to a solicitation featuring an elected official."
+        },
+        {
+          "opinion_id": "10-078",
+          "score": 0,
+          "rationale": "About grants after an assembly member's letter of support. Different fact pattern."
+        },
+        {
+          "opinion_id": "I-19-238",
+          "score": 0,
+          "rationale": "About CCST Fellows' salaries as behested payments. Different context."
+        }
+      ]
     },
     {
       "text": "What are the requirements for a political committee to qualify as a broad based political committee under Section 85102(d), and how do the contribution limits differ?",
@@ -3066,7 +4024,83 @@
       "issue": "committee_formation_management",
       "notes": "Grounded in 90-551 (Socialist Workers Campaign Committee). Tests the 6-month existence, 100-person contributor, and 5-candidate contribution requirements for broad-based status.",
       "id": "q043",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-551",
+          "score": 2,
+          "rationale": "Directly analyzes broad based political committee requirements under 85102(d) \u2014 the three-part test."
+        },
+        {
+          "opinion_id": "89-238",
+          "score": 2,
+          "rationale": "Directly discusses ARCO PAC's status and contribution limits for broad-based vs non-broad-based committees."
+        },
+        {
+          "opinion_id": "88452",
+          "score": 2,
+          "rationale": "Directly analyzes whether California Labor Federation COPE qualifies as broad based political committee under 85102(d)."
+        },
+        {
+          "opinion_id": "88481",
+          "score": 2,
+          "rationale": "Directly addresses maintaining broad based status under 85102(d)."
+        },
+        {
+          "opinion_id": "89-241",
+          "score": 2,
+          "rationale": "Directly analyzes whether CSEA's sponsored committee meets the broad based political committee definition."
+        },
+        {
+          "opinion_id": "89-341",
+          "score": 2,
+          "rationale": "Same analysis \u2014 CSEA sponsored committee and broad based political committee qualification under 85102(d)."
+        },
+        {
+          "opinion_id": "89-334",
+          "score": 1,
+          "rationale": "Discusses whether separate district PACs are independently subject to contribution limits, touching on broad based status."
+        },
+        {
+          "opinion_id": "89-301",
+          "score": 1,
+          "rationale": "Discusses county central committee accounts and contribution limits, referencing 85102(d) broad based committee status."
+        },
+        {
+          "opinion_id": "89-038",
+          "score": 1,
+          "rationale": "Analyzes whether organizational services to a new PAC are subject to contribution limits, discussing broad based committee definitions."
+        },
+        {
+          "opinion_id": "90-379",
+          "score": 1,
+          "rationale": "Analyzes whether Federation clubs are political committees or broad based political committees."
+        },
+        {
+          "opinion_id": "90-113",
+          "score": 1,
+          "rationale": "Discusses contribution limits for non-controlled committees, referencing broad based status."
+        },
+        {
+          "opinion_id": "89-637",
+          "score": 1,
+          "rationale": "Discusses contribution limits referencing 85102(d) broad based committee definition."
+        },
+        {
+          "opinion_id": "88451",
+          "score": 1,
+          "rationale": "Discusses committee restructuring addressing broad based committee status under 85102(d)."
+        },
+        {
+          "opinion_id": "88435",
+          "score": 0,
+          "rationale": "Primarily about candidate-controlled committee receiving contributions, not focused on broad based qualification."
+        },
+        {
+          "opinion_id": "89-673",
+          "score": 0,
+          "rationale": "About contribution limits for special election committees, mentions 85102(d) incidentally."
+        }
+      ]
     },
     {
       "text": "89501 89502 honorarium ban designated employee op-ed articles",
@@ -3075,7 +4109,78 @@
       "issue": "honoraria_ban_and_exceptions",
       "notes": "Grounded in 95-133 (designated employee on transportation commission paid for op-ed articles). Keyword search combining core statutes with specific factual scenario.",
       "id": "q044",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "95-133",
+          "score": 2,
+          "rationale": "Directly addresses whether the 89501(a) honorarium ban applies to a designated employee writing op-ed articles for newspapers."
+        },
+        {
+          "opinion_id": "06-188",
+          "score": 2,
+          "rationale": "Directly addresses whether payments to a designated employee for writing a periodic newspaper column are prohibited honoraria."
+        },
+        {
+          "opinion_id": "97-468",
+          "score": 2,
+          "rationale": "Addresses whether proceeds from publishing a book are honoraria for a designated employee under 89502."
+        },
+        {
+          "opinion_id": "99-281",
+          "score": 2,
+          "rationale": "Addresses whether a designated employee can accept payments for writing articles and lectures under the honoraria provisions."
+        },
+        {
+          "opinion_id": "00-276",
+          "score": 2,
+          "rationale": "Addresses whether honoraria provisions prohibit a designated employee from accepting payments for lectures and writing."
+        },
+        {
+          "opinion_id": "04-096",
+          "score": 2,
+          "rationale": "Directly analyzes the 89502(c) prohibition on honoraria for designated employees for articles published."
+        },
+        {
+          "opinion_id": "16-036",
+          "score": 2,
+          "rationale": "Addresses whether a designated employee can accept payment for speeches, articles, and books under the honoraria ban."
+        },
+        {
+          "opinion_id": "95-264",
+          "score": 1,
+          "rationale": "Addresses designated employee payments for columns and lectures, focusing on the bona fide business exception."
+        },
+        {
+          "opinion_id": "10-060",
+          "score": 1,
+          "rationale": "Discusses whether periodic newspaper columns are customarily provided in connection with a bona fide profession."
+        },
+        {
+          "opinion_id": "04-053",
+          "score": 1,
+          "rationale": "Addresses honorarium provisions for a state employee publishing a book and conducting seminars."
+        },
+        {
+          "opinion_id": "06-227",
+          "score": 1,
+          "rationale": "Addresses honoraria provisions for a planning commissioner's speaking engagements."
+        },
+        {
+          "opinion_id": "08-073",
+          "score": 1,
+          "rationale": "Addresses whether compensation for professional writing (bimonthly health column) is a prohibited honorarium."
+        },
+        {
+          "opinion_id": "03-060",
+          "score": 1,
+          "rationale": "Addresses whether writing and publishing books violates honoraria provisions."
+        },
+        {
+          "opinion_id": "92434",
+          "score": 1,
+          "rationale": "Legislative employee asking whether they can do freelance writing for pay under honoraria rules."
+        }
+      ]
     },
     {
       "text": "Can an elected city council member who runs a speaking and writing business continue to accept fees for paid speeches after taking office under the bona fide business exception to the honorarium ban?",
@@ -3084,7 +4189,83 @@
       "issue": "honoraria_ban_and_exceptions",
       "notes": "Grounded in I-23-009 (council member with pre-existing writing/speaking LLC). Tests the bona fide business exception under Section 89501(b)(1) and Regulation 18932.3.",
       "id": "q045",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "I-23-009",
+          "score": 2,
+          "rationale": "Directly addresses whether an elected city council member with a writing and speaking business can accept fees under the bona fide business exception."
+        },
+        {
+          "opinion_id": "17-163",
+          "score": 2,
+          "rationale": "Directly addresses whether a councilmember can receive payment for speeches in connection with his business LLC."
+        },
+        {
+          "opinion_id": "93-063",
+          "score": 2,
+          "rationale": "Directly addresses whether payments to a local elected official for speeches as part of a business are honoraria."
+        },
+        {
+          "opinion_id": "95-185",
+          "score": 2,
+          "rationale": "Directly addresses whether payments for speeches in connection with a bona fide business are prohibited honoraria."
+        },
+        {
+          "opinion_id": "17-099",
+          "score": 2,
+          "rationale": "Addresses whether a full-time elected official may receive compensation for speaking under the bona fide business exception."
+        },
+        {
+          "opinion_id": "09-097",
+          "score": 2,
+          "rationale": "Addresses whether a city manager with a speaking business can accept speaking fees \u2014 concludes the exception does NOT apply."
+        },
+        {
+          "opinion_id": "95-290",
+          "score": 2,
+          "rationale": "Addresses whether payments for speaking engagements related to a television show are prohibited honoraria."
+        },
+        {
+          "opinion_id": "12-165",
+          "score": 1,
+          "rationale": "Addresses whether income from a ministry would be prohibited honoraria if the person became elected."
+        },
+        {
+          "opinion_id": "06-225",
+          "score": 1,
+          "rationale": "Addresses bona fide profession exception for speeches and seminars regarding health care."
+        },
+        {
+          "opinion_id": "94-154",
+          "score": 1,
+          "rationale": "Addresses whether payments from a seminar business and writing a monthly column are honoraria."
+        },
+        {
+          "opinion_id": "97-119",
+          "score": 1,
+          "rationale": "Addresses whether an Assembly Member can accept payments for ministry work under the bona fide business exception."
+        },
+        {
+          "opinion_id": "02-094",
+          "score": 1,
+          "rationale": "Addresses whether speaking income from a teaching contract qualifies under the bona fide profession exception."
+        },
+        {
+          "opinion_id": "14-115",
+          "score": 1,
+          "rationale": "Addresses bona fide profession exception for teaching compensation."
+        },
+        {
+          "opinion_id": "90-742",
+          "score": 1,
+          "rationale": "Early opinion on whether a legislator can be paid for speaking through a speakers' bureau."
+        },
+        {
+          "opinion_id": "A-99-296",
+          "score": 1,
+          "rationale": "Addresses whether a candidate can receive compensation for seminar presentations under the bona fide business exception."
+        }
+      ]
     },
     {
       "text": "Section 89503 gift limit exemption part-time governing board higher education reporting Form 700",
@@ -3093,7 +4274,73 @@
       "issue": "gift_limits_and_applicability",
       "notes": "Grounded in 09-039 (part-time CSU trustee exempt from gift limits under 89503(d) but still subject to reporting).",
       "id": "q046",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "09-039",
+          "score": 2,
+          "rationale": "Directly addresses whether a non-elected part-time governing board member of a public higher education institution is subject to 89503 gift limits."
+        },
+        {
+          "opinion_id": "09-082",
+          "score": 2,
+          "rationale": "Directly addresses whether CSU Board of Trustees members are 'part-time' under Section 89503(d)."
+        },
+        {
+          "opinion_id": "95-098",
+          "score": 2,
+          "rationale": "Addresses whether gift limits and honoraria ban apply to appointed/elected board members of public retirement systems."
+        },
+        {
+          "opinion_id": "94-289",
+          "score": 2,
+          "rationale": "Addresses whether gift and honoraria limits apply to members of governing boards of special districts."
+        },
+        {
+          "opinion_id": "94-243",
+          "score": 1,
+          "rationale": "Addresses limitations on honoraria acceptance by local elected officials and governing board members."
+        },
+        {
+          "opinion_id": "95-163",
+          "score": 1,
+          "rationale": "Addresses whether part-time unpaid volunteer advisors should be designated employees and whether gift limits apply."
+        },
+        {
+          "opinion_id": "90-517",
+          "score": 1,
+          "rationale": "Addresses whether 89503, 89505, and 89506 apply to PERS board members."
+        },
+        {
+          "opinion_id": "02-246",
+          "score": 1,
+          "rationale": "Addresses whether a community college trustee can accept gifts of travel under gift limits."
+        },
+        {
+          "opinion_id": "16-031",
+          "score": 1,
+          "rationale": "Addresses whether educational trips to school district board members are exempt from gift limits."
+        },
+        {
+          "opinion_id": "91-149",
+          "score": 1,
+          "rationale": "Addresses gift and honoraria limits applicable to local elected officers."
+        },
+        {
+          "opinion_id": "A-19-131",
+          "score": 1,
+          "rationale": "Addresses scholarship award to a public official and whether it is subject to gift limits."
+        },
+        {
+          "opinion_id": "96-373",
+          "score": 0,
+          "rationale": "Addresses Proposition 208 campaign finance reform \u2014 mentions 89503 but focuses on campaign finance."
+        },
+        {
+          "opinion_id": "04-101",
+          "score": 0,
+          "rationale": "Mentions 89503 in context of whether a person qualifies as a public official \u2014 not focused on the gift limit exemption."
+        }
+      ]
     },
     {
       "text": "A state agency is sponsoring a charity golf tournament open to employees, vendors, and the general public. A designated employee in the agency's project management office is collecting donated items from vendors valued under $200 each to use as raffle prizes. Are the items she collects considered reportable gifts to her, and are prizes won by designated employees at the raffle considered gifts or income?",
@@ -3102,7 +4349,88 @@
       "issue": "gift_definition_and_valuation",
       "notes": "Closely tracks the facts of 03-151 (Teale Data Center CSECC golf tournament). Tests Section 82028 gift definition and Regulation 18946.5 bona fide competition exception.",
       "id": "q047",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "03-151",
+          "score": 2,
+          "rationale": "Directly addresses the exact fact pattern \u2014 state employee collecting donated items for a charity golf tournament raffle."
+        },
+        {
+          "opinion_id": "89-361",
+          "score": 2,
+          "rationale": "Directly addresses whether a state employee can accept a raffle prize from a vendor."
+        },
+        {
+          "opinion_id": "08-196",
+          "score": 2,
+          "rationale": "Addresses whether items donated to SANDAG for employee raffle prizes must be reported."
+        },
+        {
+          "opinion_id": "99-148",
+          "score": 2,
+          "rationale": "Addresses whether a company can donate a raffle prize at an event open to public officials \u2014 analyzes bona fide competition."
+        },
+        {
+          "opinion_id": "16-115",
+          "score": 2,
+          "rationale": "Addresses whether raffle prizes at a conference attended by public officials are gifts."
+        },
+        {
+          "opinion_id": "01-225",
+          "score": 1,
+          "rationale": "Addresses whether a company can donate a raffle prize at a state employee fundraising campaign."
+        },
+        {
+          "opinion_id": "94-391",
+          "score": 1,
+          "rationale": "Addresses disclosure obligations for a raffle prize won by a councilmember."
+        },
+        {
+          "opinion_id": "02-282",
+          "score": 1,
+          "rationale": "Addresses whether a raffle prize is subject to disclosure requirements and gift limitations."
+        },
+        {
+          "opinion_id": "14-005",
+          "score": 1,
+          "rationale": "Addresses whether a raffle prize at an employee-union holiday party is a reportable gift."
+        },
+        {
+          "opinion_id": "05-085",
+          "score": 1,
+          "rationale": "Addresses whether a computer won in a random drawing is a gift or income."
+        },
+        {
+          "opinion_id": "10-122",
+          "score": 1,
+          "rationale": "Addresses whether a door prize at a conference is a gift under the bona fide competition exception."
+        },
+        {
+          "opinion_id": "95-148",
+          "score": 1,
+          "rationale": "Addresses whether a computer won by random drawing at a conference is a disclosable gift."
+        },
+        {
+          "opinion_id": "96-324",
+          "score": 1,
+          "rationale": "Addresses whether a coupon won by random drawing at a public event is a gift or income."
+        },
+        {
+          "opinion_id": "91-208",
+          "score": 1,
+          "rationale": "Addresses whether greens fees, meals, and entertainment at a charity golf tournament are honoraria."
+        },
+        {
+          "opinion_id": "85097",
+          "score": 0,
+          "rationale": "About lobbyist donating golf clubs to a charity tournament \u2014 focuses on lobbyist restrictions."
+        },
+        {
+          "opinion_id": "UNK-91-10483",
+          "score": 0,
+          "rationale": "Brief advice about school personnel accepting door prizes \u2014 too informal."
+        }
+      ]
     },
     {
       "text": "Does Section 89506(a)(2) exempt travel payments from the gift limit when a foreign government pays for a local elected official's international trip to promote trade and economic development?",
@@ -3111,7 +4439,98 @@
       "issue": "travel_payment_exceptions",
       "notes": "Grounded in 17-213 and 15-189 (Silicon Valley mayors' China trips funded by Chinese government agencies). Tests the foreign government travel exception.",
       "id": "q048",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "17-213",
+          "score": 2,
+          "rationale": "Directly addresses whether travel payments from foreign government for elected officials' trip are exempt from gift limits under 89506(a)(2)."
+        },
+        {
+          "opinion_id": "15-189",
+          "score": 2,
+          "rationale": "Directly addresses whether travel payments funded by Chinese government authorities for mayors' trip are subject to gift limits."
+        },
+        {
+          "opinion_id": "I-24-034",
+          "score": 2,
+          "rationale": "Directly addresses whether travel payments from Chinese municipal government for a mayor's trip are subject to gift limits under 89506(a)(2)."
+        },
+        {
+          "opinion_id": "14-118",
+          "score": 2,
+          "rationale": "Addresses whether travel payments for public officials' trade mission to China are subject to limits under 89506(a)(2)."
+        },
+        {
+          "opinion_id": "16-079-1090",
+          "score": 2,
+          "rationale": "Addresses whether travel payments from Chinese governments for mayors are subject to gift limits under 89506(a)(2)."
+        },
+        {
+          "opinion_id": "17-264",
+          "score": 2,
+          "rationale": "Addresses whether travel provided by nonprofit trade association and Chinese city governments is subject to gift limits."
+        },
+        {
+          "opinion_id": "A-18-075",
+          "score": 2,
+          "rationale": "Addresses whether travel payments from Chinese municipal government for mayors' trip are exempt from gift limits."
+        },
+        {
+          "opinion_id": "13-130",
+          "score": 1,
+          "rationale": "Addresses whether travel payments from Taiwan's government are exempt under 89506."
+        },
+        {
+          "opinion_id": "92-433",
+          "score": 1,
+          "rationale": "Addresses travel payments from Mexican Government for NAFTA meeting."
+        },
+        {
+          "opinion_id": "92-459",
+          "score": 1,
+          "rationale": "Addresses local elected officers receiving travel gifts from Mexican Government for NAFTA meeting."
+        },
+        {
+          "opinion_id": "93-309",
+          "score": 1,
+          "rationale": "Addresses travel payments from Chinese provincial government for a supervisor's trip."
+        },
+        {
+          "opinion_id": "94-292",
+          "score": 1,
+          "rationale": "Addresses whether travel from Japanese government agencies for conferences is exempt under 89506."
+        },
+        {
+          "opinion_id": "A-18-170",
+          "score": 1,
+          "rationale": "Addresses 89506(a)(2) travel exception for a Korea trip paid by a 501(c)(3)."
+        },
+        {
+          "opinion_id": "A-18-215",
+          "score": 1,
+          "rationale": "Addresses 89506(a)(2) travel exception for trip to Israel paid by a 501(c)(3)."
+        },
+        {
+          "opinion_id": "10-082",
+          "score": 1,
+          "rationale": "Addresses travel payments for a mayor's trip to Singapore paid by a 501(c)(3)."
+        },
+        {
+          "opinion_id": "14-195",
+          "score": 1,
+          "rationale": "Addresses city-funded travel to China and Taiwan for sister city purposes."
+        },
+        {
+          "opinion_id": "03-064",
+          "score": 0,
+          "rationale": "Addresses travel payments from a university under 89506(b) \u2014 different subsection."
+        },
+        {
+          "opinion_id": "00-266",
+          "score": 0,
+          "rationale": "Addresses travel for a speech to a private company \u2014 different exception."
+        }
+      ]
     },
     {
       "text": "89518 campaign funds candidate self-compensation consulting services vendor",
@@ -3120,7 +4539,68 @@
       "issue": "campaign_fund_personal_use",
       "notes": "Grounded in 95-303 (candidate who is a professional campaign consultant cannot be compensated by own campaign committee). Tests Section 89518's prohibition on candidate self-compensation.",
       "id": "q049",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "95-303",
+          "score": 2,
+          "rationale": "Directly addresses whether a candidate may be compensated by their campaign committee as a vendor under Section 89518."
+        },
+        {
+          "opinion_id": "09-263",
+          "score": 2,
+          "rationale": "Directly addresses whether Section 89518(a) prohibits a candidate from providing professional services for compensation."
+        },
+        {
+          "opinion_id": "02-339",
+          "score": 2,
+          "rationale": "Addresses whether campaign funds may be used to hire a family member, analyzing 89518 and 89513(b)."
+        },
+        {
+          "opinion_id": "04-094",
+          "score": 1,
+          "rationale": "Addresses whether a candidate's committee can hire the candidate's adult daughter under 89518."
+        },
+        {
+          "opinion_id": "05-166",
+          "score": 1,
+          "rationale": "Addresses using campaign funds to supplement a government employee's salary for campaign work under 89518."
+        },
+        {
+          "opinion_id": "96-221",
+          "score": 1,
+          "rationale": "Addresses whether a candidate may pay a spouse for legitimate campaign work."
+        },
+        {
+          "opinion_id": "93-036",
+          "score": 1,
+          "rationale": "Addresses using campaign funds to supplement Assembly staff income."
+        },
+        {
+          "opinion_id": "90-731",
+          "score": 1,
+          "rationale": "Cited by 95-303 and 09-263; addresses transfer of campaign funds and 89518."
+        },
+        {
+          "opinion_id": "91-123",
+          "score": 1,
+          "rationale": "Comprehensive overview of permissible uses of campaign funds including professional services under 89513(b)."
+        },
+        {
+          "opinion_id": "00-280",
+          "score": 1,
+          "rationale": "Addresses whether a candidate may use campaign funds to purchase their own book under the personal benefit test."
+        },
+        {
+          "opinion_id": "92-389",
+          "score": 0,
+          "rationale": "About slate mailer organizations and consulting firm owner. Tangential."
+        },
+        {
+          "opinion_id": "96-175",
+          "score": 0,
+          "rationale": "About using campaign funds for union political staff salaries. Not about self-compensation."
+        }
+      ]
     },
     {
       "text": "A county supervisor who is also a licensed general contractor wants to use campaign funds from his officeholder account to pay a $500 speaker's fee to attend and present at a local economic outlook seminar. The fee includes a display booth and a table for eight at the luncheon. He plans to invite other county officials as his guests and will speak on county demographics, land use policies, and economic development priorities. Is this a permissible expenditure of campaign funds under the personal use restrictions?",
@@ -3129,7 +4609,68 @@
       "issue": "campaign_fund_personal_use",
       "notes": "Closely tracks the facts of 95-345 (Tulare County Supervisor paying seminar fee with campaign funds). Tests Sections 89512 and 89513(f)(1) regarding the 'reasonably related to governmental purpose' standard.",
       "id": "q050",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "95-303",
+          "score": 2,
+          "rationale": "Directly addresses whether a candidate may be compensated through their campaign committee as a vendor, concluding it is prohibited under 89518."
+        },
+        {
+          "opinion_id": "00-280",
+          "score": 2,
+          "rationale": "Addresses whether a candidate may use campaign funds resulting in personal financial benefit, analyzing the 89512 personal benefit test."
+        },
+        {
+          "opinion_id": "09-263",
+          "score": 2,
+          "rationale": "Addresses 89518(a) self-compensation prohibition scope."
+        },
+        {
+          "opinion_id": "13-041",
+          "score": 1,
+          "rationale": "Addresses whether a political party can purchase real property with campaign funds under 89512/89517."
+        },
+        {
+          "opinion_id": "03-092",
+          "score": 1,
+          "rationale": "Addresses a candidate using their own corporation's office space for campaign business at fair market value."
+        },
+        {
+          "opinion_id": "02-339",
+          "score": 1,
+          "rationale": "Addresses hiring family members for campaign services under 89518."
+        },
+        {
+          "opinion_id": "04-094",
+          "score": 1,
+          "rationale": "Addresses hiring the controlling candidate's family member under 89518."
+        },
+        {
+          "opinion_id": "92-078",
+          "score": 1,
+          "rationale": "Addresses whether a candidate can jointly rent property with their campaign committee under 89512 personal benefit test."
+        },
+        {
+          "opinion_id": "96-099",
+          "score": 1,
+          "rationale": "Addresses using campaign funds for political party convention expenses."
+        },
+        {
+          "opinion_id": "94-286",
+          "score": 1,
+          "rationale": "Addresses the personal benefit test \u2014 no personal benefit may accrue to individuals with expenditure authority."
+        },
+        {
+          "opinion_id": "92-440",
+          "score": 0,
+          "rationale": "About donations to nonprofit organizations from campaign funds. Not about self-dealing."
+        },
+        {
+          "opinion_id": "11-051",
+          "score": 0,
+          "rationale": "About donating campaign funds to public schools. Not relevant."
+        }
+      ]
     },
     {
       "text": "lobbyist registration renewal vs new registration 86103 ethics course conditional certification",

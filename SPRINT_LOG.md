@@ -292,3 +292,86 @@ All three types roughly equal, per SPEC.md guidance.
 - Spousal/community property (q026-q027) drew heavily from 1970s-era opinions when the topic was frequently addressed
 - Remaining work: Campaign finance (q030-q043), gifts/honoraria (q044-q050), lobbying (q051-q055), other (q056-q065)
 - All 28 scorer unit tests continue to pass
+
+## Sprint 6: Relevance Judgments — Campaign Finance & Gifts/Honoraria (q030-q050)
+**Date:** 2026-02-12
+**Branch:** sprint-6/relevance-cf-gifts
+**Status:** Complete
+
+### Completed
+- Populated relevance judgments for 21 queries (q030-q050) covering 10 campaign finance issues and 5 gifts/honoraria issues
+- Spawned 4 parallel researcher agents organized by issue batch:
+  - Researcher A: Contributions, limits, IEs, member comms, committee formation (q030, q031, q038, q039, q040, q043)
+  - Researcher B: Campaign fund use, mass mailing, pay-to-play (q032, q033, q034, q035, q036)
+  - Researcher C: Campaign reporting, behested payments, campaign fund personal use (q037, q041, q042, q049, q050)
+  - Researcher D: Honoraria, gift limits, gift definition, travel exceptions (q044, q045, q046, q047, q048)
+- All 304 judgment opinion IDs verified to exist in corpus; all judgments include rationales
+- Dataset loads correctly via `src/scorer.py`; all 28 unit tests pass
+
+### Judgment Summary
+
+| Query | Issue | Type | Judged | Score 2 | Score 1 |
+|-------|-------|------|--------|---------|---------|
+| q030 | contribution_definition | keyword | 14 | 6 | 7 |
+| q031 | contribution_definition | fact_pattern | 13 | 4 | 7 |
+| q032 | campaign_fund_use | keyword | 19 | 6 | 12 |
+| q033 | campaign_fund_use | natural_language | 13 | 7 | 5 |
+| q034 | mass_mailing | natural_language | 17 | 6 | 10 |
+| q035 | pay_to_play_disqualification | keyword | 12 | 5 | 6 |
+| q036 | pay_to_play_disqualification | fact_pattern | 12 | 6 | 5 |
+| q037 | campaign_reporting_disclosure | natural_language | 16 | 4 | 10 |
+| q038 | contribution_limits_transfers | keyword | 15 | 6 | 7 |
+| q039 | independent_expenditures | natural_language | 13 | 4 | 7 |
+| q040 | member_communications | fact_pattern | 15 | 6 | 7 |
+| q041 | behested_payments | keyword | 15 | 4 | 9 |
+| q042 | behested_payments | fact_pattern | 15 | 3 | 10 |
+| q043 | committee_formation_management | natural_language | 15 | 6 | 7 |
+| q044 | honoraria_ban_and_exceptions | keyword | 14 | 7 | 7 |
+| q045 | honoraria_ban_and_exceptions | natural_language | 15 | 7 | 8 |
+| q046 | gift_limits_and_applicability | keyword | 13 | 4 | 7 |
+| q047 | gift_definition_and_valuation | fact_pattern | 16 | 5 | 9 |
+| q048 | travel_payment_exceptions | natural_language | 18 | 7 | 9 |
+| q049 | campaign_fund_personal_use | keyword | 12 | 3 | 7 |
+| q050 | campaign_fund_personal_use | fact_pattern | 12 | 3 | 7 |
+| **Total** | | | **304** | **111** | **163** |
+
+### Issues Covered (15 new)
+
+**Campaign Finance (10 issues)**
+| # | Issue | Queries |
+|---|-------|---------|
+| 1 | contribution_definition | q030, q031 |
+| 2 | campaign_fund_use | q032, q033 |
+| 3 | mass_mailing | q034 |
+| 4 | pay_to_play_disqualification | q035, q036 |
+| 5 | campaign_reporting_disclosure | q037 |
+| 6 | contribution_limits_transfers | q038 |
+| 7 | independent_expenditures | q039 |
+| 8 | member_communications | q040 |
+| 9 | behested_payments | q041, q042 |
+| 10 | committee_formation_management | q043 |
+
+**Gifts and Honoraria (5 issues)**
+| # | Issue | Queries |
+|---|-------|---------|
+| 1 | honoraria_ban_and_exceptions | q044, q045 |
+| 2 | gift_limits_and_applicability | q046 |
+| 3 | gift_definition_and_valuation | q047 |
+| 4 | travel_payment_exceptions | q048 |
+| 5 | campaign_fund_personal_use | q049, q050 |
+
+### Artifacts Created/Modified
+- `eval/dataset.json` — populated relevance_judgments for q030-q050 (304 new judgments; 697 total with Sprints 4-5)
+- `SPRINT_LOG.md` — updated with Sprint 6 entry
+
+### Notes for Future Sprints
+- Average 14.5 judgments per query, well above 10 minimum; average 5.3 score-2 per query, above 2-3 minimum
+- Campaign fund use (q032) has the richest judgment set at 19 opinions, reflecting the broad applicability of the 85800/85801 governmental purpose framework
+- Travel payment exceptions (q048) also rich at 18 opinions — the Silicon Valley mayors' China trip cases created a cluster of closely related opinions
+- Behested payments (q041-q042) coverage was thin as predicted but expanded successfully through "behest" keyword and 84224 statute searches
+- Member communications (q040) benefited from the A-20-044 and 10-034 seed opinions which led to strong citation chains
+- Campaign fund personal use (q049-q050) distinguished from regular campaign_fund_use by focusing on 89510-89519 statutes rather than 85800-85802
+- Honoraria queries (q044-q045) had strong coverage — many opinions from 1990s-2000s when the bona fide business exception was frequently litigated
+- 50 of 65 queries now have judgments (29 CoI + 14 CF + 7 G/H)
+- Remaining work: Lobbying (q051-q055), other (q056-q065) — 15 queries remaining
+- All 28 scorer unit tests continue to pass
