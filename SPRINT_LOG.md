@@ -189,3 +189,44 @@ All three types roughly equal, per SPEC.md guidance.
 - The `relevance_judgments` arrays are all empty — these will be populated in Sprints 4-7
 - The `load_dataset` function in `src/scorer.py` will skip queries with empty relevance judgments, so the scorer won't produce meaningful output until judgments are added
 - 28 existing scorer tests all pass
+
+## Sprint 4: Relevance Judgments — CoI Batch 1 (q001-q012)
+**Date:** 2026-02-12
+**Branch:** sprint-4/relevance-coi-batch1
+**Status:** Complete
+
+### Completed
+- Populated relevance judgments for 12 queries (q001-q012) covering 5 conflicts of interest issues
+- Spawned 4 parallel researcher agents organized by issue group, each using multiple search strategies (statute grep, keyword search, citation chain following)
+- All opinion IDs verified to exist in corpus; all judgments include rationales
+- Dataset loads correctly via `src/scorer.py`; all 28 unit tests pass
+
+### Judgment Summary
+
+| Query | Issue | Type | Judged | Score 2 | Score 1 |
+|-------|-------|------|--------|---------|---------|
+| q001 | business_entity_interest | keyword | 22 | 12 | 10 |
+| q002 | business_entity_interest | natural_language | 17 | 6 | 11 |
+| q003 | business_entity_interest | fact_pattern | 17 | 7 | 10 |
+| q004 | real_property_proximity | keyword | 25 | 15 | 10 |
+| q005 | real_property_proximity | natural_language | 16 | 6 | 10 |
+| q006 | real_property_proximity | fact_pattern | 18 | 8 | 10 |
+| q007 | source_of_income | keyword | 25 | 10 | 15 |
+| q008 | source_of_income | natural_language | 15 | 5 | 10 |
+| q009 | source_of_income | fact_pattern | 13 | 4 | 9 |
+| q010 | gift_source_disqualification | keyword | 10 | 3 | 7 |
+| q011 | gift_source_disqualification | natural_language | 10 | 3 | 7 |
+| q012 | personal_financial_effect | keyword | 11 | 4 | 7 |
+| **Total** | | | **199** | **83** | **116** |
+
+### Artifacts Created/Modified
+- `eval/dataset.json` — populated relevance_judgments for q001-q012 (199 total judgments)
+- `SPRINT_LOG.md` — updated with Sprint 4 entry
+
+### Notes for Future Sprints
+- Average 16.6 judgments per query, well above 10 minimum; average 6.9 score-2 per query, above 2-3 minimum
+- Business entity interest (q001-q003) and real property proximity (q004-q006) have the richest judgment sets, reflecting large corpus coverage for those statutes
+- Gift source disqualification (q010-q011) is the thinnest area with exactly 10 opinions each — 87103(d)/(e) opinions are less common in the corpus
+- Source of income (q007-q009) has strong coverage; many opinions address employer vs. contract income identification
+- Search strategies used: statute citation grep (87103(a)-(e)), keyword content search across qa_text, and citation chain following from taxonomy examples
+- All 28 scorer unit tests continue to pass

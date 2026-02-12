@@ -694,7 +694,118 @@
       "topic": "conflicts_of_interest",
       "issue": "business_entity_interest",
       "notes": "Keyword query targeting the core business entity disqualification provision. Grounded in opinions like 76188 (planning commissioner with limited partnership) and 00-014 (aviation commissioner consulting to airport tenant). Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "82A155",
+          "score": 2,
+          "rationale": "Directly analyzes whether commissioner's stock investment in Exxon Corporation (a business entity) triggers disqualification under 87103(a) from voting on zoning ordinance changes affecting oil/gas operations."
+        },
+        {
+          "opinion_id": "02-232",
+          "score": 2,
+          "rationale": "Core 87103(a) analysis of whether planning commissioners' stock interests in Focal Corporation constitute an indirect investment interest in IGDC that would preclude voting on development projects. Three mentions of 87103(a)."
+        },
+        {
+          "opinion_id": "06-073",
+          "score": 2,
+          "rationale": "Directly addresses whether stock holdings give rise to conflicts under 87103(a), concluding official has conflict prohibiting participation in decisions with material financial effect on business entities in which official has $2,000+ investment."
+        },
+        {
+          "opinion_id": "07-160",
+          "score": 2,
+          "rationale": "Analyzes whether stock holdings in health care companies create disqualifying 87103(a) investment interest for auditor making decisions about those companies. Directly applies $2,000 threshold."
+        },
+        {
+          "opinion_id": "88425",
+          "score": 2,
+          "rationale": "Specifically addresses whether council and planning commission members who own stock in Roseville Telephone Company have 87103(a) disqualifying investment interest when making land use decisions affecting the company."
+        },
+        {
+          "opinion_id": "92-657",
+          "score": 2,
+          "rationale": "Directly analyzes whether spouse's investment in Chevron U.S.A. stock creates disqualifying 87103(a) financial interest for water quality board member. Addresses indirect investment and disposition of stock."
+        },
+        {
+          "opinion_id": "75135",
+          "score": 2,
+          "rationale": "Early opinion analyzing whether mayor's ownership of 500 shares of San Diego Gas and Electric stock creates 87103(a) conflict when voting on matters affecting the company. Addresses elimination of conflict through stock sale."
+        },
+        {
+          "opinion_id": "87048",
+          "score": 2,
+          "rationale": "Analyzes multiple scenarios of planning commissioners' stock ownership (PG&E, Crowley Maritime) creating 87103(a) disqualification from general plan amendment decisions. Cites 87103(a) twice."
+        },
+        {
+          "opinion_id": "89-484",
+          "score": 2,
+          "rationale": "Analyzes whether mayor who sold bank stock to parents retains 87103(a) investment interest requiring disqualification from redevelopment decisions. Addresses indirect investment through family."
+        },
+        {
+          "opinion_id": "96-265",
+          "score": 2,
+          "rationale": "Core 87103(a) case: city manager owns 6.4% of railroad company and serves as investment group president. Cannot participate in decisions concerning business entities in which he has direct investment."
+        },
+        {
+          "opinion_id": "99-058",
+          "score": 2,
+          "rationale": "Analyzes councilmember's stock ownership in First Northern bank under 87103(a) and whether it creates disqualifying conflict in decisions about city banking services selection. Two mentions of 87103(a)."
+        },
+        {
+          "opinion_id": "10-198",
+          "score": 2,
+          "rationale": "Explicitly identifies 87103(a) business entity investment interest as the pertinent economic interest and applies the $2,000 threshold. Detailed analysis of direct vs indirect involvement."
+        },
+        {
+          "opinion_id": "76188",
+          "score": 1,
+          "rationale": "Early foundational opinion establishing 87103 framework. Analyzes limited partnership investment in commercial property under 87103(a), but primary focus is on public generally exception rather than 87103(a) mechanics."
+        },
+        {
+          "opinion_id": "84319",
+          "score": 1,
+          "rationale": "Discusses TAMCO employees' potential disqualification regarding investment recommendations; touches on 87103(a) in context of parent/subsidiary business entities, but main focus is public official status."
+        },
+        {
+          "opinion_id": "97-294",
+          "score": 1,
+          "rationale": "Analyzes directors' conflicts including 87103(a) indirect investment in business entity through spouse. However, source of income under 87103(c) is also a major focus."
+        },
+        {
+          "opinion_id": "85184",
+          "score": 1,
+          "rationale": "Addresses whether water district director's stock ownership in mutual water companies is basis for disqualification. Relevant to investment interest analysis but focuses on nonprofit/mutual company distinctions."
+        },
+        {
+          "opinion_id": "89-343",
+          "score": 1,
+          "rationale": "Discusses how to report investment in limited partnership and when conflict arises. Relevant to business entity investment interest but primarily a reporting/disclosure question."
+        },
+        {
+          "opinion_id": "95-363",
+          "score": 1,
+          "rationale": "Analyzes whether share of stock in nonprofit is a disqualifying investment. Concludes nonprofits are not business entities under the Act. Useful negative example for 87103(a) scope."
+        },
+        {
+          "opinion_id": "A-22-088",
+          "score": 1,
+          "rationale": "Addresses disclosure of individual stock investments in index-tracking account. Relevant to defining what constitutes a reportable 87103(a) investment but focuses on disclosure rather than disqualification."
+        },
+        {
+          "opinion_id": "14-207",
+          "score": 1,
+          "rationale": "General CoI analysis listing all 87103 interest types including 87103(a) investment interest. Provides useful framework but business entity interest is not the sole focus."
+        },
+        {
+          "opinion_id": "09-005",
+          "score": 1,
+          "rationale": "Discusses official starting a seminar business and identifies 87103(a) investment interest and 87103(d) management position. Business entity interest is one of several economic interests analyzed."
+        },
+        {
+          "opinion_id": "93-383",
+          "score": 1,
+          "rationale": "Analyzes councilmember's obligations regarding nonprofit entity that purchased ownership interest in a business entity. Touches on 87103(a) investment threshold but primarily about nonprofit/business entity distinctions."
+        }
+      ]
     },
     {
       "id": "q002",
@@ -703,7 +814,93 @@
       "topic": "conflicts_of_interest",
       "issue": "business_entity_interest",
       "notes": "Natural language question based on 00-014 (management consulting to airport tenant Sunset Aviation). Tests whether the search engine can match consulting/management relationships with business entity interest analysis. Medium-hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "00-014",
+          "score": 2,
+          "rationale": "Directly on point: aviation commissioner provides management consulting to Sunset Aviation, a major tenant of Gnoss Airfield. Analyzes 87103(a) investment, 87103(c) source of income, and 87103(d) position in business entity."
+        },
+        {
+          "opinion_id": "94-313",
+          "score": 2,
+          "rationale": "Airport commission scenario: analyzes whether Commissioner Blair can participate in decisions about airplane space rates and airport master plan given his business interests at San Jose International Airport. Applies 87103(a)."
+        },
+        {
+          "opinion_id": "98-224",
+          "score": 2,
+          "rationale": "Airport commission member with leasehold interest at airport asks about participating in decisions about airport land parcels, real property, and noise ordinances. Directly on point for commission oversight of airport."
+        },
+        {
+          "opinion_id": "06-113",
+          "score": 2,
+          "rationale": "Commissioner James has economic interest in Teledyne (business entity where she is employed/invested) and must recuse from decisions affecting Teledyne's property. Three mentions of 87103(a). Consulting/commission relationship similar to q002."
+        },
+        {
+          "opinion_id": "89-467",
+          "score": 2,
+          "rationale": "Supervisor's husband's architectural firm creates 87103(a) business entity interest. Must recuse from decisions affecting firm's clients. Directly addresses consulting/professional services creating disqualification."
+        },
+        {
+          "opinion_id": "08-149",
+          "score": 2,
+          "rationale": "Official has disqualifying conflict from decisions affecting Omni-Means Limited, a business that is source of income to spouse's partially-owned business (Visalia Land and Investment). Complex business entity chain analysis under 87103(a)."
+        },
+        {
+          "opinion_id": "92-523",
+          "score": 1,
+          "rationale": "Attorney consultant to government agency with conflict from law firm receiving fees. Relevant to consulting relationship creating conflict but focuses on 87103(d) position rather than 87103(a) investment."
+        },
+        {
+          "opinion_id": "A-19-006",
+          "score": 1,
+          "rationale": "Councilmember operates business on airport land and asks about participating in airport repair decisions. Relevant airport/business scenario but focuses on Section 1090 rather than 87103(a)."
+        },
+        {
+          "opinion_id": "90-090",
+          "score": 1,
+          "rationale": "Department employees participating in decisions about hiring outside counsel. Cites 87103(a) but focuses on whether employees have financial interest in the litigation outcome, not consulting/business entity relationship."
+        },
+        {
+          "opinion_id": "00-221",
+          "score": 1,
+          "rationale": "CPEC commissioner involved in business related to higher education asks about voting on policy decisions. Relevant to commissioner with business interest in regulated area but analysis is general."
+        },
+        {
+          "opinion_id": "11-007",
+          "score": 1,
+          "rationale": "Councilmember who is partner in business asks about decisions affecting business clients. Relevant to business entity interest under 87103(a) and 87103(d) but not specific to consulting/commission oversight."
+        },
+        {
+          "opinion_id": "04-148",
+          "score": 1,
+          "rationale": "Analyzes official's economic interest in business entity as source of income and investment, with indirect involvement in redevelopment decisions. Relevant framework but not consulting/airport specific."
+        },
+        {
+          "opinion_id": "84319",
+          "score": 1,
+          "rationale": "TAMCO employees recommending investments to boards. Relevant to consulting-like relationship and 87103(a) analysis but focuses on public official status question."
+        },
+        {
+          "opinion_id": "82A155",
+          "score": 1,
+          "rationale": "Commissioner with stock investment in Exxon disqualified from zoning decisions affecting oil operations. Business entity investment analysis relevant to q002's core issue."
+        },
+        {
+          "opinion_id": "90-543",
+          "score": 1,
+          "rationale": "Councilmember participating in community facilities district decision where it may impact business entities related to employer. Relevant to business entity/employer relationship but limited 87103(a) analysis."
+        },
+        {
+          "opinion_id": "05-222",
+          "score": 1,
+          "rationale": "Official asks about participating in landscape and lighting district decisions and developer fees where they have business entity interests. Relevant intersection of business entity and district oversight."
+        },
+        {
+          "opinion_id": "09-129",
+          "score": 1,
+          "rationale": "Analyzes councilmembers' business entity interests and whether decisions affect tenants/customers of their businesses. Relevant to indirect effects on business entities."
+        }
+      ]
     },
     {
       "id": "q003",
@@ -712,7 +909,93 @@
       "topic": "conflicts_of_interest",
       "issue": "business_entity_interest",
       "notes": "Fact pattern based on 10-007 (councilmember owning home in L&L district). Blends business entity and real property interest issues. Tests whether search engine surfaces opinions addressing assessment district voting. Hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "10-007",
+          "score": 2,
+          "rationale": "Directly on point: councilmember owns home in landscape and lighting district and asks about participating in district decisions. Analyzes 87103(a) investment, 87103(b) real property, and personal finances interests. This is the seed opinion for q003."
+        },
+        {
+          "opinion_id": "17-085",
+          "score": 2,
+          "rationale": "Directly on point: public official residing in landscape and lighting assessment district asks about adjusting assessment rates. Concludes official may participate if rate adjustment applies equally to all residences."
+        },
+        {
+          "opinion_id": "00-107",
+          "score": 2,
+          "rationale": "Councilmember has conflict in establishing landscape maintenance assessment district based on HOA common area interest. Analyzes all 87103 subsections including 87103(a) for business entity interest in HOA."
+        },
+        {
+          "opinion_id": "96-169",
+          "score": 2,
+          "rationale": "Directly relevant: councilmember as assessment district director in L&L decisions where his funeral home business is at intersection maintained by district. Analyzes 87103(a) business entity interest in assessment district context."
+        },
+        {
+          "opinion_id": "85124",
+          "score": 2,
+          "rationale": "Councilmember asks about participating in L&L assessment district decisions given employment by and investment in Southern California Edison. Directly combines business entity investment with L&L district."
+        },
+        {
+          "opinion_id": "05-222",
+          "score": 2,
+          "rationale": "Official asks about participating in creation of landscape and lighting districts given business entity and management position interests. Applies 87103(a) and 87103(d) to L&L district context."
+        },
+        {
+          "opinion_id": "A-25-065",
+          "score": 2,
+          "rationale": "Councilmember and city manager ask about participating in $25 assessment levy on their residences. Concludes de minimis financial effect allows participation. Directly relevant to q003 assessment levy scenario."
+        },
+        {
+          "opinion_id": "92-196",
+          "score": 1,
+          "rationale": "Mayor owning residence on street asks about street assessment district formation. Analyzes 87103(b) real property interest but not 87103(a) business entity interest. Relevant for assessment district analysis framework."
+        },
+        {
+          "opinion_id": "89-568",
+          "score": 1,
+          "rationale": "Addresses conflicts in alley lighting assessment district and landmark district decisions. Analyzes public generally exception for assessment districts. Relevant framework but focuses on 87103(b) real property."
+        },
+        {
+          "opinion_id": "92-354",
+          "score": 1,
+          "rationale": "Participation in decisions near real property where development will reduce Mello-Roos assessment. Relevant assessment district analysis but focuses on real property under 87103(b)."
+        },
+        {
+          "opinion_id": "94-043",
+          "score": 1,
+          "rationale": "Mayor participating in bond refinancing that reduces assessment on property owners including mayor. Assessment district conflict framework relevant but focuses on real property interest."
+        },
+        {
+          "opinion_id": "17-178",
+          "score": 1,
+          "rationale": "Councilmember's conflict based on residence near underground utility assessment districts. Related assessment district analysis but focuses on real property proximity under 87103(b)."
+        },
+        {
+          "opinion_id": "76188",
+          "score": 1,
+          "rationale": "Foundational opinion analyzing limited partner's investment in commercial building within core area plan. Establishes public generally framework for property owners in planned districts, applicable to q003."
+        },
+        {
+          "opinion_id": "89-409",
+          "score": 1,
+          "rationale": "Coastal commissioner with sewer assessment district interests. Analyzes multiple 87103 subsections including 87103(a) for business entity. Relevant assessment district conflict analysis."
+        },
+        {
+          "opinion_id": "I-23-176",
+          "score": 1,
+          "rationale": "Mayor and vice-mayor owning businesses ask about participating in business license tax ordinance decisions. Relevant overlap between business entity interest and tax/levy decisions."
+        },
+        {
+          "opinion_id": "90-542",
+          "score": 1,
+          "rationale": "Mayor and councilmembers with business entity and real property interests participating in general plan decisions. Analyzes 87103(a) and 87103(b) together similar to q003's blended analysis."
+        },
+        {
+          "opinion_id": "82A183",
+          "score": 1,
+          "rationale": "Council member's month-to-month tenancy and agency counsel's conflict in redevelopment context. Applies 87103(a) and 87103(b) in blended real property and business entity analysis."
+        }
+      ]
     },
     {
       "id": "q004",
@@ -721,7 +1004,133 @@
       "topic": "conflicts_of_interest",
       "issue": "real_property_proximity",
       "notes": "Keyword query using canonical terms for the 500-foot proximity rule. Grounded in 90-162 (councilmembers near street widening project) and multiple real property opinions. Easy difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-162",
+          "score": 2,
+          "rationale": "Directly analyzes proximity-based disqualification for two councilmembers at different distances (80-920 feet and 370-560 feet) from a street widening project, applying Regulation 18702.3 proximity tiers (within 300 feet vs. 300-2500 feet). Core precedent for real property proximity analysis."
+        },
+        {
+          "opinion_id": "A-25-076",
+          "score": 2,
+          "rationale": "Analyzes whether vice mayor may participate in decisions regarding a town-owned venue less than 500 feet from his residence, applying the 500-foot presumption of materiality under Regulation 18702.2."
+        },
+        {
+          "opinion_id": "A-24-117",
+          "score": 2,
+          "rationale": "Analyzes whether three councilmembers with real property interests within 1,000 feet of a wash development project are disqualified, with detailed proximity and materiality analysis under 18702.2."
+        },
+        {
+          "opinion_id": "A-24-017",
+          "score": 2,
+          "rationale": "Analyzes whether a mayor is disqualified from decisions regarding a mixed-use project due to real property interests in the vicinity, applying 500-foot and 1,000-foot proximity presumptions."
+        },
+        {
+          "opinion_id": "I-21-140",
+          "score": 2,
+          "rationale": "Directly analyzes whether councilmembers with real property within 500 feet of an Area Plan site are disqualified, applying the 500-foot proximity presumption under the regulations."
+        },
+        {
+          "opinion_id": "A-22-069",
+          "score": 2,
+          "rationale": "Analyzes whether a mayor owning rental property 260 feet from a proposed business location is disqualified. Directly applies the less-than-500-feet presumption of material financial effect on real property."
+        },
+        {
+          "opinion_id": "A-18-111",
+          "score": 2,
+          "rationale": "Planning commissioner with residential real property interest within 475 feet of a proposed multifamily housing site is disqualified. Directly applies proximity presumption for property within 500 feet."
+        },
+        {
+          "opinion_id": "17-208",
+          "score": 2,
+          "rationale": "Directly addresses whether a councilmember with residence within 500 feet of a proposed housing project is disqualified, with extensive analysis of the 500-foot proximity rule and participation limitations."
+        },
+        {
+          "opinion_id": "A-20-085",
+          "score": 2,
+          "rationale": "Analyzes whether councilmember with real property less than 1,000 feet from a large development project is disqualified, finding that the scope and proximity create a material effect. Widely cited."
+        },
+        {
+          "opinion_id": "A-21-035",
+          "score": 2,
+          "rationale": "Councilmember's residential real property within 500 feet of convention center and adjacent lot; disqualified from lease and renovation decisions due to proximity presumption."
+        },
+        {
+          "opinion_id": "89-149",
+          "score": 2,
+          "rationale": "Directly analyzes whether a planning commissioner's residence 453 feet from a proposed mobile home park creates a disqualifying conflict, applying proximity-based materiality analysis under 18702.3."
+        },
+        {
+          "opinion_id": "A-18-106",
+          "score": 2,
+          "rationale": "Analyzes whether a mayor with rental property within 500 feet of Caltrain tracks and a vice mayor with residence within 500 feet are disqualified from rail corridor decisions. Detailed proximity analysis."
+        },
+        {
+          "opinion_id": "90-768",
+          "score": 2,
+          "rationale": "Analyzes whether a mayor may participate in a specific plan where property is within 300 feet or approximately 600 feet from her home, applying different materiality standards at each distance tier."
+        },
+        {
+          "opinion_id": "90-757",
+          "score": 1,
+          "rationale": "Two councilmembers with property within 2,500 feet of a development. Discusses proximity materiality framework but concludes no material effect -- provides context on when proximity does NOT disqualify."
+        },
+        {
+          "opinion_id": "90-580",
+          "score": 1,
+          "rationale": "Two councilmembers with property within 2,500 feet of a development project. Applies 18702.3 proximity tiers and materiality factors. Useful framework discussion."
+        },
+        {
+          "opinion_id": "92-439",
+          "score": 2,
+          "rationale": "Planning commissioners and director with residences more than 300 feet but within 2,500 feet of the Sky Park Project are disqualified. Detailed proximity-based materiality analysis under 18702.3."
+        },
+        {
+          "opinion_id": "90-774",
+          "score": 1,
+          "rationale": "Analyzes official's property 300 feet from Lake Elsinore boundary; discusses proximity-based materiality. Provides useful context on proximity framework but focused on water level decisions."
+        },
+        {
+          "opinion_id": "A-22-103",
+          "score": 2,
+          "rationale": "Mayor Pro Tem with home 529 feet from a 90-unit affordable housing project is disqualified. Directly applies the 500-1,000 foot proximity analysis under 18702.2."
+        },
+        {
+          "opinion_id": "93-070",
+          "score": 1,
+          "rationale": "Councilmember participation in bikeway/street widening project 800 feet from rental home and 45-unit subdivision 1,200 feet from residence. Applies proximity framework at various distances."
+        },
+        {
+          "opinion_id": "96-214",
+          "score": 1,
+          "rationale": "Councilmember with residence over 300 feet but within 2,500 feet of a road improvement project. Discusses proximity materiality under 18702.3 for street improvements."
+        },
+        {
+          "opinion_id": "96-313",
+          "score": 1,
+          "rationale": "Analyzes whether a roadway widening project will materially affect councilmember's real property interest. Discusses proximity-based materiality factors for street improvement decisions."
+        },
+        {
+          "opinion_id": "A-23-091",
+          "score": 1,
+          "rationale": "Analyzes mayor's residential real property within 500 feet of proposed zoning overlay. Discusses the 500-foot presumption but focused on objective design standards rather than traditional proximity analysis."
+        },
+        {
+          "opinion_id": "78ADV-78-054",
+          "score": 1,
+          "rationale": "Early foundational opinion on real property disqualification under 87103(b). Discusses materiality standards for real property but does not analyze specific proximity distances. Provides general framework."
+        },
+        {
+          "opinion_id": "11-221",
+          "score": 1,
+          "rationale": "Discusses Regulation 18704.2(b)(3) exception to the 500-foot rule for general plan amendments. Useful for understanding when the proximity presumption does NOT apply."
+        },
+        {
+          "opinion_id": "A-19-032",
+          "score": 1,
+          "rationale": "Vice Mayor's residence 939 feet from two mixed-use development projects. Finds conflict exists but applies public generally exception to allow participation. Useful context on proximity at medium distances."
+        }
+      ]
     },
     {
       "id": "q005",
@@ -730,7 +1139,88 @@
       "topic": "conflicts_of_interest",
       "issue": "real_property_proximity",
       "notes": "Natural language question directly based on 90-162 (two councilmembers with residences near street widening, analyzing different distances). Tests 300-foot vs. 500-foot materiality thresholds. Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-162",
+          "score": 2,
+          "rationale": "Directly on point: analyzes whether councilmembers at 80-920 feet and 370-560 feet from a street widening project are disqualified. The 370-foot distance in the query is drawn directly from this opinion's facts about Councilmember Kessler."
+        },
+        {
+          "opinion_id": "96-313",
+          "score": 2,
+          "rationale": "Directly analyzes whether a roadway widening project will have a material financial effect on a councilmember's real property interest. Discusses proximity factors for street improvement decisions specifically."
+        },
+        {
+          "opinion_id": "96-214",
+          "score": 2,
+          "rationale": "Councilmember Peterson's residence over 300 feet but within 2,500 feet of a road improvement project (Bailey Road). Directly analyzes proximity-based materiality for road/street improvements."
+        },
+        {
+          "opinion_id": "00-122",
+          "score": 2,
+          "rationale": "Board member with property fronting on Terreno Drive is disqualified from decisions about reconstruction and widening of that road. Directly involves road widening and property proximity."
+        },
+        {
+          "opinion_id": "93-070",
+          "score": 2,
+          "rationale": "Councilmember participation in bikeway and street widening project located 800 feet from rental home. Directly applies proximity framework to street widening decisions."
+        },
+        {
+          "opinion_id": "A-21-046",
+          "score": 2,
+          "rationale": "Analyzes whether councilmembers may participate in Carillion Boulevard Corridor Plan (street improvements) given residential properties between 500-1,000 feet and within 500 feet of the boulevard."
+        },
+        {
+          "opinion_id": "A-25-076",
+          "score": 1,
+          "rationale": "Analyzes 500-foot proximity presumption for town venue decisions. Not about street widening but demonstrates the framework applicable to the distance analysis in q005."
+        },
+        {
+          "opinion_id": "A-18-172",
+          "score": 1,
+          "rationale": "Councilmember's residence 2,100 feet from a highway interchange improvement project. Discusses proximity analysis for road improvements at greater distance, concluding no conflict."
+        },
+        {
+          "opinion_id": "89-149",
+          "score": 1,
+          "rationale": "Residence 453 feet from a proposed development -- similar distance to q005's 370 feet. Demonstrates the proximity-based materiality analysis at a comparable distance."
+        },
+        {
+          "opinion_id": "A-22-103",
+          "score": 1,
+          "rationale": "Home 529 feet from a project, applying the 500-1,000 foot proximity tier. Demonstrates how proximity analysis works at distances near 370 feet, though not about street widening."
+        },
+        {
+          "opinion_id": "90-768",
+          "score": 1,
+          "rationale": "Mayor's home approximately 600 feet from a specific plan area. Applies proximity tiers for land use decisions near an official's residence, useful context for distance analysis."
+        },
+        {
+          "opinion_id": "A-18-092",
+          "score": 1,
+          "rationale": "Mayor disqualified from highway interchange project decisions with residence within 2,600 feet. Demonstrates how proximity analysis applies to road/highway improvement projects."
+        },
+        {
+          "opinion_id": "92-439",
+          "score": 1,
+          "rationale": "Officials with residences more than 300 feet but within 2,500 feet of a project are disqualified. Demonstrates the 300-2,500 foot tier that applies to the 370-foot distance in q005."
+        },
+        {
+          "opinion_id": "17-178",
+          "score": 1,
+          "rationale": "Councilmember's property near underground utility assessment districts. Proximity analysis for infrastructure/utility improvements near residential property."
+        },
+        {
+          "opinion_id": "95-234",
+          "score": 1,
+          "rationale": "Mayor participation in street improvement program that includes taking a strip of property owned by the mayor's family trust. Directly involves street improvements and the official's real property interest."
+        },
+        {
+          "opinion_id": "90-580",
+          "score": 1,
+          "rationale": "Two councilmembers with property within 2,500 feet of a development project. Applies proximity tiers and materiality factors including neighborhood character changes."
+        }
+      ]
     },
     {
       "id": "q006",
@@ -739,7 +1229,98 @@
       "topic": "conflicts_of_interest",
       "issue": "real_property_proximity",
       "notes": "Fact pattern grounded in proximity analysis from 90-162 and 00-018. Includes specific distance and property value details to test whether search engine can match fact-intensive proximity scenarios. Hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "90-162",
+          "score": 2,
+          "rationale": "Core precedent for proximity-based disqualification analysis. Councilmember Kessler's residence at 370-560 feet from a street improvement project is factually analogous to the 450-foot distance in this query. Applies Regulation 18702.3 proximity materiality factors."
+        },
+        {
+          "opinion_id": "A-18-111",
+          "score": 2,
+          "rationale": "Highly analogous: a planning commissioner with residential real property within 475 feet of a proposed multifamily housing redevelopment is disqualified. Very close to q006's facts (planning commissioner, ~450 feet, housing development)."
+        },
+        {
+          "opinion_id": "89-149",
+          "score": 2,
+          "rationale": "Commissioner's residence 453 feet from a proposed development (mobile home park). Very close to q006's 450 feet. Analyzes proximity-based materiality for property near a proposed development."
+        },
+        {
+          "opinion_id": "A-22-069",
+          "score": 2,
+          "rationale": "Mayor owns rental property 260 feet from a proposed business location. Rental property interest within 500 feet of a project, directly analogous to q006's rental property scenario."
+        },
+        {
+          "opinion_id": "15-130",
+          "score": 2,
+          "rationale": "Councilmember with property used as primary residence AND rented to tenants, 722 feet from a new residential development. Analyzes proximity and rental property value/income effects, closely matching q006's rental property scenario."
+        },
+        {
+          "opinion_id": "I-20-030",
+          "score": 2,
+          "rationale": "Official with rental properties within 500 feet of a trolley stop. Directly applies the 500-foot presumption to rental properties, analyzing both fair market value and rental income effects."
+        },
+        {
+          "opinion_id": "A-18-208",
+          "score": 2,
+          "rationale": "City councilmember with residential rental property approximately 300 feet from a theater reconstruction project is disqualified. Rental property proximity analysis directly applicable to q006."
+        },
+        {
+          "opinion_id": "A-18-106",
+          "score": 2,
+          "rationale": "Mayor with multi-family residential rental property within 500 feet of Caltrain tracks is disqualified from rail corridor decisions. Rental property within proximity tier, analyzing impact on rental income."
+        },
+        {
+          "opinion_id": "A-22-103",
+          "score": 1,
+          "rationale": "Home 529 feet from a 90-unit housing project (close to q006's 200-unit mixed-use). Demonstrates proximity analysis for a significant residential development at a comparable distance."
+        },
+        {
+          "opinion_id": "17-208",
+          "score": 1,
+          "rationale": "Councilmember with residence within 500 feet of a proposed housing project is disqualified. Relevant to q006's mixed-use development context though not specifically about rental property."
+        },
+        {
+          "opinion_id": "A-20-113",
+          "score": 1,
+          "rationale": "Councilmember disqualified from decisions relating to a 103-unit residential development project between 500 and 1,000 feet. Demonstrates analysis for large residential developments near official's property."
+        },
+        {
+          "opinion_id": "A-21-043",
+          "score": 1,
+          "rationale": "Interim City Manager disqualified from decisions on a 130-unit residential development project between 500-1,000 feet of her residence. Relevant for large residential project proximity analysis."
+        },
+        {
+          "opinion_id": "A-19-112",
+          "score": 1,
+          "rationale": "Councilmember who leases residence within 500 feet of a proposed hotel development project is disqualified. Demonstrates proximity analysis for mixed-use/commercial development, relevant to q006's mixed-use scenario."
+        },
+        {
+          "opinion_id": "92-439",
+          "score": 1,
+          "rationale": "Planning commissioners and director with residences within 300-2,500 feet of a project are disqualified. Relevant to q006 as it involves planning commissioners and proximity analysis."
+        },
+        {
+          "opinion_id": "A-20-085",
+          "score": 1,
+          "rationale": "Councilmember with real property less than 1,000 feet from a large development project with hundreds of new homes. Demonstrates materiality analysis for large-scale residential development proximity effects."
+        },
+        {
+          "opinion_id": "90-360",
+          "score": 1,
+          "rationale": "Mayor with numerous rental properties within 2,500 feet of a proposed parking structure expansion. Analyzes proximity effects on rental property values, relevant to q006's rental property scenario."
+        },
+        {
+          "opinion_id": "13-092",
+          "score": 1,
+          "rationale": "Councilmember participation in specific plan and EIR development with property interest nearby. Relevant to q006's environmental impact report approval context."
+        },
+        {
+          "opinion_id": "A-23-047",
+          "score": 1,
+          "rationale": "Council member with business entity and leasehold interests near mixed-use development projects. Discusses proximity analysis for mixed-use developments."
+        }
+      ]
     },
     {
       "id": "q007",
@@ -748,7 +1329,133 @@
       "topic": "conflicts_of_interest",
       "issue": "source_of_income",
       "notes": "Keyword query targeting the source of income provision with the $500 threshold. Grounded in 00-015 (school board member employed by nonprofit) and 00-029 (commissioner contracting with Sun Microsystems). Easy difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "03-079",
+          "score": 2,
+          "rationale": "Deep analysis of source of income for CPUC general counsel candidate: former employer exception (Reg 18703.3(b)), independent contractor vs employee distinction, $500 threshold, 12-month lookback, related business entities aggregation. Core 87103(c) opinion."
+        },
+        {
+          "opinion_id": "02-335",
+          "score": 2,
+          "rationale": "City manager's husband's firm as source of income. Detailed nexus test analysis under 87103(c), community property interest creating source of income, 12-month persistence after last $1,000+ payment."
+        },
+        {
+          "opinion_id": "01-286",
+          "score": 2,
+          "rationale": "Healthcare district board member receiving incentive compensation from employer based on hospital purchases. Analyzes whether entity generating bonus is source of income under 87103(c) via Reg 18703.3(d)."
+        },
+        {
+          "opinion_id": "02-227",
+          "score": 2,
+          "rationale": "Mayor employed as Executive Director of nonprofit SCA. Thorough nexus test analysis for source of income under 87103(c). Whether nonprofit members are sources of income to official."
+        },
+        {
+          "opinion_id": "09-240",
+          "score": 2,
+          "rationale": "Optometrist councilmember. Core question: who is source of income - insurance company (VSP) or patients? Aggregation of payments, segmentation of decisions. Deep 87103(c) analysis."
+        },
+        {
+          "opinion_id": "06-006",
+          "score": 2,
+          "rationale": "Councilmember working through temp agency (Carl Group) for Hewlett Packard. Analyzes who is 'source of income' in contractor/subcontractor chain under 87103(c)."
+        },
+        {
+          "opinion_id": "01-116",
+          "score": 2,
+          "rationale": "Law firm partner's contract with county as source of income. Consultant definition, public generally exception for government entities. Detailed 87103(c) and source of income analysis."
+        },
+        {
+          "opinion_id": "77ADV-77-087",
+          "score": 2,
+          "rationale": "School board member (doctor), patients as sources of income, insurance vs patient as source. Early foundational opinion on 87103(c) source of income identification."
+        },
+        {
+          "opinion_id": "00-029",
+          "score": 2,
+          "rationale": "Planning commissioner with book contract from Sun Microsystems. Sun becomes source of income when contract signed. Directly analyzes 87103(c) source of income from contract payments."
+        },
+        {
+          "opinion_id": "90-073",
+          "score": 2,
+          "rationale": "Councilmember as unpaid president of chamber of commerce. No salary = no source of income under 87103(c). Establishes that absence of compensation means no source of income interest."
+        },
+        {
+          "opinion_id": "76100",
+          "score": 1,
+          "rationale": "Mayor receiving free car from dealer as source of income. Early internal memo applying 87103(c) but limited legal analysis compared to later opinions."
+        },
+        {
+          "opinion_id": "05-113",
+          "score": 1,
+          "rationale": "Retail business 'public generally' exception for sources of income. Discusses Reg 18707.5 retail exception. Source of income through spouse's foundation. Relevant but narrower focus."
+        },
+        {
+          "opinion_id": "09-200",
+          "score": 1,
+          "rationale": "CEO of trade association (CBPA nonprofit) as source of income. Nexus test analysis, but less detailed than other opinions on the core 87103(c) framework."
+        },
+        {
+          "opinion_id": "01-097",
+          "score": 1,
+          "rationale": "Car dealership, $500 threshold change from $250, customers as sources of income. Touches on threshold but limited depth of analysis."
+        },
+        {
+          "opinion_id": "03-002",
+          "score": 1,
+          "rationale": "Law firm clients as sources of income to county supervisor. Relevant to source of income identification but narrower scope."
+        },
+        {
+          "opinion_id": "05-017",
+          "score": 1,
+          "rationale": "Councilmember as executive director of two nonprofits (SBIA, SBCTA). Detailed analysis of when nonprofit members are/are not sources of income. Nexus test and piercing analysis. Good supplementary opinion."
+        },
+        {
+          "opinion_id": "04-040",
+          "score": 1,
+          "rationale": "DHS deputy director's former employer (Alliance of Catholic Healthcare). Applies former employer exception under Reg 18703.3(b). Source of income analysis is secondary to gift analysis."
+        },
+        {
+          "opinion_id": "96-248",
+          "score": 1,
+          "rationale": "Mayor and councilmember employed by nonprofit advocacy groups. Nexus test, no-financial-effect exception, and whether nonprofit members are sources of income. Foundational for nonprofit source of income rules."
+        },
+        {
+          "opinion_id": "00-161",
+          "score": 1,
+          "rationale": "School board member who is executive director of CATA (nonprofit). Source of income analysis, piercing through nonprofit to members, nexus test applied but decision found no financial effect. Relevant framework."
+        },
+        {
+          "opinion_id": "11-040",
+          "score": 1,
+          "rationale": "ERB members receiving arbitration fees from union locals. Detailed analysis of who is source of income when payments flow through intermediaries. 87103(c) and 82030 analysis."
+        },
+        {
+          "opinion_id": "09-244",
+          "score": 1,
+          "rationale": "Councilmember's husband designs furniture for Whalen which sells to Costco. Analyzes whether indirect source (Costco) is source of income. Concludes Act doesn't reach that far. Discusses incentive compensation rules."
+        },
+        {
+          "opinion_id": "13-133",
+          "score": 1,
+          "rationale": "Former employer settlement as source of income. Applies former employer exception under Reg 18703.3(b) and when settlement income accrues. Narrow but relevant to source of income definition."
+        },
+        {
+          "opinion_id": "80A143",
+          "score": 1,
+          "rationale": "County supervisor also serving as consulting engineer. Government salary exception - salary not 'income' under Act. Discusses 87103(c) but focused on government salary carve-out."
+        },
+        {
+          "opinion_id": "00-015",
+          "score": 1,
+          "rationale": "Councilmember conflict in election contest defense. Government salary exception analysis. References 87103(c) but core issue is government salary exception under 82030(b)(2)."
+        },
+        {
+          "opinion_id": "A-22-109",
+          "score": 1,
+          "rationale": "Councilmember's son pays rent, making son a source of income. Son's employer (Frontier) brings projects before council. Applies 87103(c) through family source of income chain."
+        }
+      ]
     },
     {
       "id": "q008",
@@ -757,7 +1464,83 @@
       "topic": "conflicts_of_interest",
       "issue": "source_of_income",
       "notes": "Natural language question based on 00-018 (school board member employed by nonprofit Xanthos, disqualified from contract decisions). Directly involved source of income triggers strict materiality. Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "77ADV-77-087",
+          "score": 2,
+          "rationale": "School board member (Dr. Black) who is a doctor. Patients who are school employees are sources of income. Directly addresses school board member + employer source of income disqualification."
+        },
+        {
+          "opinion_id": "03-079",
+          "score": 2,
+          "rationale": "CPUC general counsel candidate with former employer. Deep analysis of employer as source of income, former employer exception, $500 threshold. Directly relevant to whether employer creates disqualifying interest."
+        },
+        {
+          "opinion_id": "90-073",
+          "score": 2,
+          "rationale": "Councilmember as unpaid president of chamber of commerce. No salary = no source of income. Directly relevant to whether nonprofit employment relationship creates source of income disqualification."
+        },
+        {
+          "opinion_id": "00-161",
+          "score": 2,
+          "rationale": "School board member who is executive director of CATA (nonprofit). Most directly analogous: school board member employed by nonprofit, voting on matter related to nonprofit's mission."
+        },
+        {
+          "opinion_id": "96-248",
+          "score": 2,
+          "rationale": "Mayor and councilmember employed by nonprofit organizations. When nonprofit employer takes position on decision, nexus test applies. Whether nonprofit members are sources of income."
+        },
+        {
+          "opinion_id": "02-227",
+          "score": 1,
+          "rationale": "Mayor employed by nonprofit SCA. Nexus test for source of income. Relevant to nonprofit employer disqualification but not school board context."
+        },
+        {
+          "opinion_id": "05-017",
+          "score": 1,
+          "rationale": "Councilmember as executive director of two nonprofits. Whether nonprofit members are sources of income. Nexus test. Similar pattern of nonprofit employer creating source of income."
+        },
+        {
+          "opinion_id": "01-116",
+          "score": 1,
+          "rationale": "Law firm partner's contract with county. Employer/contract as source of income. Relevant to contract-based employment and disqualification."
+        },
+        {
+          "opinion_id": "06-006",
+          "score": 1,
+          "rationale": "Councilmember working through temp agency for HP. Who is source of income in employment chain. Relevant to identifying employer as source of income."
+        },
+        {
+          "opinion_id": "09-200",
+          "score": 1,
+          "rationale": "CEO of nonprofit trade association (CBPA) as source of income. Nexus test analysis. Nonprofit employer pattern relevant to q008."
+        },
+        {
+          "opinion_id": "00-015",
+          "score": 1,
+          "rationale": "Councilmember's conflict regarding government employer. Government salary exception means government employer is NOT source of income. Relevant as the basis opinion but focuses on the exception rather than the core rule."
+        },
+        {
+          "opinion_id": "80A143",
+          "score": 1,
+          "rationale": "County supervisor also consulting engineer. Government salary not 'income.' Relevant to the government salary exception that distinguishes government from private nonprofit employers."
+        },
+        {
+          "opinion_id": "88222",
+          "score": 1,
+          "rationale": "Deputy sheriff as councilmember. City contracts with sheriff's department. Government salary exception applied - county not source of income."
+        },
+        {
+          "opinion_id": "04-040",
+          "score": 1,
+          "rationale": "DHS deputy director's former employer (nonprofit Alliance of Catholic Healthcare). Former employer exception. Relevant to when nonprofit employer ceases to be source of income."
+        },
+        {
+          "opinion_id": "09-178",
+          "score": 1,
+          "rationale": "City manager's employer (subsidiary) contracting with city. Parent company as source of income. Relevant to employer-as-source-of-income and contract decisions."
+        }
+      ]
     },
     {
       "id": "q009",
@@ -766,7 +1549,73 @@
       "topic": "conflicts_of_interest",
       "issue": "source_of_income",
       "notes": "Fact pattern grounded in 00-029 (planning commissioner contracting with Sun Microsystems for book authorship). Tests whether search engine matches book contract / source of income with planning commission decisions. Hard difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "00-029",
+          "score": 2,
+          "rationale": "Direct basis for this query. Planning commissioner with Sun Microsystems book contract. Sun becomes source of income when contract signed. Analyzes 87103(c) source of income from contract payments."
+        },
+        {
+          "opinion_id": "06-006",
+          "score": 2,
+          "rationale": "Councilmember working through contractor chain for HP (tech company). Analyzes who is source of income in contractual relationship. Directly relevant to understanding contract-based source of income from tech company."
+        },
+        {
+          "opinion_id": "01-116",
+          "score": 2,
+          "rationale": "Law firm partner's contract with county as source of income. Detailed analysis of when contract payments create disqualifying source of income interest. Public generally exception."
+        },
+        {
+          "opinion_id": "09-244",
+          "score": 2,
+          "rationale": "Councilmember's husband has contract with Whalen (furniture), Costco decisions before council. Detailed analysis of how far contract-based source of income extends in chain."
+        },
+        {
+          "opinion_id": "03-079",
+          "score": 1,
+          "rationale": "CPUC general counsel with former employer. Former employer exception, independent contractor distinction. Relevant to understanding when contract/employment income creates source of income interest."
+        },
+        {
+          "opinion_id": "97-468",
+          "score": 1,
+          "rationale": "Designated employee writing nonfiction book. Analyzes book proceeds as income (not honoraria), and how book publishing venture creates economic interests."
+        },
+        {
+          "opinion_id": "92-523",
+          "score": 1,
+          "rationale": "Contract attorneys as consultants. Law firm as source of income through contract. Relevant to contract-based source of income analysis."
+        },
+        {
+          "opinion_id": "A-22-109",
+          "score": 1,
+          "rationale": "Councilmember's son employed by Frontier (development company). Son pays rent creating source of income. Frontier brings projects before council."
+        },
+        {
+          "opinion_id": "94-352",
+          "score": 1,
+          "rationale": "Councilmember employed by Southern Pacific Railroad. General plan amendment affecting employer's land. Materiality analysis for source of income when employer indirectly involved."
+        },
+        {
+          "opinion_id": "I-91-443",
+          "score": 1,
+          "rationale": "Councilmember employed by Laughlin and Company. Projects come before city council. Nexus test: achieving in public capacity what paid to do privately."
+        },
+        {
+          "opinion_id": "10-055",
+          "score": 1,
+          "rationale": "Councilmember's spouse employed by PG&E. Community property creates source of income. Materiality standards for large company indirectly involved."
+        },
+        {
+          "opinion_id": "05-113",
+          "score": 1,
+          "rationale": "Planning commissioner with retail businesses and foundation source of income. Public generally exception analysis. Relevant to planning commissioner context and source of income exceptions."
+        },
+        {
+          "opinion_id": "02-335",
+          "score": 1,
+          "rationale": "City manager's husband's firm as source of income. Nexus test, community property. Relevant to contract-based source of income creating disqualification."
+        }
+      ]
     },
     {
       "id": "q010",
@@ -775,7 +1624,58 @@
       "topic": "conflicts_of_interest",
       "issue": "gift_source_disqualification",
       "notes": "Keyword query for gift source disqualification. Grounded in 90-300 and 76100 (mayor receiving free car from dealer). Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "89-172",
+          "score": 2,
+          "rationale": "Directly analyzes whether officials who received $250+ gifts from a bond consultant must disqualify from bond issuance decisions under 87103(e). Core gift source disqualification opinion."
+        },
+        {
+          "opinion_id": "90-389",
+          "score": 2,
+          "rationale": "Analyzes whether scale models given to CPUC commissioners constitute gifts exceeding $250 requiring disqualification under 87103(e) from pending decisions affecting the donor."
+        },
+        {
+          "opinion_id": "90-415",
+          "score": 2,
+          "rationale": "Specifically analyzes whether discounted rent constituting a gift over $250 under 82028(a) triggers disqualification under 87103(e) for rezoning decisions affecting the landlord."
+        },
+        {
+          "opinion_id": "10-028",
+          "score": 1,
+          "rationale": "General CoI analysis listing all 87103 interest types including source of gifts (87103(e)/Reg 18703.4) but gift source is not the primary issue analyzed."
+        },
+        {
+          "opinion_id": "90-300",
+          "score": 1,
+          "rationale": "Analyzes personal financial effect and source of income for spouse's employment; discusses 87103(c) and (d) extensively, touches on gift/income framework but gift source not primary issue."
+        },
+        {
+          "opinion_id": "00-019",
+          "score": 1,
+          "rationale": "Comprehensive CoI analysis listing all 87103 interest types including source of gifts; primarily about source of income and business entity interests from employer PG&E."
+        },
+        {
+          "opinion_id": "77ADV-77-213",
+          "score": 1,
+          "rationale": "Early CoI opinion analyzing 87103 framework for city councilmember with bank interest. Discusses source of income and business entity interests, predates gift source provision."
+        },
+        {
+          "opinion_id": "83A152",
+          "score": 1,
+          "rationale": "Analyzes disqualification for hiring relatives under source of income (87103(c)) and business entity (87103(d)). References $250 income threshold relevant to gift/income framework."
+        },
+        {
+          "opinion_id": "85206",
+          "score": 1,
+          "rationale": "Walks through all 87103 subsections including 87103(e) gifts for nonprofit hospital trustee. Concludes no gift interest exists but discusses the framework."
+        },
+        {
+          "opinion_id": "A-20-022",
+          "score": 1,
+          "rationale": "Modern opinion listing all financial interests under 87103 including source of gift interest (87103(e)) with $500 threshold. Gift source not the primary issue but framework discussed."
+        }
+      ]
     },
     {
       "id": "q011",
@@ -784,7 +1684,58 @@
       "topic": "conflicts_of_interest",
       "issue": "gift_source_disqualification",
       "notes": "Natural language question grounded in the gift-source disqualification analysis from 76100 and 90-300. Tests connection between gift receipt and subsequent decision participation. Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "89-172",
+          "score": 2,
+          "rationale": "Directly on point: officials received gifts >$250 from bond consultant and must recuse from bond issuance decisions. Establishes gift-to-decision disqualification nexus."
+        },
+        {
+          "opinion_id": "90-389",
+          "score": 2,
+          "rationale": "Commissioners received gift models >$250 from regulated entity with pending proceedings; analyzes disqualification requirement under 87103(e) for decisions affecting the gift donor."
+        },
+        {
+          "opinion_id": "90-415",
+          "score": 2,
+          "rationale": "Councilmember must recuse from rezoning decision if she received gifts >$250 from property owner (landlord) within 12 months. Direct gift-decision-recusal analysis."
+        },
+        {
+          "opinion_id": "90-300",
+          "score": 1,
+          "rationale": "Council member recusal analysis for budget decisions. Discusses personal financial effect on spouse; related CoI framework for council decisions but not gift-based."
+        },
+        {
+          "opinion_id": "10-028",
+          "score": 1,
+          "rationale": "Planning commissioner CoI analysis listing all interest types including gift source. Discusses materiality for sources of gifts but primary issue is real property and income."
+        },
+        {
+          "opinion_id": "00-019",
+          "score": 1,
+          "rationale": "Councilmember CoI analysis for decisions affecting employer. Steps through all 87103 interests including gifts. Related framework but gift source not the specific trigger."
+        },
+        {
+          "opinion_id": "77ADV-77-213",
+          "score": 1,
+          "rationale": "Early CoI opinion about councilmember disqualification from decisions affecting bank where he serves as director. Related recusal framework but about business entity, not gifts."
+        },
+        {
+          "opinion_id": "83A152",
+          "score": 1,
+          "rationale": "District board member disqualification from hiring decision. Discusses $250 threshold for source of income, general CoI recusal framework applicable to gift analysis."
+        },
+        {
+          "opinion_id": "85206",
+          "score": 1,
+          "rationale": "State commissioner disqualification analysis walking through all 87103 subsections including gifts. Framework opinion relevant to understanding when gifts trigger recusal."
+        },
+        {
+          "opinion_id": "A-20-022",
+          "score": 1,
+          "rationale": "Councilmember CoI analysis for rezoning decision. Lists source of gift interest (87103(e)) at $500 threshold. Public generally exception applied. Related recusal framework."
+        }
+      ]
     },
     {
       "id": "q012",
@@ -793,7 +1744,63 @@
       "topic": "conflicts_of_interest",
       "issue": "personal_financial_effect",
       "notes": "Keyword query for the catch-all personal financial effect provision. Grounded in 00-017 (councilmember's adult son works for lumber company) and 85206 (CMAC member as nonprofit trustee). Medium difficulty.",
-      "relevance_judgments": []
+      "relevance_judgments": [
+        {
+          "opinion_id": "00-017",
+          "score": 2,
+          "rationale": "Directly analyzes personal financial effect under Regulation 18703.5 -- whether decision affecting adult son creates personal financial effect on councilmember. Defines immediate family and personal finances."
+        },
+        {
+          "opinion_id": "02-254",
+          "score": 2,
+          "rationale": "Directly analyzes personal financial effect on official when decision affects adult daughter. Applies 18703.5 framework: personal expenses, income, assets, liabilities of official and immediate family."
+        },
+        {
+          "opinion_id": "02-306",
+          "score": 2,
+          "rationale": "Follow-up to 02-254 analyzing personal financial effect when adult daughter moves back into official's home. Specifically applies 18703.5 personal financial effect analysis."
+        },
+        {
+          "opinion_id": "90-300",
+          "score": 2,
+          "rationale": "Specifically analyzes personal financial effect under Regulation 18702.1(a)(4) -- whether budget decision would increase/decrease personal expenses, income, assets, or liabilities of councilmember's spouse by $250+."
+        },
+        {
+          "opinion_id": "10-042",
+          "score": 1,
+          "rationale": "Lists personal financial effects rule (Section 87103; Regulation 18703.5) as one of five economic interests for board members but primary analysis is real property interest."
+        },
+        {
+          "opinion_id": "10-028",
+          "score": 1,
+          "rationale": "Lists personal financial effects rule as the fifth economic interest type but does not specifically analyze it; primary analysis is real property and source of income."
+        },
+        {
+          "opinion_id": "A-20-022",
+          "score": 1,
+          "rationale": "Mentions personal finances interest under 87103 and Regulation 18702.5(c) but concludes the personal financial effect is subsumed by business and real property interest analysis."
+        },
+        {
+          "opinion_id": "00-019",
+          "score": 1,
+          "rationale": "General CoI framework listing all 87103 interests. Discusses materiality thresholds for business entities. Related framework but personal financial effect not the primary analysis."
+        },
+        {
+          "opinion_id": "03-098",
+          "score": 1,
+          "rationale": "Discusses giving coffee shop to adult child and whether that eliminates conflict. Touches on personal financial effect concepts (adult child not immediate family per 82029)."
+        },
+        {
+          "opinion_id": "85206",
+          "score": 1,
+          "rationale": "Analyzes all 87103 subsections for nonprofit hospital trustee. Notes decisions affecting hospital would not appear to have financial effect on official or immediate family."
+        },
+        {
+          "opinion_id": "03-105",
+          "score": 1,
+          "rationale": "Cites 00-017 and 02-254 and references Regulation 18703.5 (personal financial effect). Part of the citation chain on personal financial effect for adult family members."
+        }
+      ]
     },
     {
       "id": "q013",
@@ -1178,7 +2185,7 @@
       "type": "fact_pattern",
       "topic": "lobbying",
       "issue": "lobbyist_conduct_prohibitions",
-      "notes": "Grounded in 08-147 (Murdoch Walrath & Holmes school facility consulting). Tests whether awarding a grant constitutes administrative action \u2014 it does not under Regulation 18202(a)(6), so the contingency fee ban does not apply.",
+      "notes": "Grounded in 08-147 (Murdoch Walrath & Holmes school facility consulting). Tests whether awarding a grant constitutes administrative action — it does not under Regulation 18202(a)(6), so the contingency fee ban does not apply.",
       "id": "q055",
       "relevance_judgments": []
     },
