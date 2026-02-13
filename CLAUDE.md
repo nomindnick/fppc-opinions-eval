@@ -6,22 +6,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 An evaluation suite for search engines built to retrieve FPPC (Fair Political Practices Commission) advisory opinions. The corpus is ~14,100 opinions (1975–2025) covering California's Political Reform Act. The suite provides ground-truth queries with graded relevance judgments and a scoring harness to objectively measure search quality.
 
-**Current status:** Sprint 7 complete (all 65 queries judged: 29 CoI + 14 campaign finance + 7 gifts/honoraria + 5 lobbying + 10 other, 877 total judgments). Next up: Sprint 8 (validation & smoke test). See `SPRINT_LOG.md` for detailed progress and `IMPLEMENTATION_PLAN.md` for what's next.
+**Current status:** v1.0 complete. 65 queries with 877 graded relevance judgments across 5 topics and 37 issues. Scoring harness, dataset validator, and random baseline all operational. See `SPRINT_LOG.md` for detailed progress.
 
 ## Commands
 
 ```bash
 # Run all tests
-pytest tests/test_scorer.py -v
+pytest tests/ -v
 
 # Run a single test
-pytest tests/test_scorer.py::TestMRR::test_first_result_is_relevant -v
+pytest tests/test_scorer.py::TestComputeMRR::test_score2_at_rank1 -v
 
 # Run the scoring harness against a search engine
 python src/scorer.py --search-module <dotted.module.path> --dataset eval/dataset.json
 
 # With JSON output
 python src/scorer.py --search-module <dotted.module.path> --dataset eval/dataset.json --output results.json
+
+# Validate the dataset
+python src/validate_dataset.py --dataset eval/dataset.json --data-dir data/extracted
 ```
 
 No external dependencies — stdlib only. Python 3.12+.
