@@ -449,3 +449,76 @@ All three types roughly equal, per SPEC.md guidance.
 - Cumulative stats: 877 judgments, 345 score-2 (39.3%), 500 score-1 (57.0%), average 13.5 judgments/query
 - All 28 scorer unit tests continue to pass
 - Next up: Sprint 8 (validation & smoke test)
+
+## Sprint 8: Validation & Smoke Test
+**Date:** 2026-02-12
+**Branch:** sprint-8/validation-smoke-test
+**Status:** Complete
+
+### Completed
+- Created `src/validate_dataset.py` — standalone CLI + importable module with 7 validation functions
+- Created `tests/test_validate.py` — 15 unit tests covering all validation functions
+- Created `src/baselines/random_baseline.py` — random baseline search engine for floor metrics
+- Ran dataset validation: 0 errors, 0 warnings (with and without `--data-dir`)
+- Ran scorer smoke test with random baseline: all metrics near 0.000 as expected
+- Spot-checked 12 queries across all 5 topics using 3 parallel subagents (~48 opinions reviewed)
+- All 43 tests pass (28 existing scorer + 15 new validation)
+
+### Validation Results
+- Schema: all required fields present, all scores in {0,1,2}, all query types valid
+- Referential integrity: all 877 judgment opinion IDs exist in corpus, all 174 taxonomy example IDs exist
+- Coverage: 65 queries (within 60-80 target), all 37 taxonomy issues covered, all queries ≥10 judgments
+- Score distribution: 345 score-2 (39.3%), 500 score-1 (57.0%), 32 score-0 (3.6%) — no queries with zero score-2
+- Uniqueness: no duplicate query IDs, no duplicate opinion IDs within any query
+- Completeness: all 5 expected topics present, all queries reference valid taxonomy entries
+
+### Smoke Test Results (RandomBaseline)
+| Metric | Value |
+|--------|-------|
+| MRR | 0.000 |
+| nDCG@5 | 0.000 |
+| nDCG@10 | 0.001 |
+| P@5 | 0.000 |
+| P@10 | 0.002 |
+| R@10 | 0.001 |
+| R@20 | 0.002 |
+
+All metrics near zero as expected for random selection from ~14,100 opinions.
+
+### Spot-Check Results
+| Agent | Queries Checked | Opinions Reviewed | Agreements | Disagreements |
+|-------|----------------|-------------------|------------|---------------|
+| Agent 1 | q003, q017, q034, q047 | 16 | 13 | 3 (q017 borderline 1↔2) |
+| Agent 2 | q023, q051, q060, q065 | 16 | 14 | 2 (q023 borderline 1↔2) |
+| Agent 3 | q008, q036, q044, q058 | 16 | 15 | 0 (+1 minor borderline) |
+
+All disagreements are within the 1↔2 boundary — reasonable inter-rater variance on nuanced legal questions. No score-0 opinions flagged as misscored. No systematic issues found.
+
+### Artifacts Created/Modified
+- `src/validate_dataset.py` — dataset validation CLI (~210 lines)
+- `tests/test_validate.py` — 15 validation unit tests (~190 lines)
+- `src/baselines/__init__.py` — package init
+- `src/baselines/random_baseline.py` — random baseline engine (~30 lines)
+- `SPRINT_LOG.md` — updated with Sprint 8 entry
+
+### Final Dataset Statistics
+| Metric | Value |
+|--------|-------|
+| Total queries | 65 |
+| Total judgments | 877 |
+| Score-2 (highly relevant) | 345 (39.3%) |
+| Score-1 (relevant) | 500 (57.0%) |
+| Score-0 (not relevant) | 32 (3.6%) |
+| Avg judgments/query | 13.5 |
+| Topics covered | 5/5 |
+| Issues covered | 37/37 |
+| Query types | keyword (26), natural_language (22), fact_pattern (17) |
+
+### v1.0 Release
+The FPPC Opinions Search Evaluation Suite is feature-complete:
+- 65 test queries with 877 graded relevance judgments
+- Scoring harness computing 7 IR metrics (MRR, nDCG@5/10, P@5/10, R@10/20)
+- SearchEngine ABC interface for plugging in any search backend
+- Dataset validation tool ensuring spec compliance
+- Random baseline for establishing metric floor
+- 43 unit tests covering scorer and validator
